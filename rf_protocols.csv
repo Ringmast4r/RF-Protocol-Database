@@ -355,6 +355,58 @@ VAG VW/Audi,Other Sensors & Devices,VAG,`id(24) â†’ button(4) â†’ coun
 Porsche Cayenne,Other Sensors & Devices,Porsche,`id(20) â†’ button(4) â†’ counter(16) â†’ encrypted(24)`,,,,,MSB/BE,,urh_ng,urh_porsche_cayenne
 Somfy Telis,Other Sensors & Devices,Somfy,`checksum(4) â†’ button(4) â†’ counter(16) â†’ id(24) â†’ data(8)`,,,,,MSB/BE,,urh_ng,urh_somfy_telis
 Princeton PT2262,Other Sensors & Devices,Princeton,`id(16) â†’ button(4) â†’ data(4)`,,,,,MSB/BE,,urh_ng,urh_princeton_pt2262
+Alutech At 4N,Gate/Garage Remote,Alutech,OOK,,,400,800,,,unleashed_firmware,unleashed_alutech_at_4n
+Ansonic,Remote Control,Ansonic,OOK,,,555,1111,,,unleashed_firmware,unleashed_ansonic
+Beninca Arc,Gate/Garage Remote,Beninca,OOK,,,300,600,,,unleashed_firmware,unleashed_beninca_arc
+Bett,Remote Control,Bett,OOK,,,340,2000,,,unleashed_firmware,unleashed_bett
+Came Atomo,Gate/Garage Remote,CAME,OOK,,,600,1200,,,unleashed_firmware,unleashed_came_atomo
+Chamberlain Code,Gate/Garage Remote,Chamberlain,OOK,,,1000,3000,,,unleashed_firmware,unleashed_chamberlain_code
+Clemsa,Remote Control,Clemsa,OOK,,,385,2695,,,unleashed_firmware,unleashed_clemsa
+Dickert Mahs,Remote Control,Dickert,OOK,,,400,800,,,unleashed_firmware,unleashed_dickert_mahs
+Ditec Gol4,Gate/Garage Remote,Ditec,OOK,,,400,1100,,,unleashed_firmware,unleashed_ditec_gol4
+Doitrand,Remote Control,Doitrand,OOK,,,400,1100,,,unleashed_firmware,unleashed_doitrand
+Dooya,Blinds/Shutters,Dooya,OOK,,,366,733,,,unleashed_firmware,unleashed_dooya
+Elplast,Remote Control,Elplast,OOK,,,230,1550,,,unleashed_firmware,unleashed_elplast
+FAAC_SLH,Gate/Garage Remote,FAAC,OOK,,,255,595,,,unleashed_firmware,unleashed_faac_slh
+Feron,Remote Control,Feron,OOK,,,350,750,,,unleashed_firmware,unleashed_feron
+Gangqi,Remote Control,Gangqi,OOK,,,500,1200,,,unleashed_firmware,unleashed_gangqi
+Gate Tx,Gate/Garage Remote,Gate,OOK,,,350,700,,,unleashed_firmware,unleashed_gate_tx
+Hay21,Remote Control,Hay21,OOK,,,300,700,,,unleashed_firmware,unleashed_hay21
+Hollarm,Security Sensor,Hollarm,OOK,,,200,1000,,,unleashed_firmware,unleashed_hollarm
+Holtek,Remote Control,Holtek,OOK,,,430,870,,,unleashed_firmware,unleashed_holtek
+Holtek Ht12X,Remote Control,Holtek,OOK,,,320,640,,,unleashed_firmware,unleashed_holtek_ht12x
+Honeywell,Security Sensor,Honeywell,OOK,,,143,280,,,unleashed_firmware,unleashed_honeywell
+Honeywell Wdb,Security Sensor,Honeywell,OOK,,,160,320,,,unleashed_firmware,unleashed_honeywell_wdb
+Hormann,Gate/Garage Remote,Hormann,OOK,,,500,1000,,,unleashed_firmware,unleashed_hormann
+Ido,Gate/Garage Remote,Ido,OOK,,,450,1450,,,unleashed_firmware,unleashed_ido
+Intertechno V3,Remote Control,Intertechno,OOK,,,275,1375,,,unleashed_firmware,unleashed_intertechno_v3
+Jarolift,Blinds/Shutters,Jarolift,OOK,,,400,800,,,unleashed_firmware,unleashed_jarolift
+BFT,Rolling Code (KeeLoq),BFT,OOK,,,400,800,,,unleashed_firmware,unleashed_keeloq
+Keyfinder,Security Sensor,Keyfinder,OOK,,,400,1200,,,unleashed_firmware,unleashed_keyfinder
+Kinggates Stylo 4K,Gate/Garage Remote,Kinggates,OOK,,,400,1100,,,unleashed_firmware,unleashed_kinggates_stylo_4k
+Legrand,Blinds/Shutters,Legrand,OOK,,,375,1125,,,unleashed_firmware,unleashed_legrand
+Linear,Gate/Garage Remote,Linear,OOK,,,500,1500,,,unleashed_firmware,unleashed_linear
+Linear Delta3,Gate/Garage Remote,Linear,OOK,,,500,2000,,,unleashed_firmware,unleashed_linear_delta3
+Magellan,Security Sensor,Magellan,OOK,,,200,400,,,unleashed_firmware,unleashed_magellan
+Marantec,Gate/Garage Remote,Marantec,OOK,,,1000,2000,,,unleashed_firmware,unleashed_marantec
+Marantec24,Gate/Garage Remote,Marantec,OOK,,,800,1600,,,unleashed_firmware,unleashed_marantec24
+Mastercode,Gate/Garage Remote,Mastercode,OOK,,,1072,2145,,,unleashed_firmware,unleashed_mastercode
+Megacode,Gate/Garage Remote,Megacode,OOK,,,1000,1000,,,unleashed_firmware,unleashed_megacode
+Nero Radio,Gate/Garage Remote,Nero,OOK,,,200,400,,,unleashed_firmware,unleashed_nero_radio
+Nero Sketch,Gate/Garage Remote,Nero,OOK,,,330,660,,,unleashed_firmware,unleashed_nero_sketch
+Nice Flo,Gate/Garage Remote,NICE,OOK,,,700,1400,,,unleashed_firmware,unleashed_nice_flo
+Nice Flor S,Gate/Garage Remote,NICE,OOK,,,500,1000,,,unleashed_firmware,unleashed_nice_flor_s
+Nord Ice,Fitness Equipment,Nord,OOK,,,300,800,,,unleashed_firmware,unleashed_nord_ice
+Phoenix V2,Remote Control,Phoenix,OOK,,,427,853,,,unleashed_firmware,unleashed_phoenix_v2
+Power Smart,Remote Control,Power,OOK,,,225,450,,,unleashed_firmware,unleashed_power_smart
+Princeton,Remote Control,Princeton,OOK,,,390,1170,,,unleashed_firmware,unleashed_princeton
+Revers Rb2,Remote Control,Revers,OOK,,,250,500,,,unleashed_firmware,unleashed_revers_rb2
+Roger,Gate/Garage Remote,Roger,OOK,,,500,1000,,,unleashed_firmware,unleashed_roger
+Secplus V1,Gate/Garage Remote,Secplus,OOK,,,500,1500,,,unleashed_firmware,unleashed_secplus_v1
+Secplus V2,Gate/Garage Remote,Secplus,OOK,,,250,500,,,unleashed_firmware,unleashed_secplus_v2
+Smc5326,Remote Control,Smc5326,OOK,,,300,900,,,unleashed_firmware,unleashed_smc5326
+Somfy Keytis,Blinds/Shutters,Somfy,OOK,,,640,1280,,,unleashed_firmware,unleashed_somfy_keytis
+Treadmill37,Fitness Equipment,Treadmill37,OOK,,,300,900,,,unleashed_firmware,unleashed_treadmill37
 6SC2 Car Remote (-f 315.1M),Remote/Keyfob,,OOK,,,250,,,,rtl433_src,six_sc_two_car_remote
 Alps FWB1U545 Car Remote,Remote/Keyfob,Alps,FSK,,,500,,,,rtl433_src,alps_fwb1u545_car_remote
 Astrostart 2000 Car Remote (-f 372.4M),Remote/Keyfob,Astrostart,OOK,,,326,526,,,rtl433_src,astrostart_2000
@@ -372,55 +424,74 @@ Siemens 5WY72XX Car Remote (-f 315.1M),Remote/Keyfob,Siemens,OOK,,,220,,,,rtl433
 Apator Metra E-RM 30,other,Apator,FSK,,,25,25,,,,apator_metra_erm30
 "Emax W6, rebrand Altronics x7063/4, Optex 990040/50/51, Orium 13093/13123, Infactory FWS-1200, Newentor Q9, Otio 810025, Protmex PT3390A, Jula Marquant 014331/32, TechniSat IMETEO X6 76-4924-00, Weather Station or temperature/humidity sensor",weather,Emax,FSK,,,90,90,,,,emax
 "Fine Offset Electronics/ECOWITT WH51, SwitchDoc Labs SM23 Soil Moisture Sensor",home_automation,Fine,FSK,,,58,58,,,,fineoffset_WH51
-BinRAW (Cable Satellite Boxes),Cable Satellite Boxes,BinRAW,FSK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
-CAME (Ceiling Fans),Ceiling Fans,CAME,OOK,,303875000,,,,,zero_sploit,zsploit_came_303875000
-Holtek_HT12X (Ceiling Fans),Ceiling Fans,Holtek_HT12X,OOK,,302757000,,,,,zero_sploit,zsploit_holtek_ht12x_302757000
-GateTX (Ceiling Fans),Ceiling Fans,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
-KeeLoq (Ceiling Fans),Ceiling Fans,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
-Princeton (Ceiling Fans),Ceiling Fans,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-CAME (Cooker Hoods),Cooker Hoods,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
-Princeton (Doorbells),Doorbells,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-CAME (Doorbells),Doorbells,CAME,OOK,,315000000,,,,,zero_sploit,zsploit_came_315000000
-Princeton (Fans),Fans,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
-Princeton (Fog Machine),Fog Machine,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
-Security+ 2.0 (Garages),Garages,Security+ 2.0,OOK,,390000000,,,,,zero_sploit,zsploit_security+_2.0_390000000
-Holtek (Gas Sign),Gas Sign,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
-MegaCode (Gates),Gates,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
-CAME (Gates),Gates,CAME,OOK,,868350000,,,,,zero_sploit,zsploit_came_868350000
-Princeton (Govee LED LightStrand),Govee LED LightStrand,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-Princeton (LED),LED,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-KeeLoq (LED),LED,KeeLoq,OOK,,434176948,,,,,zero_sploit,zsploit_keeloq_434176948
-Holtek_HT12X (LED),LED,Holtek_HT12X,OOK,,315000000,,,,,zero_sploit,zsploit_holtek_ht12x_315000000
-CAME (Misc),Misc,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
-CAME TWEE (Misc),Misc,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zsploit_came_twee_433920000
-KeeLoq (Misc),Misc,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
-Firefly (Misc),Misc,Firefly,OOK,,300000000,,,,,zero_sploit,zsploit_firefly_300000000
-GateTX (Misc),Misc,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
-Holtek (Misc),Misc,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
-Princeton (Misc),Misc,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-MegaCode (Misc),Misc,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
-Nice FLO (Misc),Misc,Nice FLO,OOK,,433920000,,,,,zero_sploit,zsploit_nice_flo_433920000
-Somfy Telis (Misc),Misc,Somfy Telis,OOK,,433500000,,,,,zero_sploit,zsploit_somfy_telis_433500000
-Ansonic (Misc),Misc,Ansonic,FSK,,433920000,,,,,zero_sploit,zsploit_ansonic_433920000
-Princeton (Motion Sensors),Motion Sensors,Princeton,OOK,,433889000,,,,,zero_sploit,zsploit_princeton_433889000
-Princeton (Multimedia),Multimedia,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-Holtek_HT12X (Multimedia),Multimedia,Holtek_HT12X,OOK,,305000000,,,,,zero_sploit,zsploit_holtek_ht12x_305000000
-Princeton (Remote Outlet Switches),Remote Outlet Switches,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
-Intertechno_V3 (Remote Outlet Switches),Remote Outlet Switches,Intertechno_V3,OOK,,433920000,,,,,zero_sploit,zsploit_intertechno_v3_433920000
-Princeton (Restaurant Pagers),Restaurant Pagers,Princeton,OOK,,434075000,,,,,zero_sploit,zsploit_princeton_434075000
-SMC5326 (Restaurant Pagers),Restaurant Pagers,SMC5326,OOK,,433920000,,,,,zero_sploit,zsploit_smc5326_433920000
-Princeton (Smart Home Remotes),Smart Home Remotes,Princeton,OOK,,433889000,,,,,zero_sploit,zsploit_princeton_433889000
-CAME (Untested),Untested,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
-CAME TWEE (Untested),Untested,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zsploit_came_twee_433920000
-KeeLoq (Untested),Untested,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
-Firefly (Untested),Untested,Firefly,OOK,,300000000,,,,,zero_sploit,zsploit_firefly_300000000
-GateTX (Untested),Untested,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
-Holtek (Untested),Untested,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
-MegaCode (Untested),Untested,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
-Nice FLO (Untested),Untested,Nice FLO,OOK,,433920000,,,,,zero_sploit,zsploit_nice_flo_433920000
-Princeton (Untested),Untested,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
-BinRAW (Vacuum),Vacuum,BinRAW,OOK,,434100000,,,,,zero_sploit,zsploit_binraw_434100000
-BinRAW (WeVibe Unit 2),WeVibe Unit 2,BinRAW,OOK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
-TX141THBv2 (Weather stations),Weather stations,TX141THBv2,OOK,,433920000,,,,,zero_sploit,zsploit_tx141thbv2_433920000
-Nexus-TH (Weather stations),Weather stations,Nexus-TH,OOK,,433920000,,,,,zero_sploit,zsploit_nexus-th_433920000
-BinRAW (Weather stations),Weather stations,BinRAW,OOK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
+BinRAW (Cable Satellite Boxes),Cable Satellite Boxes,BinRAW,FSK,,433920000,,,,,zero_sploit,zero_sploit_binraw_433920000
+CAME (Ceiling Fans),Ceiling Fans,CAME,OOK,,303875000,,,,,zero_sploit,zero_sploit_came_303875000
+Holtek_HT12X (Ceiling Fans),Ceiling Fans,Holtek_HT12X,OOK,,302757000,,,,,zero_sploit,zero_sploit_holtek_ht12x_302757000
+GateTX (Ceiling Fans),Ceiling Fans,GateTX,OOK,,433920000,,,,,zero_sploit,zero_sploit_gatetx_433920000
+KeeLoq (Ceiling Fans),Ceiling Fans,KeeLoq,OOK,,433920000,,,,,zero_sploit,zero_sploit_keeloq_433920000
+Princeton (Ceiling Fans),Ceiling Fans,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+CAME (Cooker Hoods),Cooker Hoods,CAME,OOK,,433920000,,,,,zero_sploit,zero_sploit_came_433920000
+Princeton (Doorbells),Doorbells,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+CAME (Doorbells),Doorbells,CAME,OOK,,315000000,,,,,zero_sploit,zero_sploit_came_315000000
+Princeton (Fans),Fans,Princeton,OOK,,315000000,,,,,zero_sploit,zero_sploit_princeton_315000000
+Princeton (Fog Machine),Fog Machine,Princeton,OOK,,315000000,,,,,zero_sploit,zero_sploit_princeton_315000000
+Security+ 2.0 (Garages),Garages,Security+ 2.0,OOK,,390000000,,,,,zero_sploit,zero_sploit_security+_2.0_390000000
+Holtek (Gas Sign),Gas Sign,Holtek,OOK,,418000000,,,,,zero_sploit,zero_sploit_holtek_418000000
+MegaCode (Gates),Gates,MegaCode,OOK,,318000000,,,,,zero_sploit,zero_sploit_megacode_318000000
+CAME (Gates),Gates,CAME,OOK,,868350000,,,,,zero_sploit,zero_sploit_came_868350000
+Princeton (Govee LED LightStrand),Govee LED LightStrand,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+Princeton (LED),LED,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+KeeLoq (LED),LED,KeeLoq,OOK,,434176948,,,,,zero_sploit,zero_sploit_keeloq_434176948
+Holtek_HT12X (LED),LED,Holtek_HT12X,OOK,,315000000,,,,,zero_sploit,zero_sploit_holtek_ht12x_315000000
+CAME (Misc),Misc,CAME,OOK,,433920000,,,,,zero_sploit,zero_sploit_came_433920000
+CAME TWEE (Misc),Misc,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zero_sploit_came_twee_433920000
+KeeLoq (Misc),Misc,KeeLoq,OOK,,433920000,,,,,zero_sploit,zero_sploit_keeloq_433920000
+Firefly (Misc),Misc,Firefly,OOK,,300000000,,,,,zero_sploit,zero_sploit_firefly_300000000
+GateTX (Misc),Misc,GateTX,OOK,,433920000,,,,,zero_sploit,zero_sploit_gatetx_433920000
+Holtek (Misc),Misc,Holtek,OOK,,418000000,,,,,zero_sploit,zero_sploit_holtek_418000000
+MegaCode (Misc),Misc,MegaCode,OOK,,318000000,,,,,zero_sploit,zero_sploit_megacode_318000000
+Nice FLO (Misc),Misc,Nice FLO,OOK,,433920000,,,,,zero_sploit,zero_sploit_nice_flo_433920000
+Princeton (Misc),Misc,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+Somfy Telis (Misc),Misc,Somfy Telis,OOK,,433500000,,,,,zero_sploit,zero_sploit_somfy_telis_433500000
+Ansonic (Misc),Misc,Ansonic,FSK,,433920000,,,,,zero_sploit,zero_sploit_ansonic_433920000
+Princeton (Motion Sensors),Motion Sensors,Princeton,OOK,,433889000,,,,,zero_sploit,zero_sploit_princeton_433889000
+Princeton (Multimedia),Multimedia,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+Holtek_HT12X (Multimedia),Multimedia,Holtek_HT12X,OOK,,305000000,,,,,zero_sploit,zero_sploit_holtek_ht12x_305000000
+Princeton (Remote Outlet Switches),Remote Outlet Switches,Princeton,OOK,,315000000,,,,,zero_sploit,zero_sploit_princeton_315000000
+Intertechno_V3 (Remote Outlet Switches),Remote Outlet Switches,Intertechno_V3,OOK,,433920000,,,,,zero_sploit,zero_sploit_intertechno_v3_433920000
+Princeton (Restaurant Pagers),Restaurant Pagers,Princeton,OOK,,434075000,,,,,zero_sploit,zero_sploit_princeton_434075000
+SMC5326 (Restaurant Pagers),Restaurant Pagers,SMC5326,OOK,,433920000,,,,,zero_sploit,zero_sploit_smc5326_433920000
+Princeton (Smart Home Remotes),Smart Home Remotes,Princeton,OOK,,433889000,,,,,zero_sploit,zero_sploit_princeton_433889000
+CAME (Untested),Untested,CAME,OOK,,433920000,,,,,zero_sploit,zero_sploit_came_433920000
+CAME TWEE (Untested),Untested,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zero_sploit_came_twee_433920000
+KeeLoq (Untested),Untested,KeeLoq,OOK,,433920000,,,,,zero_sploit,zero_sploit_keeloq_433920000
+Firefly (Untested),Untested,Firefly,OOK,,300000000,,,,,zero_sploit,zero_sploit_firefly_300000000
+GateTX (Untested),Untested,GateTX,OOK,,433920000,,,,,zero_sploit,zero_sploit_gatetx_433920000
+Holtek (Untested),Untested,Holtek,OOK,,418000000,,,,,zero_sploit,zero_sploit_holtek_418000000
+MegaCode (Untested),Untested,MegaCode,OOK,,318000000,,,,,zero_sploit,zero_sploit_megacode_318000000
+Nice FLO (Untested),Untested,Nice FLO,OOK,,433920000,,,,,zero_sploit,zero_sploit_nice_flo_433920000
+Princeton (Untested),Untested,Princeton,OOK,,433920000,,,,,zero_sploit,zero_sploit_princeton_433920000
+BinRAW (Vacuum),Vacuum,BinRAW,OOK,,434100000,,,,,zero_sploit,zero_sploit_binraw_434100000
+TX141THBv2 (Weather stations),Weather stations,TX141THBv2,OOK,,433920000,,,,,zero_sploit,zero_sploit_tx141thbv2_433920000
+Nexus-TH (Weather stations),Weather stations,Nexus-TH,OOK,,433920000,,,,,zero_sploit,zero_sploit_nexus-th_433920000
+BinRAW (Weather stations),Weather stations,BinRAW,OOK,,433920000,,,,,zero_sploit,zero_sploit_binraw_433920000
+BinRAW (WeVibe Unit 2),WeVibe Unit 2,BinRAW,OOK,,433920000,,,,,zero_sploit,zero_sploit_binraw_433920000
+BinRAW (LED),LED,BinRAW,OOK,,433920000,,,,,uberguidoz,uberguidoz_binraw_433920000
+Princeton (subghz),subghz,Princeton,OOK,,433920000,,,,,rocketgod,rocketgod_princeton_433920000
+CAME (subghz),subghz,CAME,OOK,,303875000,,,,,rocketgod,rocketgod_came_303875000
+Holtek_HT12X (subghz),subghz,Holtek_HT12X,OOK,,302757000,,,,,rocketgod,rocketgod_holtek_ht12x_302757000
+GateTX (subghz),subghz,GateTX,OOK,,433920000,,,,,rocketgod,rocketgod_gatetx_433920000
+KeeLoq (subghz),subghz,KeeLoq,OOK,,434176948,,,,,rocketgod,rocketgod_keeloq_434176948
+CAME TWEE (subghz),subghz,CAME TWEE,OOK,,433920000,,,,,rocketgod,rocketgod_came_twee_433920000
+Firefly (subghz),subghz,Firefly,OOK,,300000000,,,,,rocketgod,rocketgod_firefly_300000000
+Holtek (subghz),subghz,Holtek,OOK,,418000000,,,,,rocketgod,rocketgod_holtek_418000000
+MegaCode (subghz),subghz,MegaCode,OOK,,318000000,,,,,rocketgod,rocketgod_megacode_318000000
+Nice FLO (subghz),subghz,Nice FLO,OOK,,433920000,,,,,rocketgod,rocketgod_nice_flo_433920000
+Security+ 2.0 (subghz),subghz,Security+ 2.0,OOK,,390000000,,,,,rocketgod,rocketgod_security+_2.0_390000000
+Ansonic (subghz),subghz,Ansonic,FSK,,433920000,,,,,rocketgod,rocketgod_ansonic_433920000
+SMC5326 (subghz),subghz,SMC5326,OOK,,433920000,,,,,rocketgod,rocketgod_smc5326_433920000
+KIA/HYU V0 (subghz),subghz,KIA/HYU V0,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v0_433920000
+KIA/HYU V2 (subghz),subghz,KIA/HYU V2,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v2_433920000
+KIA/HYU V5 (subghz),subghz,KIA/HYU V5,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v5_433920000
+KIA/HYU V6 (subghz),subghz,KIA/HYU V6,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v6_433920000
+Faac SLH (subghz),subghz,Faac SLH,FSK,,433920000,,,,,rocketgod,rocketgod_faac_slh_433920000

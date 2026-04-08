@@ -1,11 +1,14 @@
 {
-  "version": "2.0.0",
-  "total_devices": 425,
+  "version": "3.0.0",
+  "total_devices": 496,
   "sources": {
     "urh_ng": 356,
+    "unleashed_firmware": 52,
     "rtl433_src": 14,
-    "unknown": 3,
-    "zero_sploit": 52
+    "?": 3,
+    "zero_sploit": 52,
+    "uberguidoz": 1,
+    "rocketgod": 18
   },
   "categories": {
     "Unknown": 22,
@@ -20,6 +23,12 @@
     "Smoke & Security Alarms": 22,
     "BBQ & Kitchen Thermometers": 4,
     "Other Sensors & Devices": 89,
+    "Gate/Garage Remote": 23,
+    "Remote Control": 17,
+    "Blinds/Shutters": 4,
+    "Security Sensor": 5,
+    "Rolling Code (KeeLoq)": 1,
+    "Fitness Equipment": 2,
     "Remote/Keyfob": 11,
     "Security/Alarm": 1,
     "Other": 1,
@@ -37,7 +46,7 @@
     "Gas Sign": 1,
     "Gates": 2,
     "Govee LED LightStrand": 1,
-    "LED": 3,
+    "LED": 4,
     "Misc": 11,
     "Motion Sensors": 1,
     "Multimedia": 2,
@@ -46,8 +55,9 @@
     "Smart Home Remotes": 1,
     "Untested": 9,
     "Vacuum": 1,
+    "Weather stations": 3,
     "WeVibe Unit 2": 1,
-    "Weather stations": 3
+    "subghz": 18
   },
   "devices": [
     {
@@ -3967,6 +3977,578 @@
       "source": "urh_ng"
     },
     {
+      "device_id": "unleashed_alutech_at_4n",
+      "name": "Alutech At 4N",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 800,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Alutech",
+      "source": "unleashed_firmware",
+      "source_file": "alutech_at_4n.c"
+    },
+    {
+      "device_id": "unleashed_ansonic",
+      "name": "Ansonic",
+      "modulation": "OOK",
+      "short_width": 555,
+      "long_width": 1111,
+      "category": "Remote Control",
+      "manufacturer": "Ansonic",
+      "source": "unleashed_firmware",
+      "source_file": "ansonic.c"
+    },
+    {
+      "device_id": "unleashed_beninca_arc",
+      "name": "Beninca Arc",
+      "modulation": "OOK",
+      "short_width": 300,
+      "long_width": 600,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Beninca",
+      "source": "unleashed_firmware",
+      "source_file": "beninca_arc.c"
+    },
+    {
+      "device_id": "unleashed_bett",
+      "name": "Bett",
+      "modulation": "OOK",
+      "short_width": 340,
+      "long_width": 2000,
+      "category": "Remote Control",
+      "manufacturer": "Bett",
+      "source": "unleashed_firmware",
+      "source_file": "bett.c"
+    },
+    {
+      "device_id": "unleashed_came_atomo",
+      "name": "Came Atomo",
+      "modulation": "OOK",
+      "short_width": 600,
+      "long_width": 1200,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "CAME",
+      "source": "unleashed_firmware",
+      "source_file": "came_atomo.c"
+    },
+    {
+      "device_id": "unleashed_chamberlain_code",
+      "name": "Chamberlain Code",
+      "modulation": "OOK",
+      "short_width": 1000,
+      "long_width": 3000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Chamberlain",
+      "source": "unleashed_firmware",
+      "source_file": "chamberlain_code.c"
+    },
+    {
+      "device_id": "unleashed_clemsa",
+      "name": "Clemsa",
+      "modulation": "OOK",
+      "short_width": 385,
+      "long_width": 2695,
+      "category": "Remote Control",
+      "manufacturer": "Clemsa",
+      "source": "unleashed_firmware",
+      "source_file": "clemsa.c"
+    },
+    {
+      "device_id": "unleashed_dickert_mahs",
+      "name": "Dickert Mahs",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 800,
+      "category": "Remote Control",
+      "manufacturer": "Dickert",
+      "source": "unleashed_firmware",
+      "source_file": "dickert_mahs.c"
+    },
+    {
+      "device_id": "unleashed_ditec_gol4",
+      "name": "Ditec Gol4",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 1100,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Ditec",
+      "source": "unleashed_firmware",
+      "source_file": "ditec_gol4.c"
+    },
+    {
+      "device_id": "unleashed_doitrand",
+      "name": "Doitrand",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 1100,
+      "category": "Remote Control",
+      "manufacturer": "Doitrand",
+      "source": "unleashed_firmware",
+      "source_file": "doitrand.c"
+    },
+    {
+      "device_id": "unleashed_dooya",
+      "name": "Dooya",
+      "modulation": "OOK",
+      "short_width": 366,
+      "long_width": 733,
+      "category": "Blinds/Shutters",
+      "manufacturer": "Dooya",
+      "source": "unleashed_firmware",
+      "source_file": "dooya.c"
+    },
+    {
+      "device_id": "unleashed_elplast",
+      "name": "Elplast",
+      "modulation": "OOK",
+      "short_width": 230,
+      "long_width": 1550,
+      "category": "Remote Control",
+      "manufacturer": "Elplast",
+      "source": "unleashed_firmware",
+      "source_file": "elplast.c"
+    },
+    {
+      "device_id": "unleashed_faac_slh",
+      "name": "FAAC_SLH",
+      "modulation": "OOK",
+      "short_width": 255,
+      "long_width": 595,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "FAAC",
+      "source": "unleashed_firmware",
+      "source_file": "faac_slh.c"
+    },
+    {
+      "device_id": "unleashed_feron",
+      "name": "Feron",
+      "modulation": "OOK",
+      "short_width": 350,
+      "long_width": 750,
+      "category": "Remote Control",
+      "manufacturer": "Feron",
+      "source": "unleashed_firmware",
+      "source_file": "feron.c"
+    },
+    {
+      "device_id": "unleashed_gangqi",
+      "name": "Gangqi",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1200,
+      "category": "Remote Control",
+      "manufacturer": "Gangqi",
+      "source": "unleashed_firmware",
+      "source_file": "gangqi.c"
+    },
+    {
+      "device_id": "unleashed_gate_tx",
+      "name": "Gate Tx",
+      "modulation": "OOK",
+      "short_width": 350,
+      "long_width": 700,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Gate",
+      "source": "unleashed_firmware",
+      "source_file": "gate_tx.c"
+    },
+    {
+      "device_id": "unleashed_hay21",
+      "name": "Hay21",
+      "modulation": "OOK",
+      "short_width": 300,
+      "long_width": 700,
+      "category": "Remote Control",
+      "manufacturer": "Hay21",
+      "source": "unleashed_firmware",
+      "source_file": "hay21.c"
+    },
+    {
+      "device_id": "unleashed_hollarm",
+      "name": "Hollarm",
+      "modulation": "OOK",
+      "short_width": 200,
+      "long_width": 1000,
+      "category": "Security Sensor",
+      "manufacturer": "Hollarm",
+      "source": "unleashed_firmware",
+      "source_file": "hollarm.c"
+    },
+    {
+      "device_id": "unleashed_holtek",
+      "name": "Holtek",
+      "modulation": "OOK",
+      "short_width": 430,
+      "long_width": 870,
+      "category": "Remote Control",
+      "manufacturer": "Holtek",
+      "source": "unleashed_firmware",
+      "source_file": "holtek.c"
+    },
+    {
+      "device_id": "unleashed_holtek_ht12x",
+      "name": "Holtek Ht12X",
+      "modulation": "OOK",
+      "short_width": 320,
+      "long_width": 640,
+      "category": "Remote Control",
+      "manufacturer": "Holtek",
+      "source": "unleashed_firmware",
+      "source_file": "holtek_ht12x.c"
+    },
+    {
+      "device_id": "unleashed_honeywell",
+      "name": "Honeywell",
+      "modulation": "OOK",
+      "short_width": 143,
+      "long_width": 280,
+      "category": "Security Sensor",
+      "manufacturer": "Honeywell",
+      "source": "unleashed_firmware",
+      "source_file": "honeywell.c"
+    },
+    {
+      "device_id": "unleashed_honeywell_wdb",
+      "name": "Honeywell Wdb",
+      "modulation": "OOK",
+      "short_width": 160,
+      "long_width": 320,
+      "category": "Security Sensor",
+      "manufacturer": "Honeywell",
+      "source": "unleashed_firmware",
+      "source_file": "honeywell_wdb.c"
+    },
+    {
+      "device_id": "unleashed_hormann",
+      "name": "Hormann",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Hormann",
+      "source": "unleashed_firmware",
+      "source_file": "hormann.c"
+    },
+    {
+      "device_id": "unleashed_ido",
+      "name": "Ido",
+      "modulation": "OOK",
+      "short_width": 450,
+      "long_width": 1450,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Ido",
+      "source": "unleashed_firmware",
+      "source_file": "ido.c"
+    },
+    {
+      "device_id": "unleashed_intertechno_v3",
+      "name": "Intertechno V3",
+      "modulation": "OOK",
+      "short_width": 275,
+      "long_width": 1375,
+      "category": "Remote Control",
+      "manufacturer": "Intertechno",
+      "source": "unleashed_firmware",
+      "source_file": "intertechno_v3.c"
+    },
+    {
+      "device_id": "unleashed_jarolift",
+      "name": "Jarolift",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 800,
+      "category": "Blinds/Shutters",
+      "manufacturer": "Jarolift",
+      "source": "unleashed_firmware",
+      "source_file": "jarolift.c"
+    },
+    {
+      "device_id": "unleashed_keeloq",
+      "name": "BFT",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 800,
+      "category": "Rolling Code (KeeLoq)",
+      "manufacturer": "BFT",
+      "source": "unleashed_firmware",
+      "source_file": "keeloq.c"
+    },
+    {
+      "device_id": "unleashed_keyfinder",
+      "name": "Keyfinder",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 1200,
+      "category": "Security Sensor",
+      "manufacturer": "Keyfinder",
+      "source": "unleashed_firmware",
+      "source_file": "keyfinder.c"
+    },
+    {
+      "device_id": "unleashed_kinggates_stylo_4k",
+      "name": "Kinggates Stylo 4K",
+      "modulation": "OOK",
+      "short_width": 400,
+      "long_width": 1100,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Kinggates",
+      "source": "unleashed_firmware",
+      "source_file": "kinggates_stylo_4k.c"
+    },
+    {
+      "device_id": "unleashed_legrand",
+      "name": "Legrand",
+      "modulation": "OOK",
+      "short_width": 375,
+      "long_width": 1125,
+      "category": "Blinds/Shutters",
+      "manufacturer": "Legrand",
+      "source": "unleashed_firmware",
+      "source_file": "legrand.c"
+    },
+    {
+      "device_id": "unleashed_linear",
+      "name": "Linear",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1500,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Linear",
+      "source": "unleashed_firmware",
+      "source_file": "linear.c"
+    },
+    {
+      "device_id": "unleashed_linear_delta3",
+      "name": "Linear Delta3",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 2000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Linear",
+      "source": "unleashed_firmware",
+      "source_file": "linear_delta3.c"
+    },
+    {
+      "device_id": "unleashed_magellan",
+      "name": "Magellan",
+      "modulation": "OOK",
+      "short_width": 200,
+      "long_width": 400,
+      "category": "Security Sensor",
+      "manufacturer": "Magellan",
+      "source": "unleashed_firmware",
+      "source_file": "magellan.c"
+    },
+    {
+      "device_id": "unleashed_marantec",
+      "name": "Marantec",
+      "modulation": "OOK",
+      "short_width": 1000,
+      "long_width": 2000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Marantec",
+      "source": "unleashed_firmware",
+      "source_file": "marantec.c"
+    },
+    {
+      "device_id": "unleashed_marantec24",
+      "name": "Marantec24",
+      "modulation": "OOK",
+      "short_width": 800,
+      "long_width": 1600,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Marantec",
+      "source": "unleashed_firmware",
+      "source_file": "marantec24.c"
+    },
+    {
+      "device_id": "unleashed_mastercode",
+      "name": "Mastercode",
+      "modulation": "OOK",
+      "short_width": 1072,
+      "long_width": 2145,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Mastercode",
+      "source": "unleashed_firmware",
+      "source_file": "mastercode.c"
+    },
+    {
+      "device_id": "unleashed_megacode",
+      "name": "Megacode",
+      "modulation": "OOK",
+      "short_width": 1000,
+      "long_width": 1000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Megacode",
+      "source": "unleashed_firmware",
+      "source_file": "megacode.c"
+    },
+    {
+      "device_id": "unleashed_nero_radio",
+      "name": "Nero Radio",
+      "modulation": "OOK",
+      "short_width": 200,
+      "long_width": 400,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Nero",
+      "source": "unleashed_firmware",
+      "source_file": "nero_radio.c"
+    },
+    {
+      "device_id": "unleashed_nero_sketch",
+      "name": "Nero Sketch",
+      "modulation": "OOK",
+      "short_width": 330,
+      "long_width": 660,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Nero",
+      "source": "unleashed_firmware",
+      "source_file": "nero_sketch.c"
+    },
+    {
+      "device_id": "unleashed_nice_flo",
+      "name": "Nice Flo",
+      "modulation": "OOK",
+      "short_width": 700,
+      "long_width": 1400,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "NICE",
+      "source": "unleashed_firmware",
+      "source_file": "nice_flo.c"
+    },
+    {
+      "device_id": "unleashed_nice_flor_s",
+      "name": "Nice Flor S",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "NICE",
+      "source": "unleashed_firmware",
+      "source_file": "nice_flor_s.c"
+    },
+    {
+      "device_id": "unleashed_nord_ice",
+      "name": "Nord Ice",
+      "modulation": "OOK",
+      "short_width": 300,
+      "long_width": 800,
+      "category": "Fitness Equipment",
+      "manufacturer": "Nord",
+      "source": "unleashed_firmware",
+      "source_file": "nord_ice.c"
+    },
+    {
+      "device_id": "unleashed_phoenix_v2",
+      "name": "Phoenix V2",
+      "modulation": "OOK",
+      "short_width": 427,
+      "long_width": 853,
+      "category": "Remote Control",
+      "manufacturer": "Phoenix",
+      "source": "unleashed_firmware",
+      "source_file": "phoenix_v2.c"
+    },
+    {
+      "device_id": "unleashed_power_smart",
+      "name": "Power Smart",
+      "modulation": "OOK",
+      "short_width": 225,
+      "long_width": 450,
+      "category": "Remote Control",
+      "manufacturer": "Power",
+      "source": "unleashed_firmware",
+      "source_file": "power_smart.c"
+    },
+    {
+      "device_id": "unleashed_princeton",
+      "name": "Princeton",
+      "modulation": "OOK",
+      "short_width": 390,
+      "long_width": 1170,
+      "category": "Remote Control",
+      "manufacturer": "Princeton",
+      "source": "unleashed_firmware",
+      "source_file": "princeton.c"
+    },
+    {
+      "device_id": "unleashed_revers_rb2",
+      "name": "Revers Rb2",
+      "modulation": "OOK",
+      "short_width": 250,
+      "long_width": 500,
+      "category": "Remote Control",
+      "manufacturer": "Revers",
+      "source": "unleashed_firmware",
+      "source_file": "revers_rb2.c"
+    },
+    {
+      "device_id": "unleashed_roger",
+      "name": "Roger",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1000,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Roger",
+      "source": "unleashed_firmware",
+      "source_file": "roger.c"
+    },
+    {
+      "device_id": "unleashed_secplus_v1",
+      "name": "Secplus V1",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1500,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Secplus",
+      "source": "unleashed_firmware",
+      "source_file": "secplus_v1.c"
+    },
+    {
+      "device_id": "unleashed_secplus_v2",
+      "name": "Secplus V2",
+      "modulation": "OOK",
+      "short_width": 250,
+      "long_width": 500,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Secplus",
+      "source": "unleashed_firmware",
+      "source_file": "secplus_v2.c"
+    },
+    {
+      "device_id": "unleashed_smc5326",
+      "name": "Smc5326",
+      "modulation": "OOK",
+      "short_width": 300,
+      "long_width": 900,
+      "category": "Remote Control",
+      "manufacturer": "Smc5326",
+      "source": "unleashed_firmware",
+      "source_file": "smc5326.c"
+    },
+    {
+      "device_id": "unleashed_somfy_keytis",
+      "name": "Somfy Keytis",
+      "modulation": "OOK",
+      "short_width": 640,
+      "long_width": 1280,
+      "category": "Blinds/Shutters",
+      "manufacturer": "Somfy",
+      "source": "unleashed_firmware",
+      "source_file": "somfy_keytis.c"
+    },
+    {
+      "device_id": "unleashed_treadmill37",
+      "name": "Treadmill37",
+      "modulation": "OOK",
+      "short_width": 300,
+      "long_width": 900,
+      "category": "Fitness Equipment",
+      "manufacturer": "Treadmill37",
+      "source": "unleashed_firmware",
+      "source_file": "treadmill37.c"
+    },
+    {
       "device_id": "six_sc_two_car_remote",
       "name": "6SC2 Car Remote (-f 315.1M)",
       "modulation": "OOK",
@@ -4166,746 +4748,714 @@
       "source_file": "fineoffset.c"
     },
     {
-      "device_id": "zsploit_binraw_433920000",
+      "device_id": "zero_sploit_binraw_433920000",
       "name": "BinRAW (Cable Satellite Boxes)",
       "modulation": "FSK",
       "frequency": 433920000,
       "category": "Cable Satellite Boxes",
       "manufacturer": "BinRAW",
       "source": "zero_sploit",
-      "sample_count": 32,
-      "sample_files": [
-        "DirecTV_RF_0.sub",
-        "DirecTV_RF_1.sub",
-        "DirecTV_RF_2.sub"
-      ]
+      "sample_count": 32
     },
     {
-      "device_id": "zsploit_came_303875000",
+      "device_id": "zero_sploit_came_303875000",
       "name": "CAME (Ceiling Fans)",
       "modulation": "OOK",
       "frequency": 303875000,
       "category": "Ceiling Fans",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 19,
-      "sample_files": [
-        "Generic_Ceiling_Fan_Remote.sub",
-        "0_Fan_off.sub",
-        "1_Fan_low.sub"
-      ]
+      "sample_count": 19
     },
     {
-      "device_id": "zsploit_holtek_ht12x_302757000",
+      "device_id": "zero_sploit_holtek_ht12x_302757000",
       "name": "Holtek_HT12X (Ceiling Fans)",
       "modulation": "OOK",
       "frequency": 302757000,
       "category": "Ceiling Fans",
       "manufacturer": "Holtek_HT12X",
       "source": "zero_sploit",
-      "sample_count": 81,
-      "sample_files": [
-        "HB_High.sub",
-        "HB_Light.sub",
-        "HB_Low.sub"
-      ]
+      "sample_count": 81
     },
     {
-      "device_id": "zsploit_gatetx_433920000",
+      "device_id": "zero_sploit_gatetx_433920000",
       "name": "GateTX (Ceiling Fans)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Ceiling Fans",
       "manufacturer": "GateTX",
       "source": "zero_sploit",
-      "sample_count": 8,
-      "sample_files": [
-        "0.sub",
-        "1.sub",
-        "2.sub"
-      ]
+      "sample_count": 8
     },
     {
-      "device_id": "zsploit_keeloq_433920000",
+      "device_id": "zero_sploit_keeloq_433920000",
       "name": "KeeLoq (Ceiling Fans)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Ceiling Fans",
       "manufacturer": "KeeLoq",
       "source": "zero_sploit",
-      "sample_count": 3,
-      "sample_files": [
-        "Fan_Toggle.sub",
-        "Light_Dn.sub",
-        "Light_Up.sub"
-      ]
+      "sample_count": 3
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (Ceiling Fans)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Ceiling Fans",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 9,
-      "sample_files": [
-        "1hour.sub",
-        "3hour.sub",
-        "6hour.sub"
-      ]
+      "sample_count": 9
     },
     {
-      "device_id": "zsploit_came_433920000",
+      "device_id": "zero_sploit_came_433920000",
       "name": "CAME (Cooker Hoods)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Cooker Hoods",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 6,
-      "sample_files": [
-        "fan_minus.sub",
-        "fan_off.sub",
-        "fan_plus.sub"
-      ]
+      "sample_count": 6
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (Doorbells)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Doorbells",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 30,
-      "sample_files": [
-        "Doorbell0.sub",
-        "Doorbell1.sub",
-        "Doorbell3.sub"
-      ]
+      "sample_count": 30
     },
     {
-      "device_id": "zsploit_came_315000000",
+      "device_id": "zero_sploit_came_315000000",
       "name": "CAME (Doorbells)",
       "modulation": "OOK",
       "frequency": 315000000,
       "category": "Doorbells",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "Hampton_Bay.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_princeton_315000000",
+      "device_id": "zero_sploit_princeton_315000000",
       "name": "Princeton (Fans)",
       "modulation": "OOK",
       "frequency": 315000000,
       "category": "Fans",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "Power.sub",
-        "Speed.sub",
-        "Swing.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_princeton_315000000",
+      "device_id": "zero_sploit_princeton_315000000",
       "name": "Princeton (Fog Machine)",
       "modulation": "OOK",
       "frequency": 315000000,
       "category": "Fog Machine",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 2,
-      "sample_files": [
-        "Off.sub",
-        "On.sub"
-      ]
+      "sample_count": 2
     },
     {
-      "device_id": "zsploit_security+_2.0_390000000",
+      "device_id": "zero_sploit_security+_2.0_390000000",
       "name": "Security+ 2.0 (Garages)",
       "modulation": "OOK",
       "frequency": 390000000,
       "category": "Garages",
       "manufacturer": "Security+ 2.0",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "893LM_7359_1.sub",
-        "893LM_7359_2.sub",
-        "893LM_7539_3.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_holtek_418000000",
+      "device_id": "zero_sploit_holtek_418000000",
       "name": "Holtek (Gas Sign)",
       "modulation": "OOK",
       "frequency": 418000000,
       "category": "Gas Sign",
       "manufacturer": "Holtek",
       "source": "zero_sploit",
-      "sample_count": 16,
-      "sample_files": [
-        "Gas1_dwn.sub",
-        "Gas1_dwn_00000000.sub",
-        "Gas1_dwn_1000000001.sub"
-      ]
+      "sample_count": 16
     },
     {
-      "device_id": "zsploit_megacode_318000000",
+      "device_id": "zero_sploit_megacode_318000000",
       "name": "MegaCode (Gates)",
       "modulation": "OOK",
       "frequency": 318000000,
       "category": "Gates",
       "manufacturer": "MegaCode",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "Liftmaster_Parking_Gate_1.sub",
-        "Liftmaster_Parking_Gate_2.sub",
-        "Liftmaster_Parking_Gate_3.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_came_868350000",
+      "device_id": "zero_sploit_came_868350000",
       "name": "CAME (Gates)",
       "modulation": "OOK",
       "frequency": 868350000,
       "category": "Gates",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 6,
-      "sample_files": [
-        "Road_Arm_AM270_1.sub",
-        "Road_Arm_AM270_2.sub",
-        "Road_Arm_AM270_3.sub"
-      ]
+      "sample_count": 6
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (Govee LED LightStrand)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Govee LED LightStrand",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 3,
-      "sample_files": [
-        "2hrsTimer.sub",
-        "Off.sub",
-        "On.sub"
-      ]
+      "sample_count": 3
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (LED)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "LED",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 95,
-      "sample_files": [
-        "Blue.sub",
-        "Fan-+.sub",
-        "Fan_auto.sub"
-      ]
+      "sample_count": 95
     },
     {
-      "device_id": "zsploit_keeloq_434176948",
+      "device_id": "zero_sploit_keeloq_434176948",
       "name": "KeeLoq (LED)",
       "modulation": "OOK",
       "frequency": 434176948,
       "category": "LED",
       "manufacturer": "KeeLoq",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "Federal.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_holtek_ht12x_315000000",
+      "device_id": "zero_sploit_holtek_ht12x_315000000",
       "name": "Holtek_HT12X (LED)",
       "modulation": "OOK",
       "frequency": 315000000,
       "category": "LED",
       "manufacturer": "Holtek_HT12X",
       "source": "zero_sploit",
-      "sample_count": 48,
-      "sample_files": [
-        "100.sub",
-        "101.sub",
-        "102.sub"
-      ]
+      "sample_count": 48
     },
     {
-      "device_id": "zsploit_came_433920000",
+      "device_id": "zero_sploit_came_433920000",
       "name": "CAME (Misc)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 5,
-      "sample_files": [
-        "came.sub",
-        "Novy_light.sub",
-        "Novy_on_off.sub"
-      ]
+      "sample_count": 5
     },
     {
-      "device_id": "zsploit_came_twee_433920000",
+      "device_id": "zero_sploit_came_twee_433920000",
       "name": "CAME TWEE (Misc)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "CAME TWEE",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "came_twee.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_keeloq_433920000",
+      "device_id": "zero_sploit_keeloq_433920000",
       "name": "KeeLoq (Misc)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "KeeLoq",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "doorhan.sub",
-        "cigarettemachine.sub",
-        "ORLEN_OFF.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_firefly_300000000",
+      "device_id": "zero_sploit_firefly_300000000",
       "name": "Firefly (Misc)",
       "modulation": "OOK",
       "frequency": 300000000,
       "category": "Misc",
       "manufacturer": "Firefly",
       "source": "zero_sploit",
-      "sample_count": 2,
-      "sample_files": [
-        "firefly.sub",
-        "firely.sub"
-      ]
+      "sample_count": 2
     },
     {
-      "device_id": "zsploit_gatetx_433920000",
+      "device_id": "zero_sploit_gatetx_433920000",
       "name": "GateTX (Misc)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "GateTX",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "gate_tx.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_holtek_418000000",
+      "device_id": "zero_sploit_holtek_418000000",
       "name": "Holtek (Misc)",
       "modulation": "OOK",
       "frequency": 418000000,
       "category": "Misc",
       "manufacturer": "Holtek",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "holtek.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_princeton_433920000",
-      "name": "Princeton (Misc)",
-      "modulation": "OOK",
-      "frequency": 433920000,
-      "category": "Misc",
-      "manufacturer": "Princeton",
-      "source": "zero_sploit",
-      "sample_count": 36,
-      "sample_files": [
-        "Marvice_GP-01_Pager.SUB",
-        "princeton.sub",
-        "Unknown_433_Princeton.sub"
-      ]
-    },
-    {
-      "device_id": "zsploit_megacode_318000000",
+      "device_id": "zero_sploit_megacode_318000000",
       "name": "MegaCode (Misc)",
       "modulation": "OOK",
       "frequency": 318000000,
       "category": "Misc",
       "manufacturer": "MegaCode",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "megacode.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_nice_flo_433920000",
+      "device_id": "zero_sploit_nice_flo_433920000",
       "name": "Nice FLO (Misc)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "Nice FLO",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "nice_flo.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_somfy_telis_433500000",
+      "device_id": "zero_sploit_princeton_433920000",
+      "name": "Princeton (Misc)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Misc",
+      "manufacturer": "Princeton",
+      "source": "zero_sploit",
+      "sample_count": 35
+    },
+    {
+      "device_id": "zero_sploit_somfy_telis_433500000",
       "name": "Somfy Telis (Misc)",
       "modulation": "OOK",
       "frequency": 433500000,
       "category": "Misc",
       "manufacturer": "Somfy Telis",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "Somfy_Telis_electronic_shades.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_ansonic_433920000",
+      "device_id": "zero_sploit_ansonic_433920000",
       "name": "Ansonic (Misc)",
       "modulation": "FSK",
       "frequency": 433920000,
       "category": "Misc",
       "manufacturer": "Ansonic",
       "source": "zero_sploit",
-      "sample_count": 6,
-      "sample_files": [
-        "Tor1.sub",
-        "Tor2.sub",
-        "Tor3.sub"
-      ]
+      "sample_count": 6
     },
     {
-      "device_id": "zsploit_princeton_433889000",
+      "device_id": "zero_sploit_princeton_433889000",
       "name": "Princeton (Motion Sensors)",
       "modulation": "OOK",
       "frequency": 433889000,
       "category": "Motion Sensors",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "Cpvan_home.sub",
-        "Cpvan_lock.sub",
-        "Cpvan_sos.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (Multimedia)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Multimedia",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 34,
-      "sample_files": [
-        "1hour.sub",
-        "30min.sub",
-        "3hour.sub"
-      ]
+      "sample_count": 34
     },
     {
-      "device_id": "zsploit_holtek_ht12x_305000000",
+      "device_id": "zero_sploit_holtek_ht12x_305000000",
       "name": "Holtek_HT12X (Multimedia)",
       "modulation": "OOK",
       "frequency": 305000000,
       "category": "Multimedia",
       "manufacturer": "Holtek_HT12X",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "westek_rfa108_b.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_princeton_315000000",
+      "device_id": "zero_sploit_princeton_315000000",
       "name": "Princeton (Remote Outlet Switches)",
       "modulation": "OOK",
       "frequency": 315000000,
       "category": "Remote Outlet Switches",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 5,
-      "sample_files": [
-        "button_1.sub",
-        "button_2.sub",
-        "button_3.sub"
-      ]
+      "sample_count": 5
     },
     {
-      "device_id": "zsploit_intertechno_v3_433920000",
+      "device_id": "zero_sploit_intertechno_v3_433920000",
       "name": "Intertechno_V3 (Remote Outlet Switches)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Remote Outlet Switches",
       "manufacturer": "Intertechno_V3",
       "source": "zero_sploit",
-      "sample_count": 41,
-      "sample_files": [
-        "1 off.sub",
-        "1 on.sub",
-        "10 off.sub"
-      ]
+      "sample_count": 41
     },
     {
-      "device_id": "zsploit_princeton_434075000",
+      "device_id": "zero_sploit_princeton_434075000",
       "name": "Princeton (Restaurant Pagers)",
       "modulation": "OOK",
       "frequency": 434075000,
       "category": "Restaurant Pagers",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 3,
-      "sample_files": [
-        "Add212.sub",
-        "Annuler212.sub",
-        "Call212.sub"
-      ]
+      "sample_count": 3
     },
     {
-      "device_id": "zsploit_smc5326_433920000",
+      "device_id": "zero_sploit_smc5326_433920000",
       "name": "SMC5326 (Restaurant Pagers)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Restaurant Pagers",
       "manufacturer": "SMC5326",
       "source": "zero_sploit",
-      "sample_count": 5,
-      "sample_files": [
-        "1.sub",
-        "2.sub",
-        "3.sub"
-      ]
+      "sample_count": 5
     },
     {
-      "device_id": "zsploit_princeton_433889000",
+      "device_id": "zero_sploit_princeton_433889000",
       "name": "Princeton (Smart Home Remotes)",
       "modulation": "OOK",
       "frequency": 433889000,
       "category": "Smart Home Remotes",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 8,
-      "sample_files": [
-        "1.sub",
-        "2.sub",
-        "3.sub"
-      ]
+      "sample_count": 8
     },
     {
-      "device_id": "zsploit_came_433920000",
+      "device_id": "zero_sploit_came_433920000",
       "name": "CAME (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "CAME",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "came.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_came_twee_433920000",
+      "device_id": "zero_sploit_came_twee_433920000",
       "name": "CAME TWEE (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "CAME TWEE",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "came_twee.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_keeloq_433920000",
+      "device_id": "zero_sploit_keeloq_433920000",
       "name": "KeeLoq (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "KeeLoq",
       "source": "zero_sploit",
-      "sample_count": 2,
-      "sample_files": [
-        "doorhan.sub",
-        "an-motors_at-4.sub"
-      ]
+      "sample_count": 2
     },
     {
-      "device_id": "zsploit_firefly_300000000",
+      "device_id": "zero_sploit_firefly_300000000",
       "name": "Firefly (Untested)",
       "modulation": "OOK",
       "frequency": 300000000,
       "category": "Untested",
       "manufacturer": "Firefly",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "firely.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_gatetx_433920000",
+      "device_id": "zero_sploit_gatetx_433920000",
       "name": "GateTX (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "GateTX",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "gate_tx.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_holtek_418000000",
+      "device_id": "zero_sploit_holtek_418000000",
       "name": "Holtek (Untested)",
       "modulation": "OOK",
       "frequency": 418000000,
       "category": "Untested",
       "manufacturer": "Holtek",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "holtek.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_megacode_318000000",
+      "device_id": "zero_sploit_megacode_318000000",
       "name": "MegaCode (Untested)",
       "modulation": "OOK",
       "frequency": 318000000,
       "category": "Untested",
       "manufacturer": "MegaCode",
       "source": "zero_sploit",
-      "sample_count": 5,
-      "sample_files": [
-        "Liftmaster_Parking_Gate_1.sub",
-        "Liftmaster_Parking_Gate_2.sub",
-        "Liftmaster_Parking_Gate_3.sub"
-      ]
+      "sample_count": 5
     },
     {
-      "device_id": "zsploit_nice_flo_433920000",
+      "device_id": "zero_sploit_nice_flo_433920000",
       "name": "Nice FLO (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "Nice FLO",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "nice_flo.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_princeton_433920000",
+      "device_id": "zero_sploit_princeton_433920000",
       "name": "Princeton (Untested)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Untested",
       "manufacturer": "Princeton",
       "source": "zero_sploit",
-      "sample_count": 4,
-      "sample_files": [
-        "princeton.sub",
-        "2hrsTimer.sub",
-        "Off.sub"
-      ]
+      "sample_count": 4
     },
     {
-      "device_id": "zsploit_binraw_434100000",
+      "device_id": "zero_sploit_binraw_434100000",
       "name": "BinRAW (Vacuum)",
       "modulation": "OOK",
       "frequency": 434100000,
       "category": "Vacuum",
       "manufacturer": "BinRAW",
       "source": "zero_sploit",
-      "sample_count": 3,
-      "sample_files": [
-        "ChangePwr_Samsung_SC20F70HB.sub",
-        "Mid_Samsung_SC20F70HB.sub",
-        "On_Samsung_SC20F70HB.sub"
-      ]
+      "sample_count": 3
     },
     {
-      "device_id": "zsploit_binraw_433920000",
-      "name": "BinRAW (WeVibe Unit 2)",
-      "modulation": "OOK",
-      "frequency": 433920000,
-      "category": "WeVibe Unit 2",
-      "manufacturer": "BinRAW",
-      "source": "zero_sploit",
-      "sample_count": 2,
-      "sample_files": [
-        "WeVibe_off.sub",
-        "WeVibe_on.sub"
-      ]
-    },
-    {
-      "device_id": "zsploit_tx141thbv2_433920000",
+      "device_id": "zero_sploit_tx141thbv2_433920000",
       "name": "TX141THBv2 (Weather stations)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Weather stations",
       "manufacturer": "TX141THBv2",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "LaCrosse-TX141TH-BV2-decoded.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_nexus-th_433920000",
+      "device_id": "zero_sploit_nexus-th_433920000",
       "name": "Nexus-TH (Weather stations)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Weather stations",
       "manufacturer": "Nexus-TH",
       "source": "zero_sploit",
-      "sample_count": 1,
-      "sample_files": [
-        "nexus-th_parsed.sub"
-      ]
+      "sample_count": 1
     },
     {
-      "device_id": "zsploit_binraw_433920000",
+      "device_id": "zero_sploit_binraw_433920000",
       "name": "BinRAW (Weather stations)",
       "modulation": "OOK",
       "frequency": 433920000,
       "category": "Weather stations",
       "manufacturer": "BinRAW",
       "source": "zero_sploit",
-      "sample_count": 25,
-      "sample_files": [
-        "2024-03-31_15,16,37_SubGHz.sub",
-        "2024-03-31_15,41,24_SubGHz.sub",
-        "2024-03-31_15,41,54_SubGHz.sub"
-      ]
+      "sample_count": 25
+    },
+    {
+      "device_id": "zero_sploit_binraw_433920000",
+      "name": "BinRAW (WeVibe Unit 2)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "WeVibe Unit 2",
+      "manufacturer": "BinRAW",
+      "source": "zero_sploit",
+      "sample_count": 2
+    },
+    {
+      "device_id": "uberguidoz_binraw_433920000",
+      "name": "BinRAW (LED)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "LED",
+      "manufacturer": "BinRAW",
+      "source": "uberguidoz",
+      "sample_count": 6
+    },
+    {
+      "device_id": "rocketgod_princeton_433920000",
+      "name": "Princeton (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Princeton",
+      "source": "rocketgod",
+      "sample_count": 483
+    },
+    {
+      "device_id": "rocketgod_came_303875000",
+      "name": "CAME (subghz)",
+      "modulation": "OOK",
+      "frequency": 303875000,
+      "category": "subghz",
+      "manufacturer": "CAME",
+      "source": "rocketgod",
+      "sample_count": 17
+    },
+    {
+      "device_id": "rocketgod_holtek_ht12x_302757000",
+      "name": "Holtek_HT12X (subghz)",
+      "modulation": "OOK",
+      "frequency": 302757000,
+      "category": "subghz",
+      "manufacturer": "Holtek_HT12X",
+      "source": "rocketgod",
+      "sample_count": 80
+    },
+    {
+      "device_id": "rocketgod_gatetx_433920000",
+      "name": "GateTX (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "GateTX",
+      "source": "rocketgod",
+      "sample_count": 10
+    },
+    {
+      "device_id": "rocketgod_keeloq_434176948",
+      "name": "KeeLoq (subghz)",
+      "modulation": "OOK",
+      "frequency": 434176948,
+      "category": "subghz",
+      "manufacturer": "KeeLoq",
+      "source": "rocketgod",
+      "sample_count": 5
+    },
+    {
+      "device_id": "rocketgod_came_twee_433920000",
+      "name": "CAME TWEE (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "CAME TWEE",
+      "source": "rocketgod",
+      "sample_count": 2
+    },
+    {
+      "device_id": "rocketgod_firefly_300000000",
+      "name": "Firefly (subghz)",
+      "modulation": "OOK",
+      "frequency": 300000000,
+      "category": "subghz",
+      "manufacturer": "Firefly",
+      "source": "rocketgod",
+      "sample_count": 3
+    },
+    {
+      "device_id": "rocketgod_holtek_418000000",
+      "name": "Holtek (subghz)",
+      "modulation": "OOK",
+      "frequency": 418000000,
+      "category": "subghz",
+      "manufacturer": "Holtek",
+      "source": "rocketgod",
+      "sample_count": 18
+    },
+    {
+      "device_id": "rocketgod_megacode_318000000",
+      "name": "MegaCode (subghz)",
+      "modulation": "OOK",
+      "frequency": 318000000,
+      "category": "subghz",
+      "manufacturer": "MegaCode",
+      "source": "rocketgod",
+      "sample_count": 10
+    },
+    {
+      "device_id": "rocketgod_nice_flo_433920000",
+      "name": "Nice FLO (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Nice FLO",
+      "source": "rocketgod",
+      "sample_count": 2
+    },
+    {
+      "device_id": "rocketgod_security+_2.0_390000000",
+      "name": "Security+ 2.0 (subghz)",
+      "modulation": "OOK",
+      "frequency": 390000000,
+      "category": "subghz",
+      "manufacturer": "Security+ 2.0",
+      "source": "rocketgod",
+      "sample_count": 4
+    },
+    {
+      "device_id": "rocketgod_ansonic_433920000",
+      "name": "Ansonic (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Ansonic",
+      "source": "rocketgod",
+      "sample_count": 6
+    },
+    {
+      "device_id": "rocketgod_smc5326_433920000",
+      "name": "SMC5326 (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "SMC5326",
+      "source": "rocketgod",
+      "sample_count": 5
+    },
+    {
+      "device_id": "rocketgod_kia/hyu_v0_433920000",
+      "name": "KIA/HYU V0 (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "KIA/HYU V0",
+      "source": "rocketgod",
+      "sample_count": 3
+    },
+    {
+      "device_id": "rocketgod_kia/hyu_v2_433920000",
+      "name": "KIA/HYU V2 (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "KIA/HYU V2",
+      "source": "rocketgod",
+      "sample_count": 1
+    },
+    {
+      "device_id": "rocketgod_kia/hyu_v5_433920000",
+      "name": "KIA/HYU V5 (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "KIA/HYU V5",
+      "source": "rocketgod",
+      "sample_count": 2
+    },
+    {
+      "device_id": "rocketgod_kia/hyu_v6_433920000",
+      "name": "KIA/HYU V6 (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "KIA/HYU V6",
+      "source": "rocketgod",
+      "sample_count": 2
+    },
+    {
+      "device_id": "rocketgod_faac_slh_433920000",
+      "name": "Faac SLH (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Faac SLH",
+      "source": "rocketgod",
+      "sample_count": 40
     }
   ]
 }
