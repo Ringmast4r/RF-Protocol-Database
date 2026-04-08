@@ -1,0 +1,426 @@
+name,category,manufacturer,modulation,encoding,frequency,short_width,long_width,bits,checksum,source,device_id
+Decoder,Unknown,Decoder,Raw Pattern,,,,,Used By,,urh_ng,urh_decoder
+NRZ (No encoding),Unknown,NRZ,Passthrough,,,,,"OOK_PCM, FSK_PCM, OOK_PPM",,urh_ng,urh_nrz__no_encoding_
+NRZ + Invert,Unknown,NRZ,"0â†’1, 1â†’0",,,,,Inverted signals,,urh_ng,urh_nrz___invert
+Manchester I (IEEE),Unknown,Manchester,"01â†’1, 10â†’0",,,,,"Weather sensors, ERT meters",,urh_ng,urh_manchester_i__ieee_
+Manchester II (Thomas),Unknown,Manchester,"10â†’1, 01â†’0",,,,,Opposite convention,,urh_ng,urh_manchester_ii__thomas_
+Differential Manchester,Unknown,Differential,"Transition=1, No transition=0",,,,,"Ford keys, Funkbus",,urh_ng,urh_differential_manchester
+"PWM (Short=1, Long=0)",Unknown,PWM,"100â†’1, 110â†’0",,,,,"HCS200/300, KeeLoq, Acurite",,urh_ng,urh_pwm__short_1__long_0_
+"PWM (Short=0, Long=1)",Unknown,PWM,"100â†’0, 110â†’1",,,,,Inverted PWM,,urh_ng,urh_pwm__short_0__long_1_
+Miller,Unknown,Miller,"Mid-bit transition=1, same=0",,,,,"RFID ISO 14443, EPC Gen2",,urh_ng,urh_miller
+Modulation,Unknown,Modulation,Protocols,,,,,URH Decoder,,urh_ng,urh_modulation
+FSK/PCM,Unknown,FSK/PCM,101,,,,,NRZ,,urh_ng,urh_fsk_pcm
+OOK/PWM,Unknown,OOK/PWM,83,,,,,PWM,,urh_ng,urh_ook_pwm
+OOK/PPM,Unknown,OOK/PPM,61,,,,,NRZ,,urh_ng,urh_ook_ppm
+OOK/MANCHESTER_ZEROBIT,Unknown,OOK/MANCHESTER_ZEROBIT,32,,,,,Manchester I/II,,urh_ng,urh_ook_manchester_zerobit
+OOK/PCM,Unknown,OOK/PCM,20,,,,,NRZ,,urh_ng,urh_ook_pcm
+FSK/PWM,Unknown,FSK/PWM,7,,,,,PWM,,urh_ng,urh_fsk_pwm
+FSK/MANCHESTER_ZEROBIT,Unknown,FSK/MANCHESTER_ZEROBIT,6,,,,,Manchester I/II,,urh_ng,urh_fsk_manchester_zerobit
+OOK/DMC,Unknown,OOK/DMC,6,,,,,Differential Manchester,,urh_ng,urh_ook_dmc
+OOK/RZ,Unknown,OOK/RZ,3,,,,,NRZ,,urh_ng,urh_ook_rz
+OOK/PIWM_DC,Unknown,OOK/PIWM_DC,2,,,,,NRZ,,urh_ng,urh_ook_piwm_dc
+OOK/NRZS,Unknown,OOK/NRZS,1,,,,,NRZ,,urh_ng,urh_ook_nrzs
+OOK/PWM_OSV1,Unknown,OOK/PWM_OSV1,1,,,,,PWM,,urh_ng,urh_ook_pwm_osv1
+Fiat Marelli car key,Automotive Key Fobs,Fiat,MANCHESTER,,,,,80,â€”,urh_ng,urh_fiat_marelli_car_key
+Fiat SPA platform car key,Automotive Key Fobs,Fiat,MANCHESTER,,,,,64,â€”,urh_ng,urh_fiat_spa_platform_car_key
+Ford Car Key,Automotive Key Fobs,Ford,DMC,,,,,78,â€”,urh_ng,urh_ford_car_key
+Ford V0 car key fob,Automotive Key Fobs,Ford,MANCHESTER,,,,,64,crc8,urh_ng,urh_ford_v0_car_key_fob
+Honda Car Key,Automotive Key Fobs,Honda,FSK,PWM,,,,394,â€”,urh_ng,urh_honda_car_key
+KIA V0 car key,Automotive Key Fobs,Kia,PWM,,,,,61,crc8,urh_ng,urh_kia_v0_car_key
+KIA V1 car key (Manchester),Automotive Key Fobs,Kia,MANCHESTER,,,,,57,crc4,urh_ng,urh_kia_v1_car_key__manchester_
+KIA V5 car key (mixer cipher),Automotive Key Fobs,Kia,MANCHESTER,,,,,64,crc3,urh_ng,urh_kia_v5_car_key__mixer_cipher_
+KIA V6 car key (AES),Automotive Key Fobs,Kia,MANCHESTER,,,,,144,crc8,urh_ng,urh_kia_v6_car_key__aes_
+Mazda Siemens car key,Automotive Key Fobs,Mazda,PWM,,,,,64,parity,urh_ng,urh_mazda_siemens_car_key
+Mitsubishi V0 car key,Automotive Key Fobs,Mitsubishi,PWM,,,,,80,xor_bytes,urh_ng,urh_mitsubishi_v0_car_key
+PSA Peugeot Citroen car key,Automotive Key Fobs,PSA,PWM,,,,,128,â€”,urh_ng,urh_psa_peugeot_citroen_car_key
+Porsche Cayenne key fob,Automotive Key Fobs,Porsche,PWM,,,,,64,â€”,urh_ng,urh_porsche_cayenne_key_fob
+Subaru car key fob,Automotive Key Fobs,Subaru,PWM,,,,,64,â€”,urh_ng,urh_subaru_car_key_fob
+Suzuki car key fob,Automotive Key Fobs,Suzuki,PWM,,,,,64,crc8,urh_ng,urh_suzuki_car_key_fob
+VAG VW Audi Group car key,Automotive Key Fobs,VAG,MANCHESTER,,,,,80,â€”,urh_ng,urh_vag_vw_audi_group_car_key
+CAME Atomo rolling code,Gate & Garage Remotes,CAME,MANCHESTER,,,,,62,â€”,urh_ng,urh_came_atomo_rolling_code
+CAME Twee,Gate & Garage Remotes,CAME,MANCHESTER,,,,,54,xor_bytes,urh_ng,urh_came_twee
+CAME gate remote,Gate & Garage Remotes,CAME,PWM,,,,,12,â€”,urh_ng,urh_came_gate_remote
+Chamberlain CWPIRC PIR Sensor,Gate & Garage Remotes,Chamberlain,FSK,PCM,,,,â€”,crc16,urh_ng,urh_chamberlain_cwpirc_pir_sensor
+Chamberlain garage door opener,Gate & Garage Remotes,Chamberlain,PWM,,,,,10,â€”,urh_ng,urh_chamberlain_garage_door_opener
+FAAC SLH gate remote (KeeLoq),Gate & Garage Remotes,FAAC,PWM,,,,,64,keeloq,urh_ng,urh_faac_slh_gate_remote__keeloq_
+Gate TX generic remote,Gate & Garage Remotes,Gate,PWM,,,,,24,â€”,urh_ng,urh_gate_tx_generic_remote
+Hormann HSM gate/garage remote,Gate & Garage Remotes,Hormann,PWM,,,,,44,â€”,urh_ng,urh_hormann_hsm_gate_garage_remote
+Linear DIP switch garage remote,Gate & Garage Remotes,Linear,PWM,,,,,10,â€”,urh_ng,urh_linear_dip_switch_garage_remote
+Linear Megacode Garage/Gate Remotes,Gate & Garage Remotes,Linear,PCM,,,,,144,â€”,urh_ng,urh_linear_megacode_garage_gate_remotes
+NICE Flo gate remote,Gate & Garage Remotes,NICE,PWM,,,,,12,â€”,urh_ng,urh_nice_flo_gate_remote
+NICE Flor-S rolling code,Gate & Garage Remotes,NICE,PWM,,,,,52,â€”,urh_ng,urh_nice_flor_s_rolling_code
+Nice Flor-s remote control for gates,Gate & Garage Remotes,NICE,PWM,,,,,72,â€”,urh_ng,urh_nice_flor_s_remote_control_for_gates
+Security+ (Keyfob),Gate & Garage Remotes,Security+,PCM,,,,,130,â€”,urh_ng,urh_security___keyfob_
+Security+ 2.0 (Keyfob),Gate & Garage Remotes,Security+,PCM,,,,,110,â€”,urh_ng,urh_security__2_0__keyfob_
+Security+ V1 Liftmaster/Chamberlain,Gate & Garage Remotes,Chamberlain,PWM,,,,,42,â€”,urh_ng,urh_security__v1_liftmaster_chamberlain
+Security+ V2 Liftmaster/Chamberlain,Gate & Garage Remotes,Chamberlain,MANCHESTER,,,,,62,â€”,urh_ng,urh_security__v2_liftmaster_chamberlain
+Somfy Keytis gate remote,Gate & Garage Remotes,Somfy,MANCHESTER,,,,,80,â€”,urh_ng,urh_somfy_keytis_gate_remote
+Somfy Telis blinds/gate remote,Gate & Garage Remotes,Somfy,MANCHESTER,,,,,56,â€”,urh_ng,urh_somfy_telis_blinds_gate_remote
+KeeLoq Rolling Code (generic),Rolling Code Systems,KeeLoq,PWM,,,,,64,keeloq,urh_ng,urh_keeloq_rolling_code__generic_
+Microchip HCS200/HCS300 KeeLoq Hopping Encoder based remotes,Rolling Code Systems,Microchip,PWM,,,,,66,â€”,urh_ng,urh_microchip_hcs200_hcs300_keeloq_hopping_encoder_bas
+"AOK Weather Station rebrand Holman Industries iWeather WS5029, Conrad AOK-5056, Optex 990018",Weather Stations & Sensors,AOK,FSK,PCM,,,,96,"lfsr_digest8_reflect,xor_bytes",urh_ng,urh_aok_weather_station_rebrand_holman_industries_iwea
+"Acurite 592TXR temp/humidity, 592TX temp, 5n1, 3n1, Atlas weather station, 515 fridge/freezer, 6045 lightning, 899 rain, 1190/1192 leak",Weather Stations & Sensors,Acurite,PWM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_592txr_temp_humidity__592tx_temp__5n1__3n1
+Acurite 896 Rain Gauge,Weather Stations & Sensors,Acurite,PPM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_896_rain_gauge
+AlectoV1 Weather Sensor (Alecto WS3500 WS4500 Ventus W155/W044 Oregon),Weather Stations & Sensors,AlectoV1,PPM,,,,,â€”,â€”,urh_ng,urh_alectov1_weather_sensor__alecto_ws3500_ws4500_vent
+"Ambient Weather F007TH, TFA 30.3208.02, SwitchDocLabs F016TH temperature sensor",Weather Stations & Sensors,Ambient Weather,MANCHESTER,,,,,48,lfsr_digest8,urh_ng,urh_ambient_weather_f007th__tfa_30_3208_02__switchdocl
+Ambient Weather TX-8300 Temperature/Humidity Sensor,Weather Stations & Sensors,Ambient Weather,PPM,,,,,â€”,â€”,urh_ng,urh_ambient_weather_tx_8300_temperature_humidity_senso
+"Ambient Weather WH31E Thermo-Hygrometer Sensor, EcoWitt WH40 rain gauge, WS68 weather station",Weather Stations & Sensors,Ambient Weather,FSK,PCM,,,,144,"add_bytes,crc8",urh_ng,urh_ambient_weather_wh31e_thermo_hygrometer_sensor__ec
+Ambient Weather WH31L (FineOffset WH57) Lightning-Strike sensor,Weather Stations & Sensors,Ambient Weather,FSK,PCM,,,,72,"add_bytes,crc8",urh_ng,urh_ambient_weather_wh31l__fineoffset_wh57__lightning_
+Auriol 4-LD5661/4-LD5972/4-LD6313 temperature/rain sensors,Weather Stations & Sensors,Auriol,PPM,,,,,52,â€”,urh_ng,urh_auriol_4_ld5661_4_ld5972_4_ld6313_temperature_rain
+Baldr / RainPoint rain gauge.,Weather Stations & Sensors,Baldr,PPM,,,,,37,â€”,urh_ng,urh_baldr___rainpoint_rain_gauge_
+Biltema rain gauge,Weather Stations & Sensors,Biltema,PPM,,,,,â€”,â€”,urh_ng,urh_biltema_rain_gauge
+Bresser Weather Center 5-in-1,Weather Stations & Sensors,Bresser,FSK,PCM,,,,440,â€”,urh_ng,urh_bresser_weather_center_5_in_1
+"Bresser Weather Center 6-in-1, 7-in-1 indoor, soil, new 5-in-1, 3-in-1 wind gauge, Froggit WH6000, Ventus C8488A",Weather Stations & Sensors,Bresser,FSK,PCM,,,,440,"add_bytes,lfsr_digest16",urh_ng,urh_bresser_weather_center_6_in_1__7_in_1_indoor__soil
+"Bresser Weather Center 7-in-1, Air Quality PM2.5/PM10 7009970, CO2 7009977, HCHO/VOC 7009978 sensors",Weather Stations & Sensors,Bresser,FSK,PCM,,,,240,lfsr_digest16,urh_ng,urh_bresser_weather_center_7_in_1__air_quality_pm2_5_p
+"Cotech 36-7959, SwitchDocLabs FT020T wireless weather station with USB",Weather Stations & Sensors,Cotech,MANCHESTER,,,,,112,crc8,urh_ng,urh_cotech_36_7959__switchdoclabs_ft020t_wireless_weat
+Digitech XC-0324 / AmbientWeather FT005TH temp/hum sensor,Weather Stations & Sensors,Digitech,PPM,,,,,148,xor_bytes,urh_ng,urh_digitech_xc_0324___ambientweather_ft005th_temp_hum
+EMOS E6016 rain gauge,Weather Stations & Sensors,Emos,PWM,,,,,73,add_bytes,urh_ng,urh_emos_e6016_rain_gauge
+EMOS E6016 weatherstation with DCF77,Weather Stations & Sensors,Emos,PWM,,,,,120,add_bytes,urh_ng,urh_emos_e6016_weatherstation_with_dcf77
+"Emax W6, rebrand Altronics x7063/4/x7064A, Optex 990040/50/51, Orium 13093/13123, Infactory FWS-1200, Newentor Q9, Otio 810025, Protmex PT3390A, Jula Marquant 014331/32, TechniSat IMETEO X6 76-4924-00, Weather Station or temperature/humidity sensor",Weather Stations & Sensors,Emax,FSK,PCM,,,,264,add_bytes,urh_ng,urh_emax_w6__rebrand_altronics_x7063_4_x7064a__optex_9
+Fine Offset Electronics WH1080/WH3080 Weather Station,Weather Stations & Sensors,Fine Offset,PWM,,,,,100,crc8,urh_ng,urh_fine_offset_electronics_wh1080_wh3080_weather_stat
+Fine Offset Electronics WH1080/WH3080 Weather Station (FSK),Weather Stations & Sensors,Fine Offset,FSK,PCM,,,,100,crc8,urh_ng,urh_fine_offset_electronics_wh1080_wh3080_weather_stat
+Fine Offset Electronics WS80 weather station,Weather Stations & Sensors,Fine Offset,FSK,PCM,,,,240,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_ws80_weather_station
+Fine Offset Electronics WS85 weather station,Weather Stations & Sensors,Fine Offset,FSK,PCM,,,,500,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_ws85_weather_station
+Fine Offset Electronics WS90 weather station,Weather Stations & Sensors,Fine Offset,FSK,PCM,,,,500,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_ws90_weather_station
+"Fine Offset Electronics, WH0530 Temperature/Rain Sensor",Weather Stations & Sensors,Fine Offset,PWM,,,,,510,"add_bytes,crc8,xor_bytes",urh_ng,urh_fine_offset_electronics__wh0530_temperature_rain_s
+"Fine Offset Electronics, WH2, WH5, Telldus Temperature/Humidity/Rain Sensor",Weather Stations & Sensors,Fine Offset,PWM,,,,,510,"add_bytes,crc8,xor_bytes",urh_ng,urh_fine_offset_electronics__wh2__wh5__telldus_tempera
+Fine Offset WH1050 Weather Station,Weather Stations & Sensors,Fine Offset,PWM,,,,,72,crc8,urh_ng,urh_fine_offset_wh1050_weather_station
+"HIDEKI TS04 Temperature, Humidity, Wind and Rain Sensor",Weather Stations & Sensors,HIDEKI,DMC,,,,,â€”,"crc8,parity8,xor_bytes",urh_ng,urh_hideki_ts04_temperature__humidity__wind_and_rain_s
+Holman Industries iWeather WS5029 weather station (older PWM),Weather Stations & Sensors,Holman,FSK,PWM,,,,96,"lfsr_digest8_reflect,xor_bytes",urh_ng,urh_holman_industries_iweather_ws5029_weather_station_
+"Honeywell Door/Window Sensor, 2Gig DW10/DW11, RE208 repeater",Weather Stations & Sensors,Honeywell,MANCHESTER,,,,,60,crc16,urh_ng,urh_honeywell_door_window_sensor__2gig_dw10_dw11__re20
+"Inovalley kw9015b, TFA Dostmann 30.3161 (Rain and temperature sensor)",Weather Stations & Sensors,TFA,PPM,,,,,36,â€”,urh_ng,urh_inovalley_kw9015b__tfa_dostmann_30_3161__rain_and_
+"LaCrosse TX31U-IT, The Weather Channel WS-1910TWC-IT",Weather Stations & Sensors,LaCrosse,FSK,PCM,,,,â€”,crc8,urh_ng,urh_lacrosse_tx31u_it__the_weather_channel_ws_1910twc_
+LaCrosse TX34-IT rain gauge,Weather Stations & Sensors,LaCrosse,FSK,PCM,,,,â€”,crc8,urh_ng,urh_lacrosse_tx34_it_rain_gauge
+"LaCrosse Technology View LTV-R1, LTV-R3 Rainfall Gauge, LTV-W1/W2 Wind Sensor",Weather Stations & Sensors,LaCrosse,FSK,PCM,,,,160,crc8,urh_ng,urh_lacrosse_technology_view_ltv_r1__ltv_r3_rainfall_g
+LaCrosse Technology View LTV-WSDTH01 Breeze Pro Wind Sensor,Weather Stations & Sensors,LaCrosse,FSK,PCM,,,,264,crc8,urh_ng,urh_lacrosse_technology_view_ltv_wsdth01_breeze_pro_wi
+LaCrosse WS-2310 / WS-3600 Weather Station,Weather Stations & Sensors,LaCrosse,PWM,,,,,52,â€”,urh_ng,urh_lacrosse_ws_2310___ws_3600_weather_station
+LaCrosse/ELV/Conrad WS7000/WS2500 weather sensors,Weather Stations & Sensors,LaCrosse,PWM,,,,,â€”,"add_bytes,xor_bytes",urh_ng,urh_lacrosse_elv_conrad_ws7000_ws2500_weather_sensors
+Missil ML0757 weather station,Weather Stations & Sensors,Missil,PPM,,,,,40,â€”,urh_ng,urh_missil_ml0757_weather_station
+Oregon Scientific Weather Sensor,Weather Stations & Sensors,Oregon Scientific,MANCHESTER,,,,,â€”,â€”,urh_ng,urh_oregon_scientific_weather_sensor
+RainPoint HCS012ARF Rain Gauge sensor,Weather Stations & Sensors,RainPoint,PCM,,,,,163,add_bytes,urh_ng,urh_rainpoint_hcs012arf_rain_gauge_sensor
+RainPoint soil temperature and moisture sensor,Weather Stations & Sensors,RainPoint,PCM,,,,,3000,â€”,urh_ng,urh_rainpoint_soil_temperature_and_moisture_sensor
+"Sainlogic SA8, Gevanti SA8 Weather Station",Weather Stations & Sensors,Sainlogic,PCM,,,,,â€”,crc16,urh_ng,urh_sainlogic_sa8__gevanti_sa8_weather_station
+"Schou 72543 Day Rain Gauge, Motonet MTX Rain, MarQuant Rain Gauge, TFA Dostmann 30.3252.01/47.3006.01 Rain Gauge and Thermometer, ADE WS1907",Weather Stations & Sensors,TFA,PWM,,,,,â€”,add_bytes,urh_ng,urh_schou_72543_day_rain_gauge__motonet_mtx_rain__marq
+Sharp SPC775 weather station,Weather Stations & Sensors,Sharp,FSK,PWM,,,,48,"lfsr_digest8_reflect,xor_bytes",urh_ng,urh_sharp_spc775_weather_station
+TBH weather sensor,Weather Stations & Sensors,TBH,FSK,PCM,,,,12,"crc16,crc8",urh_ng,urh_tbh_weather_sensor
+TFA 30.3151 Weather Station,Weather Stations & Sensors,TFA,FSK,PCM,,,,72,crc8,urh_ng,urh_tfa_30_3151_weather_station
+TFA Drop Rain Gauge 30.3233.01,Weather Stations & Sensors,TFA,PWM,,,,,66,lfsr_digest8_reflect,urh_ng,urh_tfa_drop_rain_gauge_30_3233_01
+Telldus weather station FT0385R sensors,Weather Stations & Sensors,Telldus,MANCHESTER,,,,,296,crc8,urh_ng,urh_telldus_weather_station_ft0385r_sensors
+Thermor DG950 weather station,Weather Stations & Sensors,Thermor,PWM,,,,,9,â€”,urh_ng,urh_thermor_dg950_weather_station
+Vevor Wireless Weather Station 7-in-1,Weather Stations & Sensors,Vevor,FSK,PCM,,,,264,add_bytes,urh_ng,urh_vevor_wireless_weather_station_7_in_1
+WS2032 weather station,Weather Stations & Sensors,WS2032,PWM,,,,,112,"add_bytes,crc8",urh_ng,urh_ws2032_weather_station
+"Acurite 00275rm,00276rm Temp/Humidity with optional probe",Temperature & Humidity Sensors,Acurite,PWM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_00275rm_00276rm_temp_humidity_with_optiona
+Acurite 590TX Temperature with optional Humidity,Temperature & Humidity Sensors,Acurite,PPM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_590tx_temperature_with_optional_humidity
+Acurite 606TX / Technoline TX960 Temperature Sensor,Temperature & Humidity Sensors,Acurite,PPM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_606tx___technoline_tx960_temperature_senso
+Acurite 609TXC Temperature and Humidity Sensor,Temperature & Humidity Sensors,Acurite,PPM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_609txc_temperature_and_humidity_sensor
+Acurite 986 Refrigerator / Freezer Thermometer,Temperature & Humidity Sensors,Acurite,PPM,,,,,88,"add_bytes,crc16lsb,crc8le,lfsr_digest8,parity_bytes",urh_ng,urh_acurite_986_refrigerator___freezer_thermometer
+Acurite Grill/Meat Thermometer 01185M,Temperature & Humidity Sensors,Acurite,PWM,,,,,56,add_bytes,urh_ng,urh_acurite_grill_meat_thermometer_01185m
+Amazon Basics Meat Thermometer,Temperature & Humidity Sensors,Amazon,PCM,,,,,120,â€”,urh_ng,urh_amazon_basics_meat_thermometer
+Atech-WS308 temperature sensor,Temperature & Humidity Sensors,Atech-WS308,RZ,,,,,58,xor_bytes,urh_ng,urh_atech_ws308_temperature_sensor
+Auriol AFT 77 B2 temperature sensor,Temperature & Humidity Sensors,Auriol,PPM,,,,,68,add_bytes,urh_ng,urh_auriol_aft_77_b2_temperature_sensor
+Auriol AFW2A1 temperature/humidity sensor,Temperature & Humidity Sensors,Auriol,PPM,,,,,36,â€”,urh_ng,urh_auriol_afw2a1_temperature_humidity_sensor
+Auriol AHFL temperature/humidity sensor,Temperature & Humidity Sensors,Auriol,PPM,,,,,42,â€”,urh_ng,urh_auriol_ahfl_temperature_humidity_sensor
+"Auriol HG02832, HG05124A-DCF, Rubicson 48957 temperature/humidity sensor",Temperature & Humidity Sensors,Auriol,PWM,,,,,40,crc8,urh_ng,urh_auriol_hg02832__hg05124a_dcf__rubicson_48957_tempe
+Baldr E0666TH Thermo-Hygrometer,Temperature & Humidity Sensors,Baldr,PPM,,,,,65,â€”,urh_ng,urh_baldr_e0666th_thermo_hygrometer
+Bresser Thermo-/Hygro-Sensor 3CH,Temperature & Humidity Sensors,Bresser,PWM,,,,,42,â€”,urh_ng,urh_bresser_thermo__hygro_sensor_3ch
+Bresser Thermo-/Hygro-Sensor Explore Scientific ST1005H,Temperature & Humidity Sensors,Bresser,PPM,,,,,38,â€”,urh_ng,urh_bresser_thermo__hygro_sensor_explore_scientific_st
+Burnhard BBQ thermometer,Temperature & Humidity Sensors,Burnhard,PWM,,,,,81,lfsr_digest8_reflect,urh_ng,urh_burnhard_bbq_thermometer
+Celsia CZC1 Thermostat,Temperature & Humidity Sensors,Celsia,PCM,,,,,144,crc8,urh_ng,urh_celsia_czc1_thermostat
+Companion WTR001 Temperature Sensor,Temperature & Humidity Sensors,Companion,PWM,,,,,14,parity_bytes,urh_ng,urh_companion_wtr001_temperature_sensor
+"Conrad S3318P, FreeTec NC-5849-913 temperature humidity sensor, ORIA WA50 ST389 temperature sensor",Temperature & Humidity Sensors,Conrad,PPM,,,,,42,crc4,urh_ng,urh_conrad_s3318p__freetec_nc_5849_913_temperature_hum
+Danfoss CFR Thermostat,Temperature & Humidity Sensors,Danfoss,FSK,PCM,,,,â€”,crc16,urh_ng,urh_danfoss_cfr_thermostat
+Ecowitt Wireless Outdoor Thermometer WH53/WH0280/WH0281A,Temperature & Humidity Sensors,Ecowitt,PWM,,,,,â€”,crc8,urh_ng,urh_ecowitt_wireless_outdoor_thermometer_wh53_wh0280_w
+Emos TTX201 Temperature Sensor,Temperature & Humidity Sensors,Emos,MANCHESTER,,,,,â€”,â€”,urh_ng,urh_emos_ttx201_temperature_sensor
+Eurochron EFTH-800 temperature and humidity sensor,Temperature & Humidity Sensors,Eurochron,PWM,,,,,65,crc8,urh_ng,urh_eurochron_efth_800_temperature_and_humidity_sensor
+Eurochron temperature and humidity sensor,Temperature & Humidity Sensors,Eurochron,PPM,,,,,36,â€”,urh_ng,urh_eurochron_temperature_and_humidity_sensor
+FT-004-B Temperature Sensor,Temperature & Humidity Sensors,FT-004-B,PPM,,,,,138,â€”,urh_ng,urh_ft_004_b_temperature_sensor
+Fine Offset Electronics WN34S/L/D and Froggit DP150/D35 temperature sensor,Temperature & Humidity Sensors,Fine Offset,FSK,PCM,,,,â€”,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_wn34s_l_d_and_froggit_dp15
+"Fine Offset Electronics, WH25, WH32, WH32B, WN32B, WH24, WH65B, HP1000, Misol WS2320 Temperature/Humidity/Pressure Sensor",Temperature & Humidity Sensors,Fine Offset,FSK,PCM,,,,510,"add_bytes,crc8,xor_bytes",urh_ng,urh_fine_offset_electronics__wh25__wh32__wh32b__wn32b_
+"Fine Offset Electronics/Ecowitt WH51, WN31, SwitchDoc Labs SM23 Soil Moisture Sensor",Temperature & Humidity Sensors,Fine Offset,FSK,PCM,,,,510,"add_bytes,crc8,xor_bytes",urh_ng,urh_fine_offset_electronics_ecowitt_wh51__wn31__switch
+Gasmate BA1008 meat thermometer,Temperature & Humidity Sensors,Gasmate,PPM,,,,,32,â€”,urh_ng,urh_gasmate_ba1008_meat_thermometer
+Generic temperature sensor 1,Temperature & Humidity Sensors,Generic,PPM,,,,,24,â€”,urh_ng,urh_generic_temperature_sensor_1
+"Homelead HG9901 (Geevon, Dr.Meter, Royal Gardineer) soil moisture/temp/light level sensor",Temperature & Humidity Sensors,Homelead,PWM,,,,,65,â€”,urh_ng,urh_homelead_hg9901__geevon__dr_meter__royal_gardineer
+Honeywell CM921 Wireless Programmable Room Thermostat,Temperature & Humidity Sensors,Honeywell,FSK,PCM,,,,60,add_bytes,urh_ng,urh_honeywell_cm921_wireless_programmable_room_thermos
+Hyundai WS SENZOR Remote Temperature Sensor,Temperature & Humidity Sensors,Hyundai,PPM,,,,,â€”,â€”,urh_ng,urh_hyundai_ws_senzor_remote_temperature_sensor
+Inkbird ITH-20R temperature humidity sensor,Temperature & Humidity Sensors,Inkbird,FSK,PCM,,,,14563,crc16lsb,urh_ng,urh_inkbird_ith_20r_temperature_humidity_sensor
+"Kedsum Temperature & Humidity Sensor, Pearl NC-7415",Temperature & Humidity Sensors,Kedsum,PPM,,,,,42,crc4,urh_ng,urh_kedsum_temperature___humidity_sensor__pearl_nc_741
+LaCrosse TX Temperature / Humidity Sensor,Temperature & Humidity Sensors,LaCrosse,PWM,,,,,44,â€”,urh_ng,urh_lacrosse_tx_temperature___humidity_sensor
+"LaCrosse TX29IT, TFA Dostmann 30.3159.IT Temperature sensor",Temperature & Humidity Sensors,LaCrosse,FSK,PCM,,,,â€”,crc8,urh_ng,urh_lacrosse_tx29it__tfa_dostmann_30_3159_it_temperatu
+"LaCrosse TX35DTH-IT, TFA Dostmann 30.3155 Temperature/Humidity sensor",Temperature & Humidity Sensors,LaCrosse,FSK,PCM,,,,â€”,crc8,urh_ng,urh_lacrosse_tx35dth_it__tfa_dostmann_30_3155_temperat
+LaCrosse Technology View LTV-TH Thermo/Hygro Sensor,Temperature & Humidity Sensors,LaCrosse,FSK,PCM,,,,290,crc8,urh_ng,urh_lacrosse_technology_view_ltv_th_thermo_hygro_senso
+"Nexus, CRX, Prego sauna temperature sensor",Temperature & Humidity Sensors,Nexus,PPM,,,,,37,â€”,urh_ng,urh_nexus__crx__prego_sauna_temperature_sensor
+"Nexus, FreeTec NC-7345, NX-3980, Solight TE82S, TFA 30.3209 temperature/humidity sensor",Temperature & Humidity Sensors,TFA,PPM,,,,,37,â€”,urh_ng,urh_nexus__freetec_nc_7345__nx_3980__solight_te82s__tf
+OSv1 Temperature Sensor,Temperature & Humidity Sensors,OSv1,PWM_OSV1,,,,,â€”,â€”,urh_ng,urh_osv1_temperature_sensor
+Opus/Imagintronix XT300 Soil Moisture,Temperature & Humidity Sensors,Opus/Imagintronix,PWM,,,,,48,add_bytes,urh_ng,urh_opus_imagintronix_xt300_soil_moisture
+Oregon Scientific SL109H Remote Thermal Hygro Sensor,Temperature & Humidity Sensors,Oregon Scientific,PPM,,,,,38,â€”,urh_ng,urh_oregon_scientific_sl109h_remote_thermal_hygro_sens
+Oria WA150KM freezer and fridge thermometer,Temperature & Humidity Sensors,Oria,PCM,,,,,227,â€”,urh_ng,urh_oria_wa150km_freezer_and_fridge_thermometer
+Philips outdoor temperature sensor (type AJ3650),Temperature & Humidity Sensors,Philips,PWM,,,,,112,crc4,urh_ng,urh_philips_outdoor_temperature_sensor__type_aj3650_
+Philips outdoor temperature sensor (type AJ7010),Temperature & Humidity Sensors,Philips,PWM,,,,,40,xor_bytes,urh_ng,urh_philips_outdoor_temperature_sensor__type_aj7010_
+"Prologue, FreeTec NC-7104, NC-7159-675 temperature sensor",Temperature & Humidity Sensors,"Prologue,",PPM,,,,,37,â€”,urh_ng,urh_prologue__freetec_nc_7104__nc_7159_675_temperature
+Rubicson 48659 Thermometer,Temperature & Humidity Sensors,Rubicson,PPM,,,,,33,add_bytes,urh_ng,urh_rubicson_48659_thermometer
+Rubicson Pool Thermometer 48942,Temperature & Humidity Sensors,Rubicson,PWM,,,,,41,crc8,urh_ng,urh_rubicson_pool_thermometer_48942
+"Rubicson, TFA 30.3197 or InFactory PT-310 Temperature Sensor",Temperature & Humidity Sensors,TFA,PPM,,,,,38,crc8,urh_ng,urh_rubicson__tfa_30_3197_or_infactory_pt_310_temperat
+Springfield Temperature and Soil Moisture,Temperature & Humidity Sensors,Springfield,PPM,,,,,37,xor_bytes,urh_ng,urh_springfield_temperature_and_soil_moisture
+TFA Dostmann 14.1504.V2 Radio-controlled grill and meat thermometer,Temperature & Humidity Sensors,TFA,FSK,PCM,,,,â€”,lfsr_digest16,urh_ng,urh_tfa_dostmann_14_1504_v2_radio_controlled_grill_and
+TFA Marbella Pool Thermometer,Temperature & Humidity Sensors,TFA,FSK,PCM,,,,â€”,lfsr_digest8_reflect,urh_ng,urh_tfa_marbella_pool_thermometer
+TFA pool temperature sensor,Temperature & Humidity Sensors,TFA,PPM,,,,,28,â€”,urh_ng,urh_tfa_pool_temperature_sensor
+TS-FT002 Wireless Ultrasonic Tank Liquid Level Meter With Temperature Sensor,Temperature & Humidity Sensors,TS-FT002,PPM,,,,,72,xor_bytes,urh_ng,urh_ts_ft002_wireless_ultrasonic_tank_liquid_level_met
+"ThermoPro Meat Thermometers, TP828B 2 probes with Temp, BBQ Target LO and HI",Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,96,lfsr_digest8,urh_ng,urh_thermopro_meat_thermometers__tp828b_2_probes_with_
+"ThermoPro Meat Thermometers, TP829B 4 probes with temp only",Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,96,lfsr_digest8,urh_ng,urh_thermopro_meat_thermometers__tp829b_4_probes_with_
+ThermoPro TP08/TP12/TP20 thermometer,Temperature & Humidity Sensors,ThermoPro,PPM,,,,,â€”,lfsr_digest8_reflect,urh_ng,urh_thermopro_tp08_tp12_tp20_thermometer
+ThermoPro TP211B Thermometer,Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,64,â€”,urh_ng,urh_thermopro_tp211b_thermometer
+ThermoPro TP28b Super Long Range Wireless Meat Thermometer for Smoker BBQ Grill,Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,144,add_bytes,urh_ng,urh_thermopro_tp28b_super_long_range_wireless_meat_the
+ThermoPro TP862b TempSpike XR Wireless Dual-Probe Meat Thermometer,Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,72,crc8,urh_ng,urh_thermopro_tp862b_tempspike_xr_wireless_dual_probe_
+ThermoPro TX-2C Thermometer and Humidity sensor,Temperature & Humidity Sensors,ThermoPro,PPM,,,,,45,â€”,urh_ng,urh_thermopro_tx_2c_thermometer_and_humidity_sensor
+ThermoPro TX-7B Outdoor Thermometer Hygrometer,Temperature & Humidity Sensors,ThermoPro,FSK,PCM,,,,72,lfsr_digest8_reverse,urh_ng,urh_thermopro_tx_7b_outdoor_thermometer_hygrometer
+ThermoPro-TX2 temperature sensor,Temperature & Humidity Sensors,ThermoPro,PPM,,,,,37,â€”,urh_ng,urh_thermopro_tx2_temperature_sensor
+Thermopro TP11 Thermometer,Temperature & Humidity Sensors,ThermoPro,PPM,,,,,33,lfsr_digest8_reflect,urh_ng,urh_thermopro_tp11_thermometer
+WEC-2103 temperature/humidity sensor,Temperature & Humidity Sensors,WEC-2103,PPM,,,,,42,crc4,urh_ng,urh_wec_2103_temperature_humidity_sensor
+WG-PB12V1 Temperature Sensor,Temperature & Humidity Sensors,WG-PB12V1,PWM,,,,,48,crc8,urh_ng,urh_wg_pb12v1_temperature_sensor
+WT0124 Pool Thermometer,Temperature & Humidity Sensors,WT0124,PWM,,,,,49,"add_bytes,xor_bytes",urh_ng,urh_wt0124_pool_thermometer
+WallarGe CLTX001 Outdoor Temperature Sensor,Temperature & Humidity Sensors,WallarGe,PWM,,,,,â€”,"add_bytes,parity8",urh_ng,urh_wallarge_cltx001_outdoor_temperature_sensor
+Watts WFHT-RF Thermostat,Temperature & Humidity Sensors,Watts,PWM,,,,,54,add_bytes,urh_ng,urh_watts_wfht_rf_thermostat
+"inFactory, nor-tec, FreeTec NC-3982-913 temperature humidity sensor",Temperature & Humidity Sensors,,PPM,,,,,40,crc4,urh_ng,urh_infactory__nor_tec__freetec_nc_3982_913_temperatur
+AVE TPMS,TPMS (Tire Pressure),AVE,FSK,PCM,,,,64,crc8,urh_ng,urh_ave_tpms
+Abarth 124 Spider TPMS,TPMS (Tire Pressure),Abarth,FSK,PCM,,,,72,xor_bytes,urh_ng,urh_abarth_124_spider_tpms
+Airpuxem TPMS TYH11_EU6_ZQ,TPMS (Tire Pressure),Airpuxem,FSK,PCM,,,,84,crc8,urh_ng,urh_airpuxem_tpms_tyh11_eu6_zq
+BMW Gen2 and Gen3 TPMS,TPMS (Tire Pressure),BMW,FSK,PCM,,,,â€”,crc16,urh_ng,urh_bmw_gen2_and_gen3_tpms
+"BMW Gen4-Gen5 TPMS and Audi TPMS Pressure Alert, multi-brand HUF/Beru, Continental, Schrader/Sensata, Audi",TPMS (Tire Pressure),Schrader,FSK,PCM,,,,88,crc8,urh_ng,urh_bmw_gen4_gen5_tpms_and_audi_tpms_pressure_alert__m
+Citroen TPMS,TPMS (Tire Pressure),Citroen,FSK,PCM,,,,80,â€”,urh_ng,urh_citroen_tpms
+"EezTire E618, Carchet TPMS, TST-507 TPMS",TPMS (Tire Pressure),EezTire,MANCHESTER,,,,,â€”,add_bytes,urh_ng,urh_eeztire_e618__carchet_tpms__tst_507_tpms
+Elantra2012 TPMS,TPMS (Tire Pressure),Elantra2012,FSK,PCM,,,,64,crc8,urh_ng,urh_elantra2012_tpms
+Ford TPMS,TPMS (Tire Pressure),Ford,FSK,PCM,,,,64,â€”,urh_ng,urh_ford_tpms
+GM-Aftermarket TPMS,TPMS (Tire Pressure),GM-Aftermarket,MANCHESTER,,,,,130,â€”,urh_ng,urh_gm_aftermarket_tpms
+Hyundai TPMS (VDO),TPMS (Tire Pressure),Hyundai,FSK,PCM,,,,80,crc8,urh_ng,urh_hyundai_tpms__vdo_
+Jansite TPMS Model Solar,TPMS (Tire Pressure),Jansite,FSK,PCM,,,,88,crc16,urh_ng,urh_jansite_tpms_model_solar
+Jansite TPMS Model TY02S,TPMS (Tire Pressure),Jansite,FSK,PCM,,,,56,â€”,urh_ng,urh_jansite_tpms_model_ty02s
+Kia TPMS (-s 1000k),TPMS (Tire Pressure),Kia,FSK,PCM,,,,â€”,crc8,urh_ng,urh_kia_tpms___s_1000k_
+Nissan TPMS,TPMS (Tire Pressure),Nissan,FSK,PCM,,,,37,â€”,urh_ng,urh_nissan_tpms
+PMV-107J (Toyota) TPMS,TPMS (Tire Pressure),Toyota,FSK,PCM,,,,â€”,crc8,urh_ng,urh_pmv_107j__toyota__tpms
+Porsche Boxster/Cayman TPMS,TPMS (Tire Pressure),Porsche,FSK,PCM,,,,80,crc16,urh_ng,urh_porsche_boxster_cayman_tpms
+Renault 0435R TPMS,TPMS (Tire Pressure),Renault,FSK,PCM,,,,72,xor_bytes,urh_ng,urh_renault_0435r_tpms
+Renault TPMS,TPMS (Tire Pressure),Renault,FSK,PCM,,,,72,crc8,urh_ng,urh_renault_tpms
+Schrader TPMS,TPMS (Tire Pressure),Schrader,MANCHESTER,,,,,120,"add_bytes,crc8,xor_bytes",urh_ng,urh_schrader_tpms
+"Schrader TPMS EG53MA4, Saab, Opel, Vauxhall, Chevrolet",TPMS (Tire Pressure),Schrader,MANCHESTER,,,,,120,"add_bytes,crc8,xor_bytes",urh_ng,urh_schrader_tpms_eg53ma4__saab__opel__vauxhall__chevr
+"Schrader TPMS SMD3MA4 (Subaru) 3039 (Infiniti, Nissan, Renault)",TPMS (Tire Pressure),Schrader,PCM,,,,,120,"add_bytes,crc8,xor_bytes",urh_ng,urh_schrader_tpms_smd3ma4__subaru__3039__infiniti__nis
+Steelmate TPMS,TPMS (Tire Pressure),Steelmate,FSK,MANCHESTER,,,,â€”,add_bytes,urh_ng,urh_steelmate_tpms
+TRW TPMS FSK OEM and Clone models,TPMS (Tire Pressure),TRW,FSK,MANCHESTER,,,,â€”,crc8,urh_ng,urh_trw_tpms_fsk_oem_and_clone_models
+TRW TPMS OOK OEM and Clone models,TPMS (Tire Pressure),TRW,MANCHESTER,,,,,â€”,crc8,urh_ng,urh_trw_tpms_ook_oem_and_clone_models
+Toyota TPMS,TPMS (Tire Pressure),Toyota,FSK,PCM,,,,â€”,crc8,urh_ng,urh_toyota_tpms
+TyreGuard 400 TPMS,TPMS (Tire Pressure),TyreGuard,MANCHESTER,,,,,88,crc8,urh_ng,urh_tyreguard_400_tpms
+Unbranded SolarTPMS for trucks,TPMS (Tire Pressure),Unbranded,FSK,PCM,,,,76,xor_bytes,urh_ng,urh_unbranded_solartpms_for_trucks
+Apator Metra E-RM 30 water meter,Energy & Water Meters,Apator,FSK,PCM,,,,â€”,crc16,urh_ng,urh_apator_metra_e_rm_30_water_meter
+Arad/Master Meter Dialog3G water utility meter,Energy & Water Meters,Arad/Master,FSK,MANCHESTER,,,,168,â€”,urh_ng,urh_arad_master_meter_dialog3g_water_utility_meter
+"Badger ORION water meter, 100kbps (-f 916.45M -s 1200k)",Energy & Water Meters,Badger,FSK,PCM,,,,â€”,crc16,urh_ng,urh_badger_orion_water_meter__100kbps___f_916_45m__s_1
+BlueLine Innovations Power Cost Monitor,Energy & Water Meters,BlueLine,PPM,,,,,32,crc8,urh_ng,urh_blueline_innovations_power_cost_monitor
+Clipsal CMR113 Cent-a-meter power meter,Energy & Water Meters,Clipsal,PIWM_DC,,,,,450,â€”,urh_ng,urh_clipsal_cmr113_cent_a_meter_power_meter
+ERT Interval Data Message (IDM),Energy & Water Meters,ERT,MANCHESTER,,,,,720,crc16,urh_ng,urh_ert_interval_data_message__idm_
+ERT Interval Data Message (IDM) for Net Meters,Energy & Water Meters,ERT,MANCHESTER,,,,,720,crc16,urh_ng,urh_ert_interval_data_message__idm__for_net_meters
+ERT Standard Consumption Message (SCM),Energy & Water Meters,ERT,MANCHESTER,,,,,96,crc16,urh_ng,urh_ert_standard_consumption_message__scm_
+ESA1000 / ESA2000 Energy Monitor,Energy & Water Meters,ESA1000,MANCHESTER,,,,,160,â€”,urh_ng,urh_esa1000___esa2000_energy_monitor
+ESIC EMT7110 power meter,Energy & Water Meters,ESIC,FSK,PCM,,,,140,add_bytes,urh_ng,urh_esic_emt7110_power_meter
+Flowis flow meters,Energy & Water Meters,Flowis,FSK,PCM,,,,â€”,crc16,urh_ng,urh_flowis_flow_meters
+GEO minim+ energy monitor,Energy & Water Meters,GEO,FSK,PCM,,,,â€”,crc16,urh_ng,urh_geo_minim__energy_monitor
+IKEA Sparsnas Energy Meter Monitor,Energy & Water Meters,IKEA,FSK,PCM,,,,260,crc16,urh_ng,urh_ikea_sparsnas_energy_meter_monitor
+Jasco/GE Choice Alert Security Devices,Energy & Water Meters,Jasco/GE,PCM,,,,,87,â€”,urh_ng,urh_jasco_ge_choice_alert_security_devices
+Landis & Gyr Gridstream Power Meters 19.2k,Energy & Water Meters,Landis,FSK,PCM,,,,â€”,crc16,urh_ng,urh_landis___gyr_gridstream_power_meters_19_2k
+Landis & Gyr Gridstream Power Meters 38.4k,Energy & Water Meters,Landis,FSK,PCM,,,,â€”,crc16,urh_ng,urh_landis___gyr_gridstream_power_meters_38_4k
+Landis & Gyr Gridstream Power Meters 9.6k,Energy & Water Meters,Landis,FSK,PCM,,,,â€”,crc16,urh_ng,urh_landis___gyr_gridstream_power_meters_9_6k
+Mueller Hot Rod water meter,Energy & Water Meters,Mueller,FSK,PCM,,,,96,crc8,urh_ng,urh_mueller_hot_rod_water_meter
+Neptune R900 flow meters,Energy & Water Meters,Neptune,PCM,,,,,168,â€”,urh_ng,urh_neptune_r900_flow_meters
+"Orion Endpoint from Badger Meter, GIF2014W-OSE, water meter, hopping from 904.4 Mhz to 924.6Mhz (-s 1600k)",Energy & Water Meters,Orion,FSK,PCM,,,,290,crc16,urh_ng,urh_orion_endpoint_from_badger_meter__gif2014w_ose__wa
+"Orion Endpoint from Badger Meter, GIF2020OCECNA, water meter, hopping from 904.4 Mhz to 924.6Mhz (-s 1600k)",Energy & Water Meters,Orion,FSK,PCM,,,,290,crc16,urh_ng,urh_orion_endpoint_from_badger_meter__gif2020ocecna__w
+Revolt NC-5642 Energy Meter,Energy & Water Meters,Revolt,PWM,,,,,104,add_bytes,urh_ng,urh_revolt_nc_5642_energy_meter
+Revolt ZX-7717 power meter,Energy & Water Meters,Revolt,MANCHESTER,,,,,â€”,add_bytes,urh_ng,urh_revolt_zx_7717_power_meter
+Standard Consumption Message Plus (SCMplus),Energy & Water Meters,Standard,MANCHESTER,,,,,128,crc16,urh_ng,urh_standard_consumption_message_plus__scmplus_
+Visonic powercode,Energy & Water Meters,Visonic,PWM,,,,,37,xor_bytes,urh_ng,urh_visonic_powercode
+emonTx OpenEnergyMonitor,Energy & Water Meters,,FSK,PCM,,,,â€”,crc16lsb,urh_ng,urh_emontx_openenergymonitor
+"Markisol, E-Motion, BOFU, Rollerhouse, BF-30x, BF-415 curtain remote",Home Automation & Blinds,"Markisol,",PWM,,,,,42,â€”,urh_ng,urh_markisol__e_motion__bofu__rollerhouse__bf_30x__bf_
+RojaFlex shutter and remote devices,Home Automation & Blinds,RojaFlex,FSK,PCM,,,,â€”,crc16,urh_ng,urh_rojaflex_shutter_and_remote_devices
+Somfy RTS,Home Automation & Blinds,Somfy,PCM,,,,,170,xor_bytes,urh_ng,urh_somfy_rts
+Somfy io-homecontrol,Home Automation & Blinds,Somfy,FSK,PCM,,,,â€”,crc16lsb,urh_ng,urh_somfy_io_homecontrol
+Universal (Reverseable) 24V Fan Controller,Home Automation & Blinds,Universal,PWM,,,,,33,xor_bytes,urh_ng,urh_universal__reverseable__24v_fan_controller
+Bresser water leakage,Smoke & Security Alarms,Bresser,FSK,PCM,,,,440,crc16,urh_ng,urh_bresser_water_leakage
+"Cavius smoke, heat and water detector",Smoke & Security Alarms,Cavius,FSK,PCM,,,,11,crc8le,urh_ng,urh_cavius_smoke__heat_and_water_detector
+Chuango Security Technology,Smoke & Security Alarms,Chuango,PWM,,,,,25,â€”,urh_ng,urh_chuango_security_technology
+DSC Security Contact,Smoke & Security Alarms,DSC,RZ,,,,,70,crc8le,urh_ng,urh_dsc_security_contact
+DSC Security Contact (WS4945),Smoke & Security Alarms,DSC,RZ,,,,,70,crc8le,urh_ng,urh_dsc_security_contact__ws4945_
+Elro DB286A Doorbell,Smoke & Security Alarms,Elro,PWM,,,,,33,â€”,urh_ng,urh_elro_db286a_doorbell
+Fine Offset / Ecowitt WH55 water leak sensor,Smoke & Security Alarms,Fine Offset,FSK,PCM,,,,96,crc8,urh_ng,urh_fine_offset___ecowitt_wh55_water_leak_sensor
+Geevon TX16-3 outdoor sensor,Smoke & Security Alarms,Geevon,PWM,,,,,73,crc8,urh_ng,urh_geevon_tx16_3_outdoor_sensor
+Geevon TX19-1 outdoor sensor,Smoke & Security Alarms,Geevon,PWM,,,,,73,lfsr_digest8_reverse,urh_ng,urh_geevon_tx19_1_outdoor_sensor
+Generic wireless motion sensor,Smoke & Security Alarms,Generic,PWM,,,,,20,â€”,urh_ng,urh_generic_wireless_motion_sensor
+Govee Water Leak Detector H5054,Smoke & Security Alarms,Govee,PWM,,,,,48,"crc16,xor_bytes",urh_ng,urh_govee_water_leak_detector_h5054
+"Govee Water Leak Detector H5054, Door Contact Sensor B5023",Smoke & Security Alarms,Govee,PWM,,,,,48,"crc16,xor_bytes",urh_ng,urh_govee_water_leak_detector_h5054__door_contact_sens
+"Honeywell ActivLink, Wireless Doorbell",Smoke & Security Alarms,Honeywell,PWM,,,,,48,parity_bytes,urh_ng,urh_honeywell_activlink__wireless_doorbell
+"Honeywell ActivLink, Wireless Doorbell (FSK)",Smoke & Security Alarms,Honeywell,FSK,PWM,,,,48,parity_bytes,urh_ng,urh_honeywell_activlink__wireless_doorbell__fsk_
+Interlogix GE UTC Security Devices,Smoke & Security Alarms,Interlogix,PPM,,,,,64,â€”,urh_ng,urh_interlogix_ge_utc_security_devices
+SimpliSafe Gen 3 Home Security System,Smoke & Security Alarms,SimpliSafe,FSK,PCM,,,,216,crc16,urh_ng,urh_simplisafe_gen_3_home_security_system
+SimpliSafe Home Security System (May require disabling automatic gain for KeyPad decodes),Smoke & Security Alarms,SimpliSafe,PIWM_DC,,,,,92,â€”,urh_ng,urh_simplisafe_home_security_system__may_require_disab
+TFA Dostmann 30.3196 T/H outdoor sensor,Smoke & Security Alarms,TFA,FSK,MANCHESTER,,,,48,lfsr_digest16,urh_ng,urh_tfa_dostmann_30_3196_t_h_outdoor_sensor
+TFA Dostmann 30.3221.02 T/H Outdoor Sensor (also 30.3249.02),Smoke & Security Alarms,TFA,PWM,,,,,41,lfsr_digest8_reflect,urh_ng,urh_tfa_dostmann_30_3221_02_t_h_outdoor_sensor__also_3
+Wireless Smoke and Heat Detector GS 558,Smoke & Security Alarms,Wireless,PWM,,,,,27,â€”,urh_ng,urh_wireless_smoke_and_heat_detector_gs_558
+X10 Security,Smoke & Security Alarms,X10,PPM,,,,,41,â€”,urh_ng,urh_x10_security
+"Yale HSA (Home Security Alarm), YES-Alarmkit",Smoke & Security Alarms,Yale,PWM,,,,,13,add_bytes,urh_ng,urh_yale_hsa__home_security_alarm___yes_alarmkit
+Globaltronics QUIGG GT-TMBBQ-05,BBQ & Kitchen Thermometers,Globaltronics,PPM,,,,,33,parity_bytes,urh_ng,urh_globaltronics_quigg_gt_tmbbq_05
+Maverick ET-732/733 BBQ Sensor,BBQ & Kitchen Thermometers,Maverick,MANCHESTER,,,,,104,lfsr_digest16,urh_ng,urh_maverick_et_732_733_bbq_sensor
+Maverick XR-30 BBQ Sensor,BBQ & Kitchen Thermometers,Maverick,FSK,PCM,,,,104,lfsr_digest16,urh_ng,urh_maverick_xr_30_bbq_sensor
+Maverick XR-50 BBQ Sensor,BBQ & Kitchen Thermometers,Maverick,FSK,PCM,,,,184,crc8,urh_ng,urh_maverick_xr_50_bbq_sensor
+ANT and ANT+ devices,Other Sensors & Devices,ANT,FSK,PCM,,,,200,crc16,urh_ng,urh_ant_and_ant__devices
+Akhan 100F14 remote keyless entry,Other Sensors & Devices,Akhan,PWM,,,,,25,â€”,urh_ng,urh_akhan_100f14_remote_keyless_entry
+Apator Metra E-ITN 30 heat cost allocator,Other Sensors & Devices,Apator,FSK,PCM,,,,â€”,crc16,urh_ng,urh_apator_metra_e_itn_30_heat_cost_allocator
+"Arexx Multilogger IP-HA90, IP-TH78EXT, TSN-70E",Other Sensors & Devices,Arexx,FSK,MANCHESTER,,,,130,crc8le,urh_ng,urh_arexx_multilogger_ip_ha90__ip_th78ext__tsn_70e
+Blyss DC5-UK-WH,Other Sensors & Devices,Blyss,PWM,,,,,33,â€”,urh_ng,urh_blyss_dc5_uk_wh
+Brennenstuhl RCS 2044,Other Sensors & Devices,Brennenstuhl,PWM,,,,,â€”,â€”,urh_ng,urh_brennenstuhl_rcs_2044
+Bresser lightning,Other Sensors & Devices,Bresser,FSK,PCM,,,,440,lfsr_digest16,urh_ng,urh_bresser_lightning
+CED7000 Shot Timer,Other Sensors & Devices,CED7000,FSK,PCM,,,,â€”,â€”,urh_ng,urh_ced7000_shot_timer
+Calibeur RF-104 Sensor,Other Sensors & Devices,Calibeur,PWM,,,,,21,crc8,urh_ng,urh_calibeur_rf_104_sensor
+Cardin S466-TX2,Other Sensors & Devices,Cardin,PWM,,,,,24,â€”,urh_ng,urh_cardin_s466_tx2
+CurrentCost Current Sensor,Other Sensors & Devices,CurrentCost,FSK,PCM,,,,64,â€”,urh_ng,urh_currentcost_current_sensor
+DeltaDore X3D devices,Other Sensors & Devices,DeltaDore,FSK,PCM,,,,10,crc16,urh_ng,urh_deltadore_x3d_devices
+DirecTV RC66RX Remote Control,Other Sensors & Devices,DirecTV,FSK,PCM,,,,99,â€”,urh_ng,urh_directv_rc66rx_remote_control
+Dish remote 6.3,Other Sensors & Devices,Dish,PPM,,,,,16,â€”,urh_ng,urh_dish_remote_6_3
+ELV EM 1000,Other Sensors & Devices,ELV,PPM,,,,,â€”,â€”,urh_ng,urh_elv_em_1000
+ELV WS 2000,Other Sensors & Devices,ELV,PWM,,,,,â€”,â€”,urh_ng,urh_elv_ws_2000
+EcoDHOME Smart Socket and MCEE Solar monitor,Other Sensors & Devices,EcoDHOME,FSK,PCM,,,,128,add_bytes,urh_ng,urh_ecodhome_smart_socket_and_mcee_solar_monitor
+Efergy Optical,Other Sensors & Devices,Efergy,FSK,PWM,,,,â€”,crc16,urh_ng,urh_efergy_optical
+Efergy e2 classic,Other Sensors & Devices,Efergy,FSK,PWM,,,,â€”,add_bytes,urh_ng,urh_efergy_e2_classic
+EnOcean ERP1,Other Sensors & Devices,EnOcean,PCM,,,,,16,crc8,urh_ng,urh_enocean_erp1
+Esperanza EWS,Other Sensors & Devices,Esperanza,PPM,,,,,42,crc4,urh_ng,urh_esperanza_ews
+FS20 / FHT,Other Sensors & Devices,FS20,PWM,,,,,â€”,parity8,urh_ng,urh_fs20___fht
+Fine Offset Electronics WH43 air quality sensor,Other Sensors & Devices,Fine Offset,FSK,PCM,,,,â€”,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_wh43_air_quality_sensor
+Fine Offset Electronics WH45 air quality sensor,Other Sensors & Devices,Fine Offset,FSK,PCM,,,,240,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_wh45_air_quality_sensor
+Fine Offset Electronics WH46 air quality sensor,Other Sensors & Devices,Fine Offset,FSK,PCM,,,,â€”,"add_bytes,crc8",urh_ng,urh_fine_offset_electronics_wh46_air_quality_sensor
+"Funkbus / Instafunk (Berker, Gira, Jung)",Other Sensors & Devices,Funkbus,DMC,,,,,48,"parity8,xor_bytes",urh_ng,urh_funkbus___instafunk__berker__gira__jung_
+GE Color Effects,Other Sensors & Devices,,FSK,PCM,,,,17,â€”,urh_ng,urh_ge_color_effects
+Generic Remote SC226x EV1527,Other Sensors & Devices,Generic,PWM,,,,,â€”,â€”,urh_ng,urh_generic_remote_sc226x_ev1527
+Globaltronics GT-WT-02 Sensor,Other Sensors & Devices,Globaltronics,PPM,,,,,â€”,â€”,urh_ng,urh_globaltronics_gt_wt_02_sensor
+Globaltronics GT-WT-03 Sensor,Other Sensors & Devices,Globaltronics,PWM,,,,,â€”,â€”,urh_ng,urh_globaltronics_gt_wt_03_sensor
+HT680 Remote control,Other Sensors & Devices,HT680,PWM,,,,,41,â€”,urh_ng,urh_ht680_remote_control
+IBIS beacon,Other Sensors & Devices,IBIS,MANCHESTER,,,,,250,crc16,urh_ng,urh_ibis_beacon
+Insteon,Other Sensors & Devices,Insteon,FSK,PCM,,,,â€”,â€”,urh_ng,urh_insteon
+Intertechno 433,Other Sensors & Devices,Intertechno,PPM,,,,,â€”,â€”,urh_ng,urh_intertechno_433
+Kerui PIR / Contact Sensor,Other Sensors & Devices,Kerui,PWM,,,,,25,â€”,urh_ng,urh_kerui_pir___contact_sensor
+KlikAanKlikUit Wireless Switch,Other Sensors & Devices,KlikAanKlikUit,PPM,,,,,72,â€”,urh_ng,urh_klikaanklikuit_wireless_switch
+Klimalogg,Other Sensors & Devices,Klimalogg,NRZS,,,,,72,crc8,urh_ng,urh_klimalogg
+"LaCrosse TX141-Bv2, TX141TH-Bv2, TX141-Bv3, TX141W, TX145wsdth, (TFA, ORIA) sensor",Other Sensors & Devices,LaCrosse,PWM,,,,,64,"crc8,lfsr_digest8_reflect",urh_ng,urh_lacrosse_tx141_bv2__tx141th_bv2__tx141_bv3__tx141w
+LaCrosse Technology View LTV-WR1 Multi Sensor,Other Sensors & Devices,LaCrosse,FSK,PCM,,,,156,crc8,urh_ng,urh_lacrosse_technology_view_ltv_wr1_multi_sensor
+LightwaveRF,Other Sensors & Devices,LightwaveRF,PPM,,,,,91,â€”,urh_ng,urh_lightwaverf
+Marlec Solar iBoost+ sensors,Other Sensors & Devices,Marlec,FSK,PCM,,,,12,crc16,urh_ng,urh_marlec_solar_iboost__sensors
+Maverick ET73,Other Sensors & Devices,Maverick,PPM,,,,,48,â€”,urh_ng,urh_maverick_et73
+Mebus 433,Other Sensors & Devices,Mebus,PPM,,,,,â€”,â€”,urh_ng,urh_mebus_433
+Nexa,Other Sensors & Devices,Nexa,PPM,,,,,72,â€”,urh_ng,urh_nexa
+Norgo NGE101,Other Sensors & Devices,Norgo,DMC,,,,,72,xor_bytes,urh_ng,urh_norgo_nge101
+Oil Ultrasonic SMART FSK,Other Sensors & Devices,Oil,FSK,PCM,,,,64,crc8le,urh_ng,urh_oil_ultrasonic_smart_fsk
+Oil Ultrasonic STANDARD ASK,Other Sensors & Devices,Oil,PCM,,,,,40,â€”,urh_ng,urh_oil_ultrasonic_standard_ask
+Oil Ultrasonic STANDARD FSK,Other Sensors & Devices,Oil,FSK,PCM,,,,40,â€”,urh_ng,urh_oil_ultrasonic_standard_fsk
+Princeton PT2262/PT2264 remote,Other Sensors & Devices,Princeton,PWM,,,,,24,â€”,urh_ng,urh_princeton_pt2262_pt2264_remote
+Proove / Nexa / KlikAanKlikUit Wireless Switch,Other Sensors & Devices,Proove,PPM,,,,,64,â€”,urh_ng,urh_proove___nexa___klikaanklikuit_wireless_switch
+Quhwa,Other Sensors & Devices,Quhwa,PWM,,,,,18,â€”,urh_ng,urh_quhwa
+Quinetic,Other Sensors & Devices,Quinetic,FSK,PCM,,,,140,crc16,urh_ng,urh_quinetic
+RF-tech,Other Sensors & Devices,RF-tech,PPM,,,,,24,â€”,urh_ng,urh_rf_tech
+Radiohead ASK,Other Sensors & Devices,Radiohead,PCM,,,,,â€”,crc16lsb,urh_ng,urh_radiohead_ask
+Regency Ceiling Fan Remote (-f 303.75M to 303.96M),Other Sensors & Devices,Regency,PWM,,,,,â€”,â€”,urh_ng,urh_regency_ceiling_fan_remote___f_303_75m_to_303_96m_
+"Risco 2 Way Agility protocol, Risco PIR/PET Sensor RWX95P",Other Sensors & Devices,Risco,PCM,,,,,â€”,crc16,urh_ng,urh_risco_2_way_agility_protocol__risco_pir_pet_sensor
+Rosstech Digital Control Unit DCU-706/Sundance/Jacuzzi,Other Sensors & Devices,Rosstech,PCM,,,,,300,xor_bytes,urh_ng,urh_rosstech_digital_control_unit_dcu_706_sundance_jac
+SRSmith Pool Light Remote Control SRS-2C-TX (-f 915M),Other Sensors & Devices,SRSmith,FSK,PCM,,,,144,"crc16,crc8",urh_ng,urh_srsmith_pool_light_remote_control_srs_2c_tx___f_91
+Sensible Living Mini-Plant Moisture Sensor,Other Sensors & Devices,Sensible,PCM,,,,,â€”,crc16lsb,urh_ng,urh_sensible_living_mini_plant_moisture_sensor
+Silvercrest Remote Control,Other Sensors & Devices,Silvercrest,PWM,,,,,33,â€”,urh_ng,urh_silvercrest_remote_control
+SmartFire Proflame 2 remote control,Other Sensors & Devices,SmartFire,PCM,,,,,11,parity8,urh_ng,urh_smartfire_proflame_2_remote_control
+"Solight TE44/TE66, EMOS E0107T, NX-6876-917",Other Sensors & Devices,Emos,PPM,,,,,37,crc8,urh_ng,urh_solight_te44_te66__emos_e0107t__nx_6876_917
+"TFA-Twin-Plus-30.3049, Conrad KW9010, Ea2 BL999",Other Sensors & Devices,TFA,PPM,,,,,36,â€”,urh_ng,urh_tfa_twin_plus_30_3049__conrad_kw9010__ea2_bl999
+Template decoder,Other Sensors & Devices,Template,PPM,,,,,68,crc8,urh_ng,urh_template_decoder
+Vaillant calorMatic VRT340f Central Heating Control,Other Sensors & Devices,Vaillant,DMC,,,,,128,add_bytes,urh_ng,urh_vaillant_calormatic_vrt340f_central_heating_contro
+Vauno EN8822C,Other Sensors & Devices,Vauno,PPM,,,,,â€”,â€”,urh_ng,urh_vauno_en8822c
+"WT450, WT260H, WT405H",Other Sensors & Devices,"WT450,",DMC,,,,,36,xor_bytes,urh_ng,urh_wt450__wt260h__wt405h
+Watchman Sonic / Apollo Ultrasonic / Beckett Rocket oil tank monitor,Other Sensors & Devices,Watchman,FSK,PCM,,,,64,crc8le,urh_ng,urh_watchman_sonic___apollo_ultrasonic___beckett_rocke
+"Watchman Sonic Advanced / Plus, Tekelek",Other Sensors & Devices,Watchman,FSK,PCM,,,,â€”,crc16,urh_ng,urh_watchman_sonic_advanced___plus__tekelek
+Waveman Switch Transmitter,Other Sensors & Devices,Waveman,PWM,,,,,â€”,â€”,urh_ng,urh_waveman_switch_transmitter
+"Wireless M-Bus, Mode C&T, 100kbps (-f 868.95M -s 1200k)",Other Sensors & Devices,Wireless,FSK,PCM,,,,â€”,crc16,urh_ng,urh_wireless_m_bus__mode_c_t__100kbps___f_868_95m__s_1
+"Wireless M-Bus, Mode F, 2.4kbps",Other Sensors & Devices,Wireless,FSK,PCM,,,,â€”,crc16,urh_ng,urh_wireless_m_bus__mode_f__2_4kbps
+"Wireless M-Bus, Mode R, 4.8kbps (-f 868.33M)",Other Sensors & Devices,Wireless,FSK,MANCHESTER,,,,â€”,crc16,urh_ng,urh_wireless_m_bus__mode_r__4_8kbps___f_868_33m_
+"Wireless M-Bus, Mode S, 32.768kbps (-f 868.3M -s 1000k)",Other Sensors & Devices,Wireless,FSK,PCM,,,,â€”,crc16,urh_ng,urh_wireless_m_bus__mode_s__32_768kbps___f_868_3m__s_1
+"Wireless M-Bus, Mode T, 32.768kbps (-f 868.3M -s 1000k)",Other Sensors & Devices,Wireless,FSK,PCM,,,,â€”,crc16,urh_ng,urh_wireless_m_bus__mode_t__32_768kbps___f_868_3m__s_1
+X10 RF,Other Sensors & Devices,X10,PPM,,,,,32,â€”,urh_ng,urh_x10_rf
+bm5-v2 12V Battery Monitor,Other Sensors & Devices,,PWM,,,,,88,add_bytes,urh_ng,urh_bm5_v2_12v_battery_monitor
+HCS200/HCS300 (KeeLoq),Other Sensors & Devices,HCS200/HCS300,`encrypted(32) â†’ id(28) â†’ button(4) â†’ battery(1) â†’ repeat(1)`,,,,,LSB/BE,,urh_ng,urh_hcs200_hcs300__keeloq_
+KeeLoq Generic,Other Sensors & Devices,KeeLoq,`encrypted(32) â†’ id(28) â†’ button(4)`,,,,,LSB/BE,,urh_ng,urh_keeloq_generic
+FAAC SLH,Other Sensors & Devices,FAAC,`encrypted(32) â†’ id(28) â†’ button(4)`,,,,,LSB/BE,,urh_ng,urh_faac_slh
+NICE Flor-S,Other Sensors & Devices,NICE,`encrypted(32) â†’ id(16) â†’ button(4)`,,,,,MSB/BE,,urh_ng,urh_nice_flor_s
+CAME,Other Sensors & Devices,CAME,`id(8) â†’ button(4)`,,,,,MSB/BE,,urh_ng,urh_came
+Ford V0,Other Sensors & Devices,Ford,`id(32) â†’ button(4) â†’ counter(16) â†’ checksum(12)`,,,,,MSB/BE,,urh_ng,urh_ford_v0
+Fiat Marelli,Other Sensors & Devices,Fiat,`id(32) â†’ button(4) â†’ epoch(4) â†’ counter(8) â†’ encrypted(32)`,,,,,MSB/BE,,urh_ng,urh_fiat_marelli
+KIA V6,Other Sensors & Devices,Kia,`id(32) â†’ button(8) â†’ counter(32) â†’ encrypted(64) â†’ checksum(8)`,,,,,MSB/BE,,urh_ng,urh_kia_v6
+VAG VW/Audi,Other Sensors & Devices,VAG,`id(24) â†’ button(4) â†’ counter(20) â†’ encrypted(32)`,,,,,MSB/BE,,urh_ng,urh_vag_vw_audi
+Porsche Cayenne,Other Sensors & Devices,Porsche,`id(20) â†’ button(4) â†’ counter(16) â†’ encrypted(24)`,,,,,MSB/BE,,urh_ng,urh_porsche_cayenne
+Somfy Telis,Other Sensors & Devices,Somfy,`checksum(4) â†’ button(4) â†’ counter(16) â†’ id(24) â†’ data(8)`,,,,,MSB/BE,,urh_ng,urh_somfy_telis
+Princeton PT2262,Other Sensors & Devices,Princeton,`id(16) â†’ button(4) â†’ data(4)`,,,,,MSB/BE,,urh_ng,urh_princeton_pt2262
+6SC2 Car Remote (-f 315.1M),Remote/Keyfob,,OOK,,,250,,,,rtl433_src,six_sc_two_car_remote
+Alps FWB1U545 Car Remote,Remote/Keyfob,Alps,FSK,,,500,,,,rtl433_src,alps_fwb1u545_car_remote
+Astrostart 2000 Car Remote (-f 372.4M),Remote/Keyfob,Astrostart,OOK,,,326,526,,,rtl433_src,astrostart_2000
+Audiovox PRO-OE3B Car Remote (-f 303.4M),Remote/Keyfob,Audiovox,OOK,,,445,895,,,rtl433_src,audiovox_pro_oe3b
+Chrysler Car Remote (-f 315.1M -s 920k),Remote/Keyfob,Chrysler,OOK,,,350,350,,,rtl433_src,chrysler_car_remote
+Code Alarm FRDPC2002 Car Remote,Security/Alarm,Code,OOK,,,550,1100,,,rtl433_src,code_alarm_frdpc2000_car_remote
+Compustar 1WG3R Car Remote,Remote/Keyfob,Compustar,OOK,,,708,1076,,,rtl433_src,compustar_1wg3r
+Continental KR5V2X Car Remote (-f 313.8M -s 1024k),Remote/Keyfob,Continental,FSK,,,100,200,,,rtl433_src,continental_car_remote
+Voltcraft EnergyCount 3000 (ec3k),Other,Voltcraft,FSK,,,50,50,,,rtl433_src,ec3k
+GM ABO1502T Car Remote (-f 314.9M),Remote/Keyfob,,OOK,,,300,500,,,rtl433_src,gm_car_remote
+Govee Water Leak Detector H5059,Utility Meter,Govee,FSK,,,100,100,,,rtl433_src,govee_h5059
+"Microchip HCS361 KeeLoq Hopping Encoder based remotes (-f 315.1M) (Sync, 833 bit/s)",Remote/Keyfob,Microchip,OOK,,,400,800,,,rtl433_src,hcs361_txwak_0_bsel_0
+Nidec Car Remote (-f 313.8M -s 1024k),Remote/Keyfob,Nidec,FSK,,,250,500,,,rtl433_src,nidec_car_remote
+Siemens 5WY72XX Car Remote (-f 315.1M),Remote/Keyfob,Siemens,OOK,,,220,,,,rtl433_src,siemens_5wy72xx_car_remote
+Apator Metra E-RM 30,other,Apator,FSK,,,25,25,,,,apator_metra_erm30
+"Emax W6, rebrand Altronics x7063/4, Optex 990040/50/51, Orium 13093/13123, Infactory FWS-1200, Newentor Q9, Otio 810025, Protmex PT3390A, Jula Marquant 014331/32, TechniSat IMETEO X6 76-4924-00, Weather Station or temperature/humidity sensor",weather,Emax,FSK,,,90,90,,,,emax
+"Fine Offset Electronics/ECOWITT WH51, SwitchDoc Labs SM23 Soil Moisture Sensor",home_automation,Fine,FSK,,,58,58,,,,fineoffset_WH51
+BinRAW (Cable Satellite Boxes),Cable Satellite Boxes,BinRAW,FSK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
+CAME (Ceiling Fans),Ceiling Fans,CAME,OOK,,303875000,,,,,zero_sploit,zsploit_came_303875000
+Holtek_HT12X (Ceiling Fans),Ceiling Fans,Holtek_HT12X,OOK,,302757000,,,,,zero_sploit,zsploit_holtek_ht12x_302757000
+GateTX (Ceiling Fans),Ceiling Fans,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
+KeeLoq (Ceiling Fans),Ceiling Fans,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
+Princeton (Ceiling Fans),Ceiling Fans,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+CAME (Cooker Hoods),Cooker Hoods,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
+Princeton (Doorbells),Doorbells,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+CAME (Doorbells),Doorbells,CAME,OOK,,315000000,,,,,zero_sploit,zsploit_came_315000000
+Princeton (Fans),Fans,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
+Princeton (Fog Machine),Fog Machine,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
+Security+ 2.0 (Garages),Garages,Security+ 2.0,OOK,,390000000,,,,,zero_sploit,zsploit_security+_2.0_390000000
+Holtek (Gas Sign),Gas Sign,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
+MegaCode (Gates),Gates,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
+CAME (Gates),Gates,CAME,OOK,,868350000,,,,,zero_sploit,zsploit_came_868350000
+Princeton (Govee LED LightStrand),Govee LED LightStrand,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+Princeton (LED),LED,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+KeeLoq (LED),LED,KeeLoq,OOK,,434176948,,,,,zero_sploit,zsploit_keeloq_434176948
+Holtek_HT12X (LED),LED,Holtek_HT12X,OOK,,315000000,,,,,zero_sploit,zsploit_holtek_ht12x_315000000
+CAME (Misc),Misc,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
+CAME TWEE (Misc),Misc,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zsploit_came_twee_433920000
+KeeLoq (Misc),Misc,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
+Firefly (Misc),Misc,Firefly,OOK,,300000000,,,,,zero_sploit,zsploit_firefly_300000000
+GateTX (Misc),Misc,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
+Holtek (Misc),Misc,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
+Princeton (Misc),Misc,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+MegaCode (Misc),Misc,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
+Nice FLO (Misc),Misc,Nice FLO,OOK,,433920000,,,,,zero_sploit,zsploit_nice_flo_433920000
+Somfy Telis (Misc),Misc,Somfy Telis,OOK,,433500000,,,,,zero_sploit,zsploit_somfy_telis_433500000
+Ansonic (Misc),Misc,Ansonic,FSK,,433920000,,,,,zero_sploit,zsploit_ansonic_433920000
+Princeton (Motion Sensors),Motion Sensors,Princeton,OOK,,433889000,,,,,zero_sploit,zsploit_princeton_433889000
+Princeton (Multimedia),Multimedia,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+Holtek_HT12X (Multimedia),Multimedia,Holtek_HT12X,OOK,,305000000,,,,,zero_sploit,zsploit_holtek_ht12x_305000000
+Princeton (Remote Outlet Switches),Remote Outlet Switches,Princeton,OOK,,315000000,,,,,zero_sploit,zsploit_princeton_315000000
+Intertechno_V3 (Remote Outlet Switches),Remote Outlet Switches,Intertechno_V3,OOK,,433920000,,,,,zero_sploit,zsploit_intertechno_v3_433920000
+Princeton (Restaurant Pagers),Restaurant Pagers,Princeton,OOK,,434075000,,,,,zero_sploit,zsploit_princeton_434075000
+SMC5326 (Restaurant Pagers),Restaurant Pagers,SMC5326,OOK,,433920000,,,,,zero_sploit,zsploit_smc5326_433920000
+Princeton (Smart Home Remotes),Smart Home Remotes,Princeton,OOK,,433889000,,,,,zero_sploit,zsploit_princeton_433889000
+CAME (Untested),Untested,CAME,OOK,,433920000,,,,,zero_sploit,zsploit_came_433920000
+CAME TWEE (Untested),Untested,CAME TWEE,OOK,,433920000,,,,,zero_sploit,zsploit_came_twee_433920000
+KeeLoq (Untested),Untested,KeeLoq,OOK,,433920000,,,,,zero_sploit,zsploit_keeloq_433920000
+Firefly (Untested),Untested,Firefly,OOK,,300000000,,,,,zero_sploit,zsploit_firefly_300000000
+GateTX (Untested),Untested,GateTX,OOK,,433920000,,,,,zero_sploit,zsploit_gatetx_433920000
+Holtek (Untested),Untested,Holtek,OOK,,418000000,,,,,zero_sploit,zsploit_holtek_418000000
+MegaCode (Untested),Untested,MegaCode,OOK,,318000000,,,,,zero_sploit,zsploit_megacode_318000000
+Nice FLO (Untested),Untested,Nice FLO,OOK,,433920000,,,,,zero_sploit,zsploit_nice_flo_433920000
+Princeton (Untested),Untested,Princeton,OOK,,433920000,,,,,zero_sploit,zsploit_princeton_433920000
+BinRAW (Vacuum),Vacuum,BinRAW,OOK,,434100000,,,,,zero_sploit,zsploit_binraw_434100000
+BinRAW (WeVibe Unit 2),WeVibe Unit 2,BinRAW,OOK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
+TX141THBv2 (Weather stations),Weather stations,TX141THBv2,OOK,,433920000,,,,,zero_sploit,zsploit_tx141thbv2_433920000
+Nexus-TH (Weather stations),Weather stations,Nexus-TH,OOK,,433920000,,,,,zero_sploit,zsploit_nexus-th_433920000
+BinRAW (Weather stations),Weather stations,BinRAW,OOK,,433920000,,,,,zero_sploit,zsploit_binraw_433920000
