@@ -407,6 +407,87 @@ Secplus V2,Gate/Garage Remote,Secplus,OOK,,,250,500,,,unleashed_firmware,unleash
 Smc5326,Remote Control,Smc5326,OOK,,,300,900,,,unleashed_firmware,unleashed_smc5326
 Somfy Keytis,Blinds/Shutters,Somfy,OOK,,,640,1280,,,unleashed_firmware,unleashed_somfy_keytis
 Treadmill37,Fitness Equipment,Treadmill37,OOK,,,300,900,,,unleashed_firmware,unleashed_treadmill37
+Abbb23,Utility Meter,Abbb23,FSK,,868950000,,,,,wmbusmeters,wmbus_abbb23
+Aerius,Utility Meter,Aerius,FSK,,868950000,,,,,wmbusmeters,wmbus_aerius
+Amiplus,Utility Meter,Amiplus,FSK,,868950000,,,,,wmbusmeters,wmbus_amiplus
+Apator172,Utility Meter,Apator172,FSK,,868950000,,,,,wmbusmeters,wmbus_apator172
+Apatoreitn,Utility Meter,Apatoreitn,FSK,,868950000,,,,,wmbusmeters,wmbus_apatoreitn
+Apatorna1,Utility Meter,Apatorna1,FSK,,868950000,,,,,wmbusmeters,wmbus_apatorna1
+Auto,Utility Meter,Auto,FSK,,868950000,,,,,wmbusmeters,wmbus_auto
+Aventieshca,Utility Meter,Aventieshca,FSK,,868950000,,,,,wmbusmeters,wmbus_aventieshca
+Aventieswm,Utility Meter,Aventieswm,FSK,,868950000,,,,,wmbusmeters,wmbus_aventieswm
+Bfw240Radio,Utility Meter,Bfw240Radio,FSK,,868950000,,,,,wmbusmeters,wmbus_bfw240radio
+Cma12W,Utility Meter,Cma12W,FSK,,868950000,,,,,wmbusmeters,wmbus_cma12w
+Compact5,Utility Meter,Compact5,FSK,,868950000,,,,,wmbusmeters,wmbus_compact5
+Dme 07,Utility Meter,Dme,FSK,,868950000,,,,,wmbusmeters,wmbus_dme_07
+Dynamic,Utility Meter,Dynamic,FSK,,868950000,,,,,wmbusmeters,wmbus_dynamic
+Ebzwmbe,Utility Meter,Ebzwmbe,FSK,,868950000,,,,,wmbusmeters,wmbus_ebzwmbe
+Ehzp,Utility Meter,Ehzp,FSK,,868950000,,,,,wmbusmeters,wmbus_ehzp
+Ei6500,Utility Meter,Ei6500,FSK,,868950000,,,,,wmbusmeters,wmbus_ei6500
+Em24,Utility Meter,Em24,FSK,,868950000,,,,,wmbusmeters,wmbus_em24
+Emerlin868,Utility Meter,Emerlin868,FSK,,868950000,,,,,wmbusmeters,wmbus_emerlin868
+Enercal,Utility Meter,Enercal,FSK,,868950000,,,,,wmbusmeters,wmbus_enercal
+Engelmann-Faw,Utility Meter,Engelmann-Faw,FSK,,868950000,,,,,wmbusmeters,wmbus_engelmann-faw
+Esyswm,Utility Meter,Esyswm,FSK,,868950000,,,,,wmbusmeters,wmbus_esyswm
+Eurisii,Utility Meter,Eurisii,FSK,,868950000,,,,,wmbusmeters,wmbus_eurisii
+Ev200,Utility Meter,Ev200,FSK,,868950000,,,,,wmbusmeters,wmbus_ev200
+Evo868,Utility Meter,Evo868,FSK,,868950000,,,,,wmbusmeters,wmbus_evo868
+Fhkvdataiii,Utility Meter,Fhkvdataiii,FSK,,868950000,,,,,wmbusmeters,wmbus_fhkvdataiii
+Fhkvdataiv,Utility Meter,Fhkvdataiv,FSK,,868950000,,,,,wmbusmeters,wmbus_fhkvdataiv
+Gransystems,Utility Meter,Gransystems,FSK,,868950000,,,,,wmbusmeters,wmbus_gransystems
+Gwfwater,Water Meter,Gwfwater,FSK,,868950000,,,,,wmbusmeters,wmbus_gwfwater
+Hcae2,Utility Meter,Hcae2,FSK,,868950000,,,,,wmbusmeters,wmbus_hcae2
+Hydrocalm3,Utility Meter,Hydrocalm3,FSK,,868950000,,,,,wmbusmeters,wmbus_hydrocalm3
+Hydroclima,Utility Meter,Hydroclima,FSK,,868950000,,,,,wmbusmeters,wmbus_hydroclima
+Hydrodigit,Utility Meter,Hydrodigit,FSK,,868950000,,,,,wmbusmeters,wmbus_hydrodigit
+Hydrus,Utility Meter,Hydrus,FSK,,868950000,,,,,wmbusmeters,wmbus_hydrus
+Iem3000,Utility Meter,Iem3000,FSK,,868950000,,,,,wmbusmeters,wmbus_iem3000
+Itron,Utility Meter,Itron,FSK,,868950000,,,,,wmbusmeters,wmbus_itron
+Iwmtx5,Utility Meter,Iwmtx5,FSK,,868950000,,,,,wmbusmeters,wmbus_iwmtx5
+Izar,Utility Meter,Izar,FSK,,868950000,,,,,wmbusmeters,wmbus_izar
+Lansendw,Utility Meter,Lansendw,FSK,,868950000,,,,,wmbusmeters,wmbus_lansendw
+Lansenpu,Utility Meter,Lansenpu,FSK,,868950000,,,,,wmbusmeters,wmbus_lansenpu
+Lansenrp,Utility Meter,Lansenrp,FSK,,868950000,,,,,wmbusmeters,wmbus_lansenrp
+Lansensm,Utility Meter,Lansensm,FSK,,868950000,,,,,wmbusmeters,wmbus_lansensm
+Lansenth,Utility Meter,Lansenth,FSK,,868950000,,,,,wmbusmeters,wmbus_lansenth
+Lse 07 17,Utility Meter,Lse,FSK,,868950000,,,,,wmbusmeters,wmbus_lse_07_17
+Lse 08,Utility Meter,Lse,FSK,,868950000,,,,,wmbusmeters,wmbus_lse_08
+Microclima,Utility Meter,Microclima,FSK,,868950000,,,,,wmbusmeters,wmbus_microclima
+Mkradio3,Utility Meter,Mkradio3,FSK,,868950000,,,,,wmbusmeters,wmbus_mkradio3
+Mkradio3A,Utility Meter,Mkradio3A,FSK,,868950000,,,,,wmbusmeters,wmbus_mkradio3a
+Mkradio4,Utility Meter,Mkradio4,FSK,,868950000,,,,,wmbusmeters,wmbus_mkradio4
+Mkradio4A,Utility Meter,Mkradio4A,FSK,,868950000,,,,,wmbusmeters,wmbus_mkradio4a
+Munia,Utility Meter,Munia,FSK,,868950000,,,,,wmbusmeters,wmbus_munia
+Nemo,Utility Meter,Nemo,FSK,,868950000,,,,,wmbusmeters,wmbus_nemo
+Omnipower,Electric Meter,Omnipower,FSK,,868950000,,,,,wmbusmeters,wmbus_omnipower
+Piigth,Utility Meter,Piigth,FSK,,868950000,,,,,wmbusmeters,wmbus_piigth
+Pollucomf,Utility Meter,Pollucomf,FSK,,868950000,,,,,wmbusmeters,wmbus_pollucomf
+Q400,Utility Meter,Q400,FSK,,868950000,,,,,wmbusmeters,wmbus_q400
+Qcaloric,Utility Meter,Qcaloric,FSK,,868950000,,,,,wmbusmeters,wmbus_qcaloric
+Qheat,Heat Meter,Qheat,FSK,,868950000,,,,,wmbusmeters,wmbus_qheat
+Qheat 55 Us,Heat Meter,Qheat,FSK,,868950000,,,,,wmbusmeters,wmbus_qheat_55_us
+Qsmoke,Smoke Detector,Qsmoke,FSK,,868950000,,,,,wmbusmeters,wmbus_qsmoke
+Qualcosonic,Utility Meter,Qualcosonic,FSK,,868950000,,,,,wmbusmeters,wmbus_qualcosonic
+Qwater,Water Meter,Qwater,FSK,,868950000,,,,,wmbusmeters,wmbus_qwater
+Rfmtx1,Utility Meter,Rfmtx1,FSK,,868950000,,,,,wmbusmeters,wmbus_rfmtx1
+Sharky,Utility Meter,Sharky,FSK,,868950000,,,,,wmbusmeters,wmbus_sharky
+Sharky774,Utility Meter,Sharky774,FSK,,868950000,,,,,wmbusmeters,wmbus_sharky774
+Sontex868,Utility Meter,Sontex868,FSK,,868950000,,,,,wmbusmeters,wmbus_sontex868
+Supercom587,Utility Meter,Supercom587,FSK,,868950000,,,,,wmbusmeters,wmbus_supercom587
+Topaseskr,Utility Meter,Topaseskr,FSK,,868950000,,,,,wmbusmeters,wmbus_topaseskr
+Tsd2,Utility Meter,Tsd2,FSK,,868950000,,,,,wmbusmeters,wmbus_tsd2
+Ultraheat,Heat Meter,Ultraheat,FSK,,868950000,,,,,wmbusmeters,wmbus_ultraheat
+Ultrimis,Utility Meter,Ultrimis,FSK,,868950000,,,,,wmbusmeters,wmbus_ultrimis
+Unismart,Utility Meter,Unismart,FSK,,868950000,,,,,wmbusmeters,wmbus_unismart
+Unknown,Utility Meter,Unknown,FSK,,868950000,,,,,wmbusmeters,wmbus_unknown
+Vario411,Utility Meter,Vario411,FSK,,868950000,,,,,wmbusmeters,wmbus_vario411
+Vario451,Utility Meter,Vario451,FSK,,868950000,,,,,wmbusmeters,wmbus_vario451
+Vario451Mid,Utility Meter,Vario451Mid,FSK,,868950000,,,,,wmbusmeters,wmbus_vario451mid
+Waterstarm,Water Meter,Waterstarm,FSK,,868950000,,,,,wmbusmeters,wmbus_waterstarm
+Watertech,Water Meter,Watertech,FSK,,868950000,,,,,wmbusmeters,wmbus_watertech
+Weh 07,Utility Meter,Weh,FSK,,868950000,,,,,wmbusmeters,wmbus_weh_07
+Wme5,Utility Meter,Wme5,FSK,,868950000,,,,,wmbusmeters,wmbus_wme5
+Zenner0B,Utility Meter,Zenner0B,FSK,,868950000,,,,,wmbusmeters,wmbus_zenner0b
 6SC2 Car Remote (-f 315.1M),Remote/Keyfob,,OOK,,,250,,,,rtl433_src,six_sc_two_car_remote
 Alps FWB1U545 Car Remote,Remote/Keyfob,Alps,FSK,,,500,,,,rtl433_src,alps_fwb1u545_car_remote
 Astrostart 2000 Car Remote (-f 372.4M),Remote/Keyfob,Astrostart,OOK,,,326,526,,,rtl433_src,astrostart_2000
@@ -424,6 +505,8 @@ Siemens 5WY72XX Car Remote (-f 315.1M),Remote/Keyfob,Siemens,OOK,,,220,,,,rtl433
 Apator Metra E-RM 30,other,Apator,FSK,,,25,25,,,,apator_metra_erm30
 "Emax W6, rebrand Altronics x7063/4, Optex 990040/50/51, Orium 13093/13123, Infactory FWS-1200, Newentor Q9, Otio 810025, Protmex PT3390A, Jula Marquant 014331/32, TechniSat IMETEO X6 76-4924-00, Weather Station or temperature/humidity sensor",weather,Emax,FSK,,,90,90,,,,emax
 "Fine Offset Electronics/ECOWITT WH51, SwitchDoc Labs SM23 Soil Moisture Sensor",home_automation,Fine,FSK,,,58,58,,,,fineoffset_WH51
+Hormann Bisecur,Gate/Garage Remote,Hormann,OOK,,,208,416,,,roguemaster_firmware,roguemaster_hormann_bisecur
+X10,Other,X10,OOK,,,600,1800,,,roguemaster_firmware,roguemaster_x10
 BinRAW (Cable Satellite Boxes),Cable Satellite Boxes,BinRAW,FSK,,433920000,,,,,zero_sploit,zero_sploit_binraw_433920000
 CAME (Ceiling Fans),Ceiling Fans,CAME,OOK,,303875000,,,,,zero_sploit,zero_sploit_came_303875000
 Holtek_HT12X (Ceiling Fans),Ceiling Fans,Holtek_HT12X,OOK,,302757000,,,,,zero_sploit,zero_sploit_holtek_ht12x_302757000
@@ -495,3 +578,116 @@ KIA/HYU V2 (subghz),subghz,KIA/HYU V2,FSK,,433920000,,,,,rocketgod,rocketgod_kia
 KIA/HYU V5 (subghz),subghz,KIA/HYU V5,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v5_433920000
 KIA/HYU V6 (subghz),subghz,KIA/HYU V6,FSK,,433920000,,,,,rocketgod,rocketgod_kia/hyu_v6_433920000
 Faac SLH (subghz),subghz,Faac SLH,FSK,,433920000,,,,,rocketgod,rocketgod_faac_slh_433920000
+BinRAW (subghz),subghz,BinRAW,FSK,,433920000,,,,,skizzophrenic,skizzophrenic_binraw_433920000
+Somfy Telis (subghz),subghz,Somfy Telis,OOK,,433500000,,,,,skizzophrenic,skizzophrenic_somfy_telis_433500000
+Intertechno_V3 (subghz),subghz,Intertechno_V3,OOK,,433920000,,,,,skizzophrenic,skizzophrenic_intertechno_v3_433920000
+TX141THBv2 (subghz),subghz,TX141THBv2,OOK,,433920000,,,,,skizzophrenic,skizzophrenic_tx141thbv2_433920000
+Nexus-TH (subghz),subghz,Nexus-TH,OOK,,433920000,,,,,skizzophrenic,skizzophrenic_nexus-th_433920000
+BinRAW (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,BinRAW,FSK,,433920000,,,,,lillygo_collection,lillygo_collection_binraw_433920000
+CAME (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,CAME,OOK,,303875000,,,,,lillygo_collection,lillygo_collection_came_303875000
+Holtek_HT12X (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Holtek_HT12X,OOK,,302757000,,,,,lillygo_collection,lillygo_collection_holtek_ht12x_302757000
+GateTX (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,GateTX,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_gatetx_433920000
+KeeLoq (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,KeeLoq,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_keeloq_433920000
+Princeton (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Princeton,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_princeton_433920000
+Security+ 2.0 (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Security+ 2.0,OOK,,390000000,,,,,lillygo_collection,lillygo_collection_security+_2.0_390000000
+Holtek (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Holtek,OOK,,418000000,,,,,lillygo_collection,lillygo_collection_holtek_418000000
+MegaCode (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,MegaCode,OOK,,318000000,,,,,lillygo_collection,lillygo_collection_megacode_318000000
+CAME TWEE (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,CAME TWEE,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_came_twee_433920000
+Firefly (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Firefly,OOK,,300000000,,,,,lillygo_collection,lillygo_collection_firefly_300000000
+Nice FLO (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Nice FLO,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_nice_flo_433920000
+Somfy Telis (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Somfy Telis,OOK,,433500000,,,,,lillygo_collection,lillygo_collection_somfy_telis_433500000
+Ansonic (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Ansonic,FSK,,433920000,,,,,lillygo_collection,lillygo_collection_ansonic_433920000
+Intertechno_V3 (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Intertechno_V3,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_intertechno_v3_433920000
+SMC5326 (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,SMC5326,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_smc5326_433920000
+TX141THBv2 (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,TX141THBv2,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_tx141thbv2_433920000
+Nexus-TH (Lillygo T Embed CC1101 Subghz),Lillygo T Embed CC1101 Subghz,Nexus-TH,OOK,,433920000,,,,,lillygo_collection,lillygo_collection_nexus-th_433920000
+Buick Key Fob (315 MHz),Automotive Key Fob,Buick,OOK,,315000000,,,,,keyfob_db,keyfob_buick_315
+Cadillac Key Fob (noRecord MHz),Automotive Key Fob,Cadillac,OOK,,,,,,,keyfob_db,keyfob_cadillac_noRecord
+Nissan Key Fob (315 MHz),Automotive Key Fob,Nissan,OOK,,315000000,,,,,keyfob_db,keyfob_nissan_315
+Infiniti Key Fob (315 MHz),Automotive Key Fob,Infiniti,OOK,,315000000,,,,,keyfob_db,keyfob_infiniti_315
+Ford Key Fob (314.5/315.5 MHz),Automotive Key Fob,Ford,OOK,,,,,,,keyfob_db,keyfob_ford_314.5/315.5
+Toyota Key Fob (433.92 MHz),Automotive Key Fob,Toyota,OOK,,433920000,,,,,keyfob_db,keyfob_toyota_433.92
+Toyota Key Fob (314.35 MHz),Automotive Key Fob,Toyota,OOK,,314350000,,,,,keyfob_db,keyfob_toyota_314.35
+Toyota Key Fob (315 MHz),Automotive Key Fob,Toyota,OOK,,315000000,,,,,keyfob_db,keyfob_toyota_315
+Chevrolet Key Fob (315 MHz),Automotive Key Fob,Chevrolet,OOK,,315000000,,,,,keyfob_db,keyfob_chevrolet_315
+Subaru Key Fob (433.92 MHz),Automotive Key Fob,Subaru,OOK,,433920000,,,,,keyfob_db,keyfob_subaru_433.92
+Acura Key Fob (307.9 MHz),Automotive Key Fob,Acura,OOK,,307900000,,,,,keyfob_db,keyfob_acura_307.9
+Cadillac Key Fob (315 MHz),Automotive Key Fob,Cadillac,OOK,,315000000,,,,,keyfob_db,keyfob_cadillac_315
+Honda Key Fob (433.92 MHz),Automotive Key Fob,Honda,OOK,,433920000,,,,,keyfob_db,keyfob_honda_433.92
+Honda Key Fob (307.9 MHz),Automotive Key Fob,Honda,OOK,,307900000,,,,,keyfob_db,keyfob_honda_307.9
+GMC Key Fob (315 MHz),Automotive Key Fob,GMC,OOK,,315000000,,,,,keyfob_db,keyfob_gmc_315
+Honda Key Fob (313 MHz),Automotive Key Fob,Honda,OOK,,313000000,,,,,keyfob_db,keyfob_honda_313
+Honda Key Fob (313.85 MHz),Automotive Key Fob,Honda,OOK,,313850000,,,,,keyfob_db,keyfob_honda_313.85
+Mazda Key Fob (313.8 MHz),Automotive Key Fob,Mazda,OOK,,313800000,,,,,keyfob_db,keyfob_mazda_313.8
+Acura Key Fob (313.85 MHz),Automotive Key Fob,Acura,OOK,,313850000,,,,,keyfob_db,keyfob_acura_313.85
+Chrysler Key Fob (315 MHz),Automotive Key Fob,Chrysler,OOK,,315000000,,,,,keyfob_db,keyfob_chrysler_315
+Dodge Key Fob (315 MHz),Automotive Key Fob,Dodge,OOK,,315000000,,,,,keyfob_db,keyfob_dodge_315
+Scion Key Fob (314.35 MHz),Automotive Key Fob,Scion,OOK,,314350000,,,,,keyfob_db,keyfob_scion_314.35
+Toyota Key Fob (noRecord MHz),Automotive Key Fob,Toyota,OOK,,,,,,,keyfob_db,keyfob_toyota_noRecord
+Toyota Key Fob (312.15 MHz),Automotive Key Fob,Toyota,OOK,,312150000,,,,,keyfob_db,keyfob_toyota_312.15
+Acura Key Fob (311.9 MHz),Automotive Key Fob,Acura,OOK,,311900000,,,,,keyfob_db,keyfob_acura_311.9
+Ford Key Fob (315 MHz),Automotive Key Fob,Ford,OOK,,315000000,,,,,keyfob_db,keyfob_ford_315
+Jeep Key Fob (315 MHz),Automotive Key Fob,Jeep,OOK,,315000000,,,,,keyfob_db,keyfob_jeep_315
+Lexus Key Fob (314.35 MHz),Automotive Key Fob,Lexus,OOK,,314350000,,,,,keyfob_db,keyfob_lexus_314.35
+Scion Key Fob (312.5 MHz),Automotive Key Fob,Scion,OOK,,312500000,,,,,keyfob_db,keyfob_scion_312.5
+Mazda Key Fob (315 MHz),Automotive Key Fob,Mazda,OOK,,315000000,,,,,keyfob_db,keyfob_mazda_315
+Hyundai Key Fob (315 MHz),Automotive Key Fob,Hyundai,OOK,,315000000,,,,,keyfob_db,keyfob_hyundai_315
+Toyota Key Fob (312.5 MHz),Automotive Key Fob,Toyota,OOK,,312500000,,,,,keyfob_db,keyfob_toyota_312.5
+Chrysler Key Fob (433.92 MHz),Automotive Key Fob,Chrysler,OOK,,433920000,,,,,keyfob_db,keyfob_chrysler_433.92
+Dodge Key Fob (433.92 MHz),Automotive Key Fob,Dodge,OOK,,433920000,,,,,keyfob_db,keyfob_dodge_433.92
+Mitsubishi Key Fob (315 MHz),Automotive Key Fob,Mitsubishi,OOK,,315000000,,,,,keyfob_db,keyfob_mitsubishi_315
+Lincoln Key Fob (315 MHz),Automotive Key Fob,Lincoln,OOK,,315000000,,,,,keyfob_db,keyfob_lincoln_315
+Nissan Key Fob (noRecord MHz),Automotive Key Fob,Nissan,OOK,,,,,,,keyfob_db,keyfob_nissan_noRecord
+Cadillac Key Fob (314.9 MHz),Automotive Key Fob,Cadillac,OOK,,314900000,,,,,keyfob_db,keyfob_cadillac_314.9
+Kia Key Fob (315 MHz),Automotive Key Fob,Kia,OOK,,315000000,,,,,keyfob_db,keyfob_kia_315
+Ford Key Fob (433.589/434.251 MHz),Automotive Key Fob,Ford,OOK,,,,,,,keyfob_db,keyfob_ford_433.589/434.251
+Hyundai Key Fob (313.85 MHz),Automotive Key Fob,Hyundai,OOK,,313850000,,,,,keyfob_db,keyfob_hyundai_313.85
+Infiniti Key Fob (433.92 MHz),Automotive Key Fob,Infiniti,OOK,,433920000,,,,,keyfob_db,keyfob_infiniti_433.92
+Jeep Key Fob (433.92 MHz),Automotive Key Fob,Jeep,OOK,,433920000,,,,,keyfob_db,keyfob_jeep_433.92
+Nissan Key Fob (314.975 MHz),Automotive Key Fob,Nissan,OOK,,314975000,,,,,keyfob_db,keyfob_nissan_314.975
+Subaru Key Fob (315 MHz),Automotive Key Fob,Subaru,OOK,,315000000,,,,,keyfob_db,keyfob_subaru_315
+Toyota Key Fob (312.1/314.35 MHz),Automotive Key Fob,Toyota,OOK,,,,,,,keyfob_db,keyfob_toyota_312.1/314.35
+Chevrolet Key Fob (314.9 MHz),Automotive Key Fob,Chevrolet,OOK,,314900000,,,,,keyfob_db,keyfob_chevrolet_314.9
+Ford Key Fob (902.375/903.425 MHz),Automotive Key Fob,Ford,OOK,,,,,,,keyfob_db,keyfob_ford_902.375/903.425
+Ford Key Fob (314.95 MHz),Automotive Key Fob,Ford,OOK,,314950000,,,,,keyfob_db,keyfob_ford_314.95
+Hyundai Key Fob (433.92 MHz),Automotive Key Fob,Hyundai,OOK,,433920000,,,,,keyfob_db,keyfob_hyundai_433.92
+Lexus Key Fob (312.1/314.35 MHz),Automotive Key Fob,Lexus,OOK,,,,,,,keyfob_db,keyfob_lexus_312.1/314.35
+Lincoln Key Fob (902.375/903.425 MHz),Automotive Key Fob,Lincoln,OOK,,,,,,,keyfob_db,keyfob_lincoln_902.375/903.425
+Nissan Key Fob (433.92 MHz),Automotive Key Fob,Nissan,OOK,,433920000,,,,,keyfob_db,keyfob_nissan_433.92
+Acura Key Fob (313.55/314.15 MHz),Automotive Key Fob,Acura,OOK,,,,,,,keyfob_db,keyfob_acura_313.55/314.15
+Chevrolet Key Fob (noRecord MHz),Automotive Key Fob,Chevrolet,OOK,,,,,,,keyfob_db,keyfob_chevrolet_noRecord
+GMC Key Fob (314.9 MHz),Automotive Key Fob,GMC,OOK,,314900000,,,,,keyfob_db,keyfob_gmc_314.9
+Honda Key Fob (313.55/314.15 MHz),Automotive Key Fob,Honda,OOK,,,,,,,keyfob_db,keyfob_honda_313.55/314.15
+Kia Key Fob (433.92 MHz),Automotive Key Fob,Kia,OOK,,433920000,,,,,keyfob_db,keyfob_kia_433.92
+Kia Key Fob (313.85 MHz),Automotive Key Fob,Kia,OOK,,313850000,,,,,keyfob_db,keyfob_kia_313.85
+Subaru Key Fob (314.35 MHz),Automotive Key Fob,Subaru,OOK,,314350000,,,,,keyfob_db,keyfob_subaru_314.35
+Acura Key Fob (924/924.6 MHz),Automotive Key Fob,Acura,OOK,,924924,,,,,keyfob_db,keyfob_acura_924/924.6
+Cadillac Key Fob (433.92 MHz),Automotive Key Fob,Cadillac,OOK,,433920000,,,,,keyfob_db,keyfob_cadillac_433.92
+Chevrolet Key Fob (433.92 MHz),Automotive Key Fob,Chevrolet,OOK,,433920000,,,,,keyfob_db,keyfob_chevrolet_433.92
+Honda Key Fob (433.66/434.18 MHz),Automotive Key Fob,Honda,OOK,,,,,,,keyfob_db,keyfob_honda_433.66/434.18
+Infiniti Key Fob (noRecord MHz),Automotive Key Fob,Infiniti,OOK,,,,,,,keyfob_db,keyfob_infiniti_noRecord
+Scion Key Fob (315 MHz),Automotive Key Fob,Scion,OOK,,315000000,,,,,keyfob_db,keyfob_scion_315
+Buick Key Fob (314.9 MHz),Automotive Key Fob,Buick,OOK,,314900000,,,,,keyfob_db,keyfob_buick_314.9
+Buick Key Fob (433.92 MHz),Automotive Key Fob,Buick,OOK,,433920000,,,,,keyfob_db,keyfob_buick_433.92
+GMC Key Fob (433.92 MHz),Automotive Key Fob,GMC,OOK,,433920000,,,,,keyfob_db,keyfob_gmc_433.92
+Honda Key Fob (noRecord MHz),Automotive Key Fob,Honda,OOK,,,,,,,keyfob_db,keyfob_honda_noRecord
+Lincoln Key Fob (314.95/902.375/903.425 MHz),Automotive Key Fob,Lincoln,OOK,,,,,,,keyfob_db,keyfob_lincoln_314.95/902.375/903.425
+Acura Key Fob (433.66/434.18 MHz),Automotive Key Fob,Acura,OOK,,,,,,,keyfob_db,keyfob_acura_433.66/434.18
+Lincoln Key Fob (903.375/903.425 MHz),Automotive Key Fob,Lincoln,OOK,,,,,,,keyfob_db,keyfob_lincoln_903.375/903.425
+Acura Key Fob (923.625/924.6 MHz),Automotive Key Fob,Acura,OOK,,,,,,,keyfob_db,keyfob_acura_923.625/924.6
+Acura Key Fob (noRecord MHz),Automotive Key Fob,Acura,OOK,,,,,,,keyfob_db,keyfob_acura_noRecord
+Hyundai Key Fob (noRecord MHz),Automotive Key Fob,Hyundai,OOK,,,,,,,keyfob_db,keyfob_hyundai_noRecord
+GMC Key Fob (noRecord MHz),Automotive Key Fob,GMC,OOK,,,,,,,keyfob_db,keyfob_gmc_noRecord
+Jeep Key Fob (noRecord MHz),Automotive Key Fob,Jeep,OOK,,,,,,,keyfob_db,keyfob_jeep_noRecord
+RC-Switch Protocol 1,Remote Control,,OOK,,,350,1050,,,rc_switch,rcswitch_proto_1
+RC-Switch Protocol 2,Remote Control,,OOK,,,650,1950,,,rc_switch,rcswitch_proto_2
+RC-Switch Protocol 3,Remote Control,,OOK,,,100,300,,,rc_switch,rcswitch_proto_3
+RC-Switch Protocol 4,Remote Control,,OOK,,,380,1140,,,rc_switch,rcswitch_proto_4
+RC-Switch Protocol 5,Remote Control,,OOK,,,500,1500,,,rc_switch,rcswitch_proto_5
+RC-Switch Protocol 6,Remote Control,,OOK,,,450,1350,,,rc_switch,rcswitch_proto_6
+RC-Switch Protocol 7,Remote Control,,OOK,,,150,450,,,rc_switch,rcswitch_proto_7
+RC-Switch Protocol 8,Remote Control,,OOK,,,200,600,,,rc_switch,rcswitch_proto_8
+RC-Switch Protocol 9,Remote Control,,OOK,,,200,600,,,rc_switch,rcswitch_proto_9
+RC-Switch Protocol 10,Remote Control,,OOK,,,365,1095,,,rc_switch,rcswitch_proto_10
+RC-Switch Protocol 11,Remote Control,,OOK,,,270,810,,,rc_switch,rcswitch_proto_11
+RC-Switch Protocol 12,Remote Control,,OOK,,,320,960,,,rc_switch,rcswitch_proto_12

@@ -1,14 +1,20 @@
 {
-  "version": "3.0.0",
-  "total_devices": 496,
+  "version": "4.0.0",
+  "total_devices": 692,
   "sources": {
     "urh_ng": 356,
     "unleashed_firmware": 52,
+    "wmbusmeters": 81,
     "rtl433_src": 14,
     "?": 3,
+    "roguemaster_firmware": 2,
     "zero_sploit": 52,
     "uberguidoz": 1,
-    "rocketgod": 18
+    "rocketgod": 18,
+    "skizzophrenic": 5,
+    "lillygo_collection": 18,
+    "keyfob_db": 78,
+    "rc_switch": 12
   },
   "categories": {
     "Unknown": 22,
@@ -23,16 +29,20 @@
     "Smoke & Security Alarms": 22,
     "BBQ & Kitchen Thermometers": 4,
     "Other Sensors & Devices": 89,
-    "Gate/Garage Remote": 23,
-    "Remote Control": 17,
+    "Gate/Garage Remote": 24,
+    "Remote Control": 29,
     "Blinds/Shutters": 4,
     "Security Sensor": 5,
     "Rolling Code (KeeLoq)": 1,
     "Fitness Equipment": 2,
+    "Utility Meter": 73,
+    "Water Meter": 4,
+    "Electric Meter": 1,
+    "Heat Meter": 3,
+    "Smoke Detector": 1,
     "Remote/Keyfob": 11,
     "Security/Alarm": 1,
-    "Other": 1,
-    "Utility Meter": 1,
+    "Other": 2,
     "other": 1,
     "weather": 1,
     "home_automation": 1,
@@ -57,7 +67,9 @@
     "Vacuum": 1,
     "Weather stations": 3,
     "WeVibe Unit 2": 1,
-    "subghz": 18
+    "subghz": 23,
+    "Lillygo T Embed CC1101 Subghz": 18,
+    "Automotive Key Fob": 78
   },
   "devices": [
     {
@@ -4549,6 +4561,816 @@
       "source_file": "treadmill37.c"
     },
     {
+      "device_id": "wmbus_abbb23",
+      "name": "Abbb23",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Abbb23",
+      "source": "wmbusmeters",
+      "source_file": "driver_abbb23.cc"
+    },
+    {
+      "device_id": "wmbus_aerius",
+      "name": "Aerius",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Aerius",
+      "source": "wmbusmeters",
+      "source_file": "driver_aerius.cc"
+    },
+    {
+      "device_id": "wmbus_amiplus",
+      "name": "Amiplus",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Amiplus",
+      "source": "wmbusmeters",
+      "source_file": "driver_amiplus.cc"
+    },
+    {
+      "device_id": "wmbus_apator172",
+      "name": "Apator172",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Apator172",
+      "source": "wmbusmeters",
+      "source_file": "driver_apator172.cc"
+    },
+    {
+      "device_id": "wmbus_apatoreitn",
+      "name": "Apatoreitn",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Apatoreitn",
+      "source": "wmbusmeters",
+      "source_file": "driver_apatoreitn.cc"
+    },
+    {
+      "device_id": "wmbus_apatorna1",
+      "name": "Apatorna1",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Apatorna1",
+      "source": "wmbusmeters",
+      "source_file": "driver_apatorna1.cc"
+    },
+    {
+      "device_id": "wmbus_auto",
+      "name": "Auto",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Auto",
+      "source": "wmbusmeters",
+      "source_file": "driver_auto.cc"
+    },
+    {
+      "device_id": "wmbus_aventieshca",
+      "name": "Aventieshca",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Aventieshca",
+      "source": "wmbusmeters",
+      "source_file": "driver_aventieshca.cc"
+    },
+    {
+      "device_id": "wmbus_aventieswm",
+      "name": "Aventieswm",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Aventieswm",
+      "source": "wmbusmeters",
+      "source_file": "driver_aventieswm.cc"
+    },
+    {
+      "device_id": "wmbus_bfw240radio",
+      "name": "Bfw240Radio",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Bfw240Radio",
+      "source": "wmbusmeters",
+      "source_file": "driver_bfw240radio.cc"
+    },
+    {
+      "device_id": "wmbus_cma12w",
+      "name": "Cma12W",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Cma12W",
+      "source": "wmbusmeters",
+      "source_file": "driver_cma12w.cc"
+    },
+    {
+      "device_id": "wmbus_compact5",
+      "name": "Compact5",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Compact5",
+      "source": "wmbusmeters",
+      "source_file": "driver_compact5.cc"
+    },
+    {
+      "device_id": "wmbus_dme_07",
+      "name": "Dme 07",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Dme",
+      "source": "wmbusmeters",
+      "source_file": "driver_dme_07.cc"
+    },
+    {
+      "device_id": "wmbus_dynamic",
+      "name": "Dynamic",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Dynamic",
+      "source": "wmbusmeters",
+      "source_file": "driver_dynamic.cc"
+    },
+    {
+      "device_id": "wmbus_ebzwmbe",
+      "name": "Ebzwmbe",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Ebzwmbe",
+      "source": "wmbusmeters",
+      "source_file": "driver_ebzwmbe.cc"
+    },
+    {
+      "device_id": "wmbus_ehzp",
+      "name": "Ehzp",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Ehzp",
+      "source": "wmbusmeters",
+      "source_file": "driver_ehzp.cc"
+    },
+    {
+      "device_id": "wmbus_ei6500",
+      "name": "Ei6500",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Ei6500",
+      "source": "wmbusmeters",
+      "source_file": "driver_ei6500.cc"
+    },
+    {
+      "device_id": "wmbus_em24",
+      "name": "Em24",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Em24",
+      "source": "wmbusmeters",
+      "source_file": "driver_em24.cc"
+    },
+    {
+      "device_id": "wmbus_emerlin868",
+      "name": "Emerlin868",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Emerlin868",
+      "source": "wmbusmeters",
+      "source_file": "driver_emerlin868.cc"
+    },
+    {
+      "device_id": "wmbus_enercal",
+      "name": "Enercal",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Enercal",
+      "source": "wmbusmeters",
+      "source_file": "driver_enercal.cc"
+    },
+    {
+      "device_id": "wmbus_engelmann-faw",
+      "name": "Engelmann-Faw",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Engelmann-Faw",
+      "source": "wmbusmeters",
+      "source_file": "driver_engelmann-faw.cc"
+    },
+    {
+      "device_id": "wmbus_esyswm",
+      "name": "Esyswm",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Esyswm",
+      "source": "wmbusmeters",
+      "source_file": "driver_esyswm.cc"
+    },
+    {
+      "device_id": "wmbus_eurisii",
+      "name": "Eurisii",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Eurisii",
+      "source": "wmbusmeters",
+      "source_file": "driver_eurisii.cc"
+    },
+    {
+      "device_id": "wmbus_ev200",
+      "name": "Ev200",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Ev200",
+      "source": "wmbusmeters",
+      "source_file": "driver_ev200.cc"
+    },
+    {
+      "device_id": "wmbus_evo868",
+      "name": "Evo868",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Evo868",
+      "source": "wmbusmeters",
+      "source_file": "driver_evo868.cc"
+    },
+    {
+      "device_id": "wmbus_fhkvdataiii",
+      "name": "Fhkvdataiii",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Fhkvdataiii",
+      "source": "wmbusmeters",
+      "source_file": "driver_fhkvdataiii.cc"
+    },
+    {
+      "device_id": "wmbus_fhkvdataiv",
+      "name": "Fhkvdataiv",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Fhkvdataiv",
+      "source": "wmbusmeters",
+      "source_file": "driver_fhkvdataiv.cc"
+    },
+    {
+      "device_id": "wmbus_gransystems",
+      "name": "Gransystems",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Gransystems",
+      "source": "wmbusmeters",
+      "source_file": "driver_gransystems.cc"
+    },
+    {
+      "device_id": "wmbus_gwfwater",
+      "name": "Gwfwater",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Water Meter",
+      "manufacturer": "Gwfwater",
+      "source": "wmbusmeters",
+      "source_file": "driver_gwfwater.cc"
+    },
+    {
+      "device_id": "wmbus_hcae2",
+      "name": "Hcae2",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Hcae2",
+      "source": "wmbusmeters",
+      "source_file": "driver_hcae2.cc"
+    },
+    {
+      "device_id": "wmbus_hydrocalm3",
+      "name": "Hydrocalm3",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Hydrocalm3",
+      "source": "wmbusmeters",
+      "source_file": "driver_hydrocalm3.cc"
+    },
+    {
+      "device_id": "wmbus_hydroclima",
+      "name": "Hydroclima",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Hydroclima",
+      "source": "wmbusmeters",
+      "source_file": "driver_hydroclima.cc"
+    },
+    {
+      "device_id": "wmbus_hydrodigit",
+      "name": "Hydrodigit",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Hydrodigit",
+      "source": "wmbusmeters",
+      "source_file": "driver_hydrodigit.cc"
+    },
+    {
+      "device_id": "wmbus_hydrus",
+      "name": "Hydrus",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Hydrus",
+      "source": "wmbusmeters",
+      "source_file": "driver_hydrus.cc"
+    },
+    {
+      "device_id": "wmbus_iem3000",
+      "name": "Iem3000",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Iem3000",
+      "source": "wmbusmeters",
+      "source_file": "driver_iem3000.cc"
+    },
+    {
+      "device_id": "wmbus_itron",
+      "name": "Itron",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Itron",
+      "source": "wmbusmeters",
+      "source_file": "driver_itron.cc"
+    },
+    {
+      "device_id": "wmbus_iwmtx5",
+      "name": "Iwmtx5",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Iwmtx5",
+      "source": "wmbusmeters",
+      "source_file": "driver_iwmtx5.cc"
+    },
+    {
+      "device_id": "wmbus_izar",
+      "name": "Izar",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Izar",
+      "source": "wmbusmeters",
+      "source_file": "driver_izar.cc"
+    },
+    {
+      "device_id": "wmbus_lansendw",
+      "name": "Lansendw",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lansendw",
+      "source": "wmbusmeters",
+      "source_file": "driver_lansendw.cc"
+    },
+    {
+      "device_id": "wmbus_lansenpu",
+      "name": "Lansenpu",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lansenpu",
+      "source": "wmbusmeters",
+      "source_file": "driver_lansenpu.cc"
+    },
+    {
+      "device_id": "wmbus_lansenrp",
+      "name": "Lansenrp",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lansenrp",
+      "source": "wmbusmeters",
+      "source_file": "driver_lansenrp.cc"
+    },
+    {
+      "device_id": "wmbus_lansensm",
+      "name": "Lansensm",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lansensm",
+      "source": "wmbusmeters",
+      "source_file": "driver_lansensm.cc"
+    },
+    {
+      "device_id": "wmbus_lansenth",
+      "name": "Lansenth",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lansenth",
+      "source": "wmbusmeters",
+      "source_file": "driver_lansenth.cc"
+    },
+    {
+      "device_id": "wmbus_lse_07_17",
+      "name": "Lse 07 17",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lse",
+      "source": "wmbusmeters",
+      "source_file": "driver_lse_07_17.cc"
+    },
+    {
+      "device_id": "wmbus_lse_08",
+      "name": "Lse 08",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Lse",
+      "source": "wmbusmeters",
+      "source_file": "driver_lse_08.cc"
+    },
+    {
+      "device_id": "wmbus_microclima",
+      "name": "Microclima",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Microclima",
+      "source": "wmbusmeters",
+      "source_file": "driver_microclima.cc"
+    },
+    {
+      "device_id": "wmbus_mkradio3",
+      "name": "Mkradio3",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Mkradio3",
+      "source": "wmbusmeters",
+      "source_file": "driver_mkradio3.cc"
+    },
+    {
+      "device_id": "wmbus_mkradio3a",
+      "name": "Mkradio3A",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Mkradio3A",
+      "source": "wmbusmeters",
+      "source_file": "driver_mkradio3a.cc"
+    },
+    {
+      "device_id": "wmbus_mkradio4",
+      "name": "Mkradio4",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Mkradio4",
+      "source": "wmbusmeters",
+      "source_file": "driver_mkradio4.cc"
+    },
+    {
+      "device_id": "wmbus_mkradio4a",
+      "name": "Mkradio4A",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Mkradio4A",
+      "source": "wmbusmeters",
+      "source_file": "driver_mkradio4a.cc"
+    },
+    {
+      "device_id": "wmbus_munia",
+      "name": "Munia",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Munia",
+      "source": "wmbusmeters",
+      "source_file": "driver_munia.cc"
+    },
+    {
+      "device_id": "wmbus_nemo",
+      "name": "Nemo",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Nemo",
+      "source": "wmbusmeters",
+      "source_file": "driver_nemo.cc"
+    },
+    {
+      "device_id": "wmbus_omnipower",
+      "name": "Omnipower",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Electric Meter",
+      "manufacturer": "Omnipower",
+      "source": "wmbusmeters",
+      "source_file": "driver_omnipower.cc"
+    },
+    {
+      "device_id": "wmbus_piigth",
+      "name": "Piigth",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Piigth",
+      "source": "wmbusmeters",
+      "source_file": "driver_piigth.cc"
+    },
+    {
+      "device_id": "wmbus_pollucomf",
+      "name": "Pollucomf",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Pollucomf",
+      "source": "wmbusmeters",
+      "source_file": "driver_pollucomf.cc"
+    },
+    {
+      "device_id": "wmbus_q400",
+      "name": "Q400",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Q400",
+      "source": "wmbusmeters",
+      "source_file": "driver_q400.cc"
+    },
+    {
+      "device_id": "wmbus_qcaloric",
+      "name": "Qcaloric",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Qcaloric",
+      "source": "wmbusmeters",
+      "source_file": "driver_qcaloric.cc"
+    },
+    {
+      "device_id": "wmbus_qheat",
+      "name": "Qheat",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Heat Meter",
+      "manufacturer": "Qheat",
+      "source": "wmbusmeters",
+      "source_file": "driver_qheat.cc"
+    },
+    {
+      "device_id": "wmbus_qheat_55_us",
+      "name": "Qheat 55 Us",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Heat Meter",
+      "manufacturer": "Qheat",
+      "source": "wmbusmeters",
+      "source_file": "driver_qheat_55_us.cc"
+    },
+    {
+      "device_id": "wmbus_qsmoke",
+      "name": "Qsmoke",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Smoke Detector",
+      "manufacturer": "Qsmoke",
+      "source": "wmbusmeters",
+      "source_file": "driver_qsmoke.cc"
+    },
+    {
+      "device_id": "wmbus_qualcosonic",
+      "name": "Qualcosonic",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Qualcosonic",
+      "source": "wmbusmeters",
+      "source_file": "driver_qualcosonic.cc"
+    },
+    {
+      "device_id": "wmbus_qwater",
+      "name": "Qwater",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Water Meter",
+      "manufacturer": "Qwater",
+      "source": "wmbusmeters",
+      "source_file": "driver_qwater.cc"
+    },
+    {
+      "device_id": "wmbus_rfmtx1",
+      "name": "Rfmtx1",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Rfmtx1",
+      "source": "wmbusmeters",
+      "source_file": "driver_rfmtx1.cc"
+    },
+    {
+      "device_id": "wmbus_sharky",
+      "name": "Sharky",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Sharky",
+      "source": "wmbusmeters",
+      "source_file": "driver_sharky.cc"
+    },
+    {
+      "device_id": "wmbus_sharky774",
+      "name": "Sharky774",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Sharky774",
+      "source": "wmbusmeters",
+      "source_file": "driver_sharky774.cc"
+    },
+    {
+      "device_id": "wmbus_sontex868",
+      "name": "Sontex868",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Sontex868",
+      "source": "wmbusmeters",
+      "source_file": "driver_sontex868.cc"
+    },
+    {
+      "device_id": "wmbus_supercom587",
+      "name": "Supercom587",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Supercom587",
+      "source": "wmbusmeters",
+      "source_file": "driver_supercom587.cc"
+    },
+    {
+      "device_id": "wmbus_topaseskr",
+      "name": "Topaseskr",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Topaseskr",
+      "source": "wmbusmeters",
+      "source_file": "driver_topaseskr.cc"
+    },
+    {
+      "device_id": "wmbus_tsd2",
+      "name": "Tsd2",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Tsd2",
+      "source": "wmbusmeters",
+      "source_file": "driver_tsd2.cc"
+    },
+    {
+      "device_id": "wmbus_ultraheat",
+      "name": "Ultraheat",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Heat Meter",
+      "manufacturer": "Ultraheat",
+      "source": "wmbusmeters",
+      "source_file": "driver_ultraheat.cc"
+    },
+    {
+      "device_id": "wmbus_ultrimis",
+      "name": "Ultrimis",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Ultrimis",
+      "source": "wmbusmeters",
+      "source_file": "driver_ultrimis.cc"
+    },
+    {
+      "device_id": "wmbus_unismart",
+      "name": "Unismart",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Unismart",
+      "source": "wmbusmeters",
+      "source_file": "driver_unismart.cc"
+    },
+    {
+      "device_id": "wmbus_unknown",
+      "name": "Unknown",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Unknown",
+      "source": "wmbusmeters",
+      "source_file": "driver_unknown.cc"
+    },
+    {
+      "device_id": "wmbus_vario411",
+      "name": "Vario411",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Vario411",
+      "source": "wmbusmeters",
+      "source_file": "driver_vario411.cc"
+    },
+    {
+      "device_id": "wmbus_vario451",
+      "name": "Vario451",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Vario451",
+      "source": "wmbusmeters",
+      "source_file": "driver_vario451.cc"
+    },
+    {
+      "device_id": "wmbus_vario451mid",
+      "name": "Vario451Mid",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Vario451Mid",
+      "source": "wmbusmeters",
+      "source_file": "driver_vario451mid.cc"
+    },
+    {
+      "device_id": "wmbus_waterstarm",
+      "name": "Waterstarm",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Water Meter",
+      "manufacturer": "Waterstarm",
+      "source": "wmbusmeters",
+      "source_file": "driver_waterstarm.cc"
+    },
+    {
+      "device_id": "wmbus_watertech",
+      "name": "Watertech",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Water Meter",
+      "manufacturer": "Watertech",
+      "source": "wmbusmeters",
+      "source_file": "driver_watertech.cc"
+    },
+    {
+      "device_id": "wmbus_weh_07",
+      "name": "Weh 07",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Weh",
+      "source": "wmbusmeters",
+      "source_file": "driver_weh_07.cc"
+    },
+    {
+      "device_id": "wmbus_wme5",
+      "name": "Wme5",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Wme5",
+      "source": "wmbusmeters",
+      "source_file": "driver_wme5.cc"
+    },
+    {
+      "device_id": "wmbus_zenner0b",
+      "name": "Zenner0B",
+      "modulation": "FSK",
+      "frequency": 868950000,
+      "category": "Utility Meter",
+      "manufacturer": "Zenner0B",
+      "source": "wmbusmeters",
+      "source_file": "driver_zenner0b.cc"
+    },
+    {
       "device_id": "six_sc_two_car_remote",
       "name": "6SC2 Car Remote (-f 315.1M)",
       "modulation": "OOK",
@@ -4746,6 +5568,28 @@
       "category": "home_automation",
       "manufacturer": "Fine",
       "source_file": "fineoffset.c"
+    },
+    {
+      "device_id": "roguemaster_hormann_bisecur",
+      "name": "Hormann Bisecur",
+      "modulation": "OOK",
+      "short_width": 208,
+      "long_width": 416,
+      "category": "Gate/Garage Remote",
+      "manufacturer": "Hormann",
+      "source": "roguemaster_firmware",
+      "source_file": "hormann_bisecur.c"
+    },
+    {
+      "device_id": "roguemaster_x10",
+      "name": "X10",
+      "modulation": "OOK",
+      "short_width": 600,
+      "long_width": 1800,
+      "category": "Other",
+      "manufacturer": "X10",
+      "source": "roguemaster_firmware",
+      "source_file": "x10.c"
     },
     {
       "device_id": "zero_sploit_binraw_433920000",
@@ -5456,6 +6300,1136 @@
       "manufacturer": "Faac SLH",
       "source": "rocketgod",
       "sample_count": 40
+    },
+    {
+      "device_id": "skizzophrenic_binraw_433920000",
+      "name": "BinRAW (subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "BinRAW",
+      "source": "skizzophrenic",
+      "sample_count": 57
+    },
+    {
+      "device_id": "skizzophrenic_somfy_telis_433500000",
+      "name": "Somfy Telis (subghz)",
+      "modulation": "OOK",
+      "frequency": 433500000,
+      "category": "subghz",
+      "manufacturer": "Somfy Telis",
+      "source": "skizzophrenic",
+      "sample_count": 1
+    },
+    {
+      "device_id": "skizzophrenic_intertechno_v3_433920000",
+      "name": "Intertechno_V3 (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Intertechno_V3",
+      "source": "skizzophrenic",
+      "sample_count": 41
+    },
+    {
+      "device_id": "skizzophrenic_tx141thbv2_433920000",
+      "name": "TX141THBv2 (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "TX141THBv2",
+      "source": "skizzophrenic",
+      "sample_count": 1
+    },
+    {
+      "device_id": "skizzophrenic_nexus-th_433920000",
+      "name": "Nexus-TH (subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "subghz",
+      "manufacturer": "Nexus-TH",
+      "source": "skizzophrenic",
+      "sample_count": 1
+    },
+    {
+      "device_id": "lillygo_collection_binraw_433920000",
+      "name": "BinRAW (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "BinRAW",
+      "source": "lillygo_collection",
+      "sample_count": 59
+    },
+    {
+      "device_id": "lillygo_collection_came_303875000",
+      "name": "CAME (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 303875000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "CAME",
+      "source": "lillygo_collection",
+      "sample_count": 20
+    },
+    {
+      "device_id": "lillygo_collection_holtek_ht12x_302757000",
+      "name": "Holtek_HT12X (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 302757000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Holtek_HT12X",
+      "source": "lillygo_collection",
+      "sample_count": 81
+    },
+    {
+      "device_id": "lillygo_collection_gatetx_433920000",
+      "name": "GateTX (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "GateTX",
+      "source": "lillygo_collection",
+      "sample_count": 10
+    },
+    {
+      "device_id": "lillygo_collection_keeloq_433920000",
+      "name": "KeeLoq (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "KeeLoq",
+      "source": "lillygo_collection",
+      "sample_count": 9
+    },
+    {
+      "device_id": "lillygo_collection_princeton_433920000",
+      "name": "Princeton (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Princeton",
+      "source": "lillygo_collection",
+      "sample_count": 542
+    },
+    {
+      "device_id": "lillygo_collection_security+_2.0_390000000",
+      "name": "Security+ 2.0 (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 390000000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Security+ 2.0",
+      "source": "lillygo_collection",
+      "sample_count": 4
+    },
+    {
+      "device_id": "lillygo_collection_holtek_418000000",
+      "name": "Holtek (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 418000000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Holtek",
+      "source": "lillygo_collection",
+      "sample_count": 18
+    },
+    {
+      "device_id": "lillygo_collection_megacode_318000000",
+      "name": "MegaCode (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 318000000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "MegaCode",
+      "source": "lillygo_collection",
+      "sample_count": 10
+    },
+    {
+      "device_id": "lillygo_collection_came_twee_433920000",
+      "name": "CAME TWEE (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "CAME TWEE",
+      "source": "lillygo_collection",
+      "sample_count": 2
+    },
+    {
+      "device_id": "lillygo_collection_firefly_300000000",
+      "name": "Firefly (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 300000000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Firefly",
+      "source": "lillygo_collection",
+      "sample_count": 3
+    },
+    {
+      "device_id": "lillygo_collection_nice_flo_433920000",
+      "name": "Nice FLO (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Nice FLO",
+      "source": "lillygo_collection",
+      "sample_count": 2
+    },
+    {
+      "device_id": "lillygo_collection_somfy_telis_433500000",
+      "name": "Somfy Telis (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433500000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Somfy Telis",
+      "source": "lillygo_collection",
+      "sample_count": 1
+    },
+    {
+      "device_id": "lillygo_collection_ansonic_433920000",
+      "name": "Ansonic (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "FSK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Ansonic",
+      "source": "lillygo_collection",
+      "sample_count": 6
+    },
+    {
+      "device_id": "lillygo_collection_intertechno_v3_433920000",
+      "name": "Intertechno_V3 (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Intertechno_V3",
+      "source": "lillygo_collection",
+      "sample_count": 41
+    },
+    {
+      "device_id": "lillygo_collection_smc5326_433920000",
+      "name": "SMC5326 (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "SMC5326",
+      "source": "lillygo_collection",
+      "sample_count": 5
+    },
+    {
+      "device_id": "lillygo_collection_tx141thbv2_433920000",
+      "name": "TX141THBv2 (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "TX141THBv2",
+      "source": "lillygo_collection",
+      "sample_count": 1
+    },
+    {
+      "device_id": "lillygo_collection_nexus-th_433920000",
+      "name": "Nexus-TH (Lillygo T Embed CC1101 Subghz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Lillygo T Embed CC1101 Subghz",
+      "manufacturer": "Nexus-TH",
+      "source": "lillygo_collection",
+      "sample_count": 1
+    },
+    {
+      "device_id": "keyfob_buick_315",
+      "name": "Buick Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Buick",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_cadillac_noRecord",
+      "name": "Cadillac Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Cadillac",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_nissan_315",
+      "name": "Nissan Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Nissan",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_infiniti_315",
+      "name": "Infiniti Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Infiniti",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_ford_314.5/315.5",
+      "name": "Ford Key Fob (314.5/315.5 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Ford",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_433.92",
+      "name": "Toyota Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_314.35",
+      "name": "Toyota Key Fob (314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": 314350000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_315",
+      "name": "Toyota Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chevrolet_315",
+      "name": "Chevrolet Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chevrolet",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_subaru_433.92",
+      "name": "Subaru Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Subaru",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_307.9",
+      "name": "Acura Key Fob (307.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 307900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_cadillac_315",
+      "name": "Cadillac Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Cadillac",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_433.92",
+      "name": "Honda Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_307.9",
+      "name": "Honda Key Fob (307.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 307900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_gmc_315",
+      "name": "GMC Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "GMC",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_313",
+      "name": "Honda Key Fob (313 MHz)",
+      "modulation": "OOK",
+      "frequency": 313000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_313.85",
+      "name": "Honda Key Fob (313.85 MHz)",
+      "modulation": "OOK",
+      "frequency": 313850000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_mazda_313.8",
+      "name": "Mazda Key Fob (313.8 MHz)",
+      "modulation": "OOK",
+      "frequency": 313800000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Mazda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_313.85",
+      "name": "Acura Key Fob (313.85 MHz)",
+      "modulation": "OOK",
+      "frequency": 313850000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chrysler_315",
+      "name": "Chrysler Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chrysler",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_dodge_315",
+      "name": "Dodge Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Dodge",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_scion_314.35",
+      "name": "Scion Key Fob (314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": 314350000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Scion",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_noRecord",
+      "name": "Toyota Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_312.15",
+      "name": "Toyota Key Fob (312.15 MHz)",
+      "modulation": "OOK",
+      "frequency": 312150000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_311.9",
+      "name": "Acura Key Fob (311.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 311900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_ford_315",
+      "name": "Ford Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Ford",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_jeep_315",
+      "name": "Jeep Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Jeep",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lexus_314.35",
+      "name": "Lexus Key Fob (314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": 314350000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lexus",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_scion_312.5",
+      "name": "Scion Key Fob (312.5 MHz)",
+      "modulation": "OOK",
+      "frequency": 312500000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Scion",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_mazda_315",
+      "name": "Mazda Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Mazda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_hyundai_315",
+      "name": "Hyundai Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Hyundai",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_312.5",
+      "name": "Toyota Key Fob (312.5 MHz)",
+      "modulation": "OOK",
+      "frequency": 312500000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chrysler_433.92",
+      "name": "Chrysler Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chrysler",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_dodge_433.92",
+      "name": "Dodge Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Dodge",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_mitsubishi_315",
+      "name": "Mitsubishi Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Mitsubishi",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lincoln_315",
+      "name": "Lincoln Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lincoln",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_nissan_noRecord",
+      "name": "Nissan Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Nissan",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_cadillac_314.9",
+      "name": "Cadillac Key Fob (314.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 314900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Cadillac",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_kia_315",
+      "name": "Kia Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Kia",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_ford_433.589/434.251",
+      "name": "Ford Key Fob (433.589/434.251 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Ford",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_hyundai_313.85",
+      "name": "Hyundai Key Fob (313.85 MHz)",
+      "modulation": "OOK",
+      "frequency": 313850000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Hyundai",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_infiniti_433.92",
+      "name": "Infiniti Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Infiniti",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_jeep_433.92",
+      "name": "Jeep Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Jeep",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_nissan_314.975",
+      "name": "Nissan Key Fob (314.975 MHz)",
+      "modulation": "OOK",
+      "frequency": 314975000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Nissan",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_subaru_315",
+      "name": "Subaru Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Subaru",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_toyota_312.1/314.35",
+      "name": "Toyota Key Fob (312.1/314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Toyota",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chevrolet_314.9",
+      "name": "Chevrolet Key Fob (314.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 314900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chevrolet",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_ford_902.375/903.425",
+      "name": "Ford Key Fob (902.375/903.425 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Ford",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_ford_314.95",
+      "name": "Ford Key Fob (314.95 MHz)",
+      "modulation": "OOK",
+      "frequency": 314950000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Ford",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_hyundai_433.92",
+      "name": "Hyundai Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Hyundai",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lexus_312.1/314.35",
+      "name": "Lexus Key Fob (312.1/314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lexus",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lincoln_902.375/903.425",
+      "name": "Lincoln Key Fob (902.375/903.425 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lincoln",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_nissan_433.92",
+      "name": "Nissan Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Nissan",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_313.55/314.15",
+      "name": "Acura Key Fob (313.55/314.15 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chevrolet_noRecord",
+      "name": "Chevrolet Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chevrolet",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_gmc_314.9",
+      "name": "GMC Key Fob (314.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 314900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "GMC",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_313.55/314.15",
+      "name": "Honda Key Fob (313.55/314.15 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_kia_433.92",
+      "name": "Kia Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Kia",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_kia_313.85",
+      "name": "Kia Key Fob (313.85 MHz)",
+      "modulation": "OOK",
+      "frequency": 313850000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Kia",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_subaru_314.35",
+      "name": "Subaru Key Fob (314.35 MHz)",
+      "modulation": "OOK",
+      "frequency": 314350000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Subaru",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_924/924.6",
+      "name": "Acura Key Fob (924/924.6 MHz)",
+      "modulation": "OOK",
+      "frequency": 924924,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_cadillac_433.92",
+      "name": "Cadillac Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Cadillac",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_chevrolet_433.92",
+      "name": "Chevrolet Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Chevrolet",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_433.66/434.18",
+      "name": "Honda Key Fob (433.66/434.18 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_infiniti_noRecord",
+      "name": "Infiniti Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Infiniti",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_scion_315",
+      "name": "Scion Key Fob (315 MHz)",
+      "modulation": "OOK",
+      "frequency": 315000000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Scion",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_buick_314.9",
+      "name": "Buick Key Fob (314.9 MHz)",
+      "modulation": "OOK",
+      "frequency": 314900000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Buick",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_buick_433.92",
+      "name": "Buick Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Buick",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_gmc_433.92",
+      "name": "GMC Key Fob (433.92 MHz)",
+      "modulation": "OOK",
+      "frequency": 433920000,
+      "category": "Automotive Key Fob",
+      "manufacturer": "GMC",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_honda_noRecord",
+      "name": "Honda Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Honda",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lincoln_314.95/902.375/903.425",
+      "name": "Lincoln Key Fob (314.95/902.375/903.425 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lincoln",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_433.66/434.18",
+      "name": "Acura Key Fob (433.66/434.18 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_lincoln_903.375/903.425",
+      "name": "Lincoln Key Fob (903.375/903.425 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Lincoln",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_923.625/924.6",
+      "name": "Acura Key Fob (923.625/924.6 MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_acura_noRecord",
+      "name": "Acura Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Acura",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_hyundai_noRecord",
+      "name": "Hyundai Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Hyundai",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_gmc_noRecord",
+      "name": "GMC Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "GMC",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "keyfob_jeep_noRecord",
+      "name": "Jeep Key Fob (noRecord MHz)",
+      "modulation": "OOK",
+      "frequency": null,
+      "category": "Automotive Key Fob",
+      "manufacturer": "Jeep",
+      "source": "keyfob_db",
+      "fcc_id": ""
+    },
+    {
+      "device_id": "rcswitch_proto_1",
+      "name": "RC-Switch Protocol 1",
+      "modulation": "OOK",
+      "short_width": 350,
+      "long_width": 1050,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_2",
+      "name": "RC-Switch Protocol 2",
+      "modulation": "OOK",
+      "short_width": 650,
+      "long_width": 1950,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_3",
+      "name": "RC-Switch Protocol 3",
+      "modulation": "OOK",
+      "short_width": 100,
+      "long_width": 300,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_4",
+      "name": "RC-Switch Protocol 4",
+      "modulation": "OOK",
+      "short_width": 380,
+      "long_width": 1140,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_5",
+      "name": "RC-Switch Protocol 5",
+      "modulation": "OOK",
+      "short_width": 500,
+      "long_width": 1500,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_6",
+      "name": "RC-Switch Protocol 6",
+      "modulation": "OOK",
+      "short_width": 450,
+      "long_width": 1350,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_7",
+      "name": "RC-Switch Protocol 7",
+      "modulation": "OOK",
+      "short_width": 150,
+      "long_width": 450,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_8",
+      "name": "RC-Switch Protocol 8",
+      "modulation": "OOK",
+      "short_width": 200,
+      "long_width": 600,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_9",
+      "name": "RC-Switch Protocol 9",
+      "modulation": "OOK",
+      "short_width": 200,
+      "long_width": 600,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_10",
+      "name": "RC-Switch Protocol 10",
+      "modulation": "OOK",
+      "short_width": 365,
+      "long_width": 1095,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_11",
+      "name": "RC-Switch Protocol 11",
+      "modulation": "OOK",
+      "short_width": 270,
+      "long_width": 810,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
+    },
+    {
+      "device_id": "rcswitch_proto_12",
+      "name": "RC-Switch Protocol 12",
+      "modulation": "OOK",
+      "short_width": 320,
+      "long_width": 960,
+      "category": "Remote Control",
+      "manufacturer": null,
+      "source": "rc_switch"
     }
   ]
 }

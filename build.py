@@ -163,6 +163,160 @@ def parse_sub_files(base_dir, source_name):
     return devices
 
 
+def parse_wmbusmeters():
+    """Parse wmbusmeters C++ driver files for wireless meter protocols."""
+    devices = []
+    src_dir = os.path.join(OTHER, 'wmbusmeters', 'src')
+    if not os.path.isdir(src_dir):
+        return devices
+    for cfile in sorted(glob.glob(os.path.join(src_dir, 'driver_*.cc'))):
+        basename = os.path.splitext(os.path.basename(cfile))[0].replace('driver_', '')
+        with open(cfile, encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        # Extract meter name from the driver registration
+        name_m = re.search(r'"([^"]+)".*MeterType', content)
+        if not name_m:
+            name_m = re.search(r'addDriver\(\s*"([^"]+)"', content)
+        name = name_m.group(1) if name_m else basename.replace('_', ' ').title()
+        # Detect meter type
+        meter_type = 'Utility Meter'
+        n = (name + ' ' + content[:500]).lower()
+        if 'water' in n: meter_type = 'Water Meter'
+        elif 'heat' in n or 'thermal' in n: meter_type = 'Heat Meter'
+        elif 'gas' in n: meter_type = 'Gas Meter'
+        elif 'electric' in n or 'power' in n: meter_type = 'Electric Meter'
+        elif 'smoke' in n: meter_type = 'Smoke Detector'
+        # Extract manufacturer from content
+        mfr = None
+        mfr_m = re.search(r'[Mm]anufacturer.*?["\']([A-Z][a-z]+)', content)
+        if mfr_m:
+            mfr = mfr_m.group(1)
+        devices.append({
+            'device_id': f"wmbus_{basename}",
+            'name': name,
+            'modulation': 'FSK',  # Wireless M-Bus uses FSK
+            'frequency': 868950000,  # 868.95 MHz standard
+            'category': meter_type,
+            'manufacturer': mfr or extract_manufacturer(name),
+            'source': 'wmbusmeters',
+            'source_file': os.path.basename(cfile),
+        })
+    return devices
+
+
+def parse_lillygo_sub():
+    """Parse ValeTheCyborg Lillygo Sub-GHz signal collection."""
+    return parse_sub_files(os.path.join(OTHER, 'Lillygo-SubGhz-Signal'), 'lillygo_collection')
+
+
+def parse_rogumaster():
+    """Parse RogueMaster firmware for unique protocol decoders."""
+    devices = []
+    proto_dir = os.path.join(OTHER, 'flipperzero-firmware-wPlugins', 'lib', 'subghz', 'protocols')
+    if not os.path.isdir(proto_dir):
+        return devices
+    # Only extract protocols NOT already in Unleashed
+    unleashed_dir = os.path.join(OTHER, 'unleashed-firmware', 'lib', 'subghz', 'protocols')
+    unleashed_names = set()
+    if os.path.isdir(unleashed_dir):
+        unleashed_names = {os.path.splitext(f)[0] for f in os.listdir(unleashed_dir) if f.endswith('.c')}
+    skip = {'base', 'bin_raw', 'raw', 'protocol_items', 'keeloq_common', 'aes_common'}
+    for cfile in sorted(glob.glob(os.path.join(proto_dir, '*.c'))):
+        basename = os.path.splitext(os.path.basename(cfile))[0]
+        if basename in skip or basename in unleashed_names:
+            continue
+        with open(cfile, encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        name = basename.replace('_', ' ').title()
+        for m in re.finditer(r'manufacture_name\s*=\s*"([^"]+)"', content):
+            if m.group(1) and m.group(1) not in ('Unknown', ''):
+                name = m.group(1)
+                break
+        mod = 'FSK' if any(x in content for x in ['2FSK', 'GFSK', 'MSK']) else 'OOK'
+        te_s = re.search(r'te_short\s*=\s*(\d+)', content)
+        te_l = re.search(r'te_long\s*=\s*(\d+)', content)
+        devices.append({
+            'device_id': f"roguemaster_{basename}", 'name': name, 'modulation': mod,
+            'short_width': int(te_s.group(1)) if te_s else None,
+            'long_width': int(te_l.group(1)) if te_l else None,
+            'category': categorize_flipper_protocol(basename),
+            'manufacturer': extract_manufacturer(name),
+            'source': 'roguemaster_firmware', 'source_file': basename + '.c',
+        })
+    return devices
+
+
+def parse_keyfob_db():
+    """Parse gusgorman402/keyfobDB automotive CSV."""
+    devices = []
+    for csvfile in glob.glob(os.path.join(OTHER, 'keyfobDB', '*.csv')):
+        try:
+            with open(csvfile, encoding='utf-8', errors='ignore') as f:
+                reader = csv.DictReader(f)
+                seen = set()
+                for row in reader:
+                    fcc_id = row.get('FCC_ID', row.get('fcc_id', ''))
+                    freq = row.get('Frequency', row.get('frequency', ''))
+                    make = row.get('Make', row.get('make', ''))
+                    model = row.get('Model', row.get('model', ''))
+                    year = row.get('Year', row.get('year', ''))
+                    if not freq or not make:
+                        continue
+                    key = f"{make}_{freq}"
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    # Parse frequency to Hz
+                    freq_hz = None
+                    try:
+                        freq_val = float(re.sub(r'[^\d.]', '', freq))
+                        if freq_val < 1000:  # MHz
+                            freq_hz = int(freq_val * 1e6)
+                        else:
+                            freq_hz = int(freq_val)
+                    except:
+                        pass
+                    devices.append({
+                        'device_id': f"keyfob_{make.lower().replace(' ','_')}_{freq}",
+                        'name': f"{make} Key Fob ({freq} MHz)",
+                        'modulation': 'OOK',
+                        'frequency': freq_hz,
+                        'category': 'Automotive Key Fob',
+                        'manufacturer': make,
+                        'source': 'keyfob_db',
+                        'fcc_id': fcc_id,
+                    })
+        except:
+            continue
+    return devices
+
+
+def parse_rc_switch():
+    """Parse sui77/rc-switch protocol timing tables."""
+    devices = []
+    # rc-switch defines protocols in RCSwitch.cpp with timing arrays
+    for srcfile in [os.path.join(OTHER, 'rc-switch', 'RCSwitch.cpp'), os.path.join(OTHER, 'rc-switch', 'src', 'RCSwitch.cpp')]:
+        if not os.path.isfile(srcfile):
+            continue
+        with open(srcfile, encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        # Extract Protocol struct entries
+        for i, m in enumerate(re.finditer(r'\{\s*(\d+)\s*,\s*\{\s*(\d+)\s*,\s*(\d+)\s*\}\s*,\s*\{\s*(\d+)\s*,\s*(\d+)\s*\}\s*,\s*\{\s*(\d+)\s*,\s*(\d+)\s*\}', content)):
+            pulse_len = int(m.group(1))
+            devices.append({
+                'device_id': f"rcswitch_proto_{i+1}",
+                'name': f"RC-Switch Protocol {i+1}",
+                'modulation': 'OOK',
+                'short_width': pulse_len,
+                'long_width': pulse_len * 3,  # Typical OOK ratio
+                'category': 'Remote Control',
+                'manufacturer': None,
+                'source': 'rc_switch',
+            })
+        break
+    return devices
+
+
 def categorize_device(name):
     n = name.lower()
     if any(w in n for w in ['weather', 'rain', 'wind', 'barometer']): return 'Weather Station'
@@ -237,10 +391,20 @@ def main():
     print(f"  [7] RocketGod: {len(rocketgod)} unique combos")
     skizzophrenic = parse_sub_files(os.path.join(OTHER, 'Ubers-SD-Files'), 'skizzophrenic')
     print(f"  [8] Skizzophrenic Ubers-SD: {len(skizzophrenic)} unique combos")
+    wmbusmeters = parse_wmbusmeters()
+    print(f"  [9] wmbusmeters: {len(wmbusmeters)} meter drivers")
+    lillygo = parse_lillygo_sub()
+    print(f"  [10] Lillygo SubGHz Signal: {len(lillygo)} unique combos")
+    roguemaster = parse_rogumaster()
+    print(f"  [11] RogueMaster (unique): {len(roguemaster)} protocols")
+    keyfob = parse_keyfob_db()
+    print(f"  [12] KeyfobDB: {len(keyfob)} automotive entries")
+    rcswitch = parse_rc_switch()
+    print(f"  [13] rc-switch: {len(rcswitch)} protocols")
 
     # Merge (priority order)
     all_devices, seen = [], set()
-    for dev in urh_ng + unleashed + rtl_src + rtl_json + zero_sploit + uberguidoz + rocketgod + skizzophrenic:
+    for dev in urh_ng + unleashed + wmbusmeters + rtl_src + rtl_json + roguemaster + zero_sploit + uberguidoz + rocketgod + skizzophrenic + lillygo + keyfob + rcswitch:
         key = dev['name'].lower().strip()[:60]
         if key not in seen:
             seen.add(key)
@@ -251,7 +415,7 @@ def main():
         categories[d.get('category', 'Other')] = categories.get(d.get('category', 'Other'), 0) + 1
         sources[d.get('source', '?')] = sources.get(d.get('source', '?'), 0) + 1
 
-    output = {'version': '3.0.0', 'total_devices': len(all_devices), 'sources': sources, 'categories': categories, 'devices': all_devices}
+    output = {'version': '4.0.0', 'total_devices': len(all_devices), 'sources': sources, 'categories': categories, 'devices': all_devices}
 
     with open(OUTPUT, 'w') as f:
         json.dump(output, f, indent=2, default=str)
